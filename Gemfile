@@ -1,3 +1,3 @@
 source :rubygems
 gem 'wand'
-gem 's3'
+gem 'fog'

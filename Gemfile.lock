@@ -1,10 +1,26 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    builder (3.0.0)
+    excon (0.6.6)
+    fog (0.11.0)
+      builder
+      excon (~> 0.6.5)
+      formatador (~> 0.2.0)
+      mime-types
+      multi_json (~> 1.0.3)
+      net-scp (~> 1.0.4)
+      net-ssh (~> 2.1.4)
+      nokogiri (~> 1.5.0)
+      ruby-hmac
+    formatador (0.2.1)
     mime-types (1.16)
-    proxies (0.2.1)
-    s3 (0.3.8)
-      proxies (~> 0.2.0)
+    multi_json (1.0.3)
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-ssh (2.1.4)
+    nokogiri (1.5.0)
+    ruby-hmac (0.4.0)
     safe_shell (1.0.1)
     wand (0.4)
       mime-types
@@ -14,5 +30,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  s3
+  fog
   wand

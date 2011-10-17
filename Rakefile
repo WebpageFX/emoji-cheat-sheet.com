@@ -1,4 +1,3 @@
-#!/usr/bin/env rake
 require 'rubygems'
 require 'bundler'
 Bundler.require
@@ -6,78 +5,121 @@ Bundler.require
 require 'digest/sha1'
 
 task :deploy do
-  Site.new('public').deploy
+  SimpleS3Deploy.deploy('public')
 end
 
-class Site
-  attr_accessor :path
-  attr_accessor :tmp_files
 
-  def initialize(path)
-    @path = path
-    @tmp_files = []
+module SimpleS3Deploy
+
+  def self.deploy(site_path)
+    Site.new(site_path).deploy
   end
 
-  def deploy
-    puts " ** Deploying to  #{bucket.name}"
-    files.each do |file|
-      if !File.directory?(file)
-        remote_file_name = base_path(file)
-        puts "    Uploading #{remote_file_name}"
-        S3::Object.send(:new, bucket, {
-          key: remote_file_name,
-          etag: Digest::SHA256.file(file).hexdigest,
-          cache_control: 'max-age=86400, public',
-          mime_type: mime_type_for_file(file),
-        }).tap do |_object|
-          if is_css_file?(file)
-            _object.content = open(minify_css_file(file))
-          else
-            _object.content = open(file)
-          end
-          _object.save
+  class Site
+    attr_accessor :path
+    attr_accessor :tmp_files
+
+    def initialize(path)
+      @path = path
+      @tmp_files = []
+    end
+
+    def deploy
+      puts " ** Deploying #{path} to #{bucket.key}"
+      puts " ========================================================"
+      puts " ** Deleting existing remote files"
+      clear_bucket
+      puts " ** Uploading files"
+      files.each do |file|
+        if !File.directory?(file.path)
+          remote_file_name = file_base_path(file.path)
+          puts "      Uploading #{remote_file_name} .."
+          bucket.files.create(
+            key: remote_file_name,
+            body: file.is_minifyable? ? open(minify(file.path)) : open(file.path),
+            public: true,
+            content_type: file.mime_type,
+            cache_control: 'max-age=604800, public' )
         end
       end
+      if @tmp_files.any?
+        puts " ** Cleaning up tmp files"
+        cleanup
+      end
+      puts "\n ** Done"
     end
-  end
 
-private
+  private
 
-  def mime_type_for_file(file)
-    Wand.wave(file)
-  end
-
-  def files
-    @files ||= Dir.glob("#{path}/**/*")
-  end
-
-  def base_path(file)
-    file.gsub("#{path}/", "")
-  end
-
-  def is_css_file?(file)
-    file.end_with?('.css')
-  end
-
-  def minify_css_file(file)
-    "#{file}-tmp".tap do |tmp_file_name|
-      `yuicompressor -o #{tmp_file_name} #{file}`
-      @tmp_files << tmp_file_name
+    def clear_bucket
+      bucket.files.each do |f|
+        puts "      Deleting #{f.key}"
+        f.destroy
+      end
     end
+
+    def cleanup
+      @tmp_files.each do |file|
+        puts "      Deleting #{file}"
+        File.unlink(file)
+      end
+    end
+
+    def files
+      @files ||= Dir.glob("#{path}/**/*").map { |f| SiteFile.new(f) }
+    end
+
+    def file_base_path(file)
+      file.gsub("#{path}/", "")
+    end
+
+    def minify(file_path)
+      "#{file_path}-tmp".tap do |tmp_file_name|
+        `yuicompressor -o #{tmp_file_name} #{file_path}`
+        @tmp_files << tmp_file_name
+      end
+    end
+
+    def config
+      @config ||= YAML.load_file('config.yaml')
+    end
+
+    def s3
+      @s3 ||= Fog::Storage.new({
+        provider: 'AWS',
+        aws_secret_access_key: config['s3']['secret_access_key'],
+        aws_access_key_id: config['s3']['access_key_id'] })
+    end
+
+    def bucket
+      @bucket ||= s3.directories.get(config['s3']['bucket'])
+    end
+
   end
 
-  def config
-    @config ||= YAML.load_file('config.yaml')
+  class SiteFile
+    attr_accessor :path
+
+    def initialize(_path)
+      @path = _path
+    end
+
+    def is_minifyable?
+      is_css_file? or is_js_file?
+    end
+
+    def is_css_file?
+      path.end_with?('.css')
+    end
+
+    def is_js_file?
+      path.end_with?('.js')
+    end
+
+    def mime_type
+      Wand.wave(path)
+    end
+
   end
 
-  def bucket
-    @bucket ||= s3.buckets.find(config['s3']['bucket'])
-  end
-
-  def s3
-    @s3 ||= S3::Service.new(
-      access_key_id: config['s3']['access_key_id'],
-      secret_access_key: config['s3']['secret_access_key']
-    )
-  end
 end
