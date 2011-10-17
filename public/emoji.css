@@ -1,0 +1,180 @@
+body { 
+  background: #fff url('graphics/stucco.png');
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;}
+h1 {
+  width: 80%;
+  padding-top: 14px;
+  margin-bottom: 16px;
+  font-size: 48px;
+  line-height: 1em;
+  font-weight: normal;
+  font-family: 'Yanone Kaffeesatz', sans-serif;}
+h2 { margin-top:1.2em; }
+a { color: #333;}
+a:hover, a.hover { color: #999; }
+#content, #footer {
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+  max-width: 1024px;}
+  .share {
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left: 2px dotted #ddd;
+    border-right: 2px dotted #ddd;
+    border-bottom: 2px dotted #ddd;
+    background: rgba(200,200,200,.2);
+    padding-top: 4px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    padding: 4px 8px;
+    right: 20px;
+    width: 160px;
+    height: 28px;}
+    #twitter, #gplus, #fb { 
+      float: right; 
+      margin-bottom: 4px;
+      height: 32px; }
+    #twitter, #gplus {margin-right: 5px; }
+  p.intro { 
+    max-width: 800px;
+    margin-top: 0;
+    color: #666;}
+  ul {
+    padding:0;
+    margin: 0;}
+  li { 
+    list-style: none;
+    float: left;
+    width: 160px;
+    height: 30px; }
+    .emoji-button {
+      font-size: 14px;
+      float: left;
+      font-family: "Courier", monospace;
+      padding: 4px;}
+    .emoji-button.hover { margin-left: -4px; }
+    .emoji-button.active { margin-left: 0;} 
+     .emoji-button img { vertical-align: middle; }
+div#footer { 
+  background-color:rgba(200,200,200,0.15);
+  border-top: 3px dotted #ddd;
+  margin-top: 2em;
+  padding: 1em;
+  font-size: 14px;
+  color: #666;}
+  #footer p {line-height: 1em; }
+
+.clearfix:after {
+  zoom: 1;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+@media screen and (max-width: 580px) {
+  .share {
+    background: none;
+    padding: 0;
+    margin: 1em 0;
+    position: static;
+    border: none; }
+}
+/* jnotify */
+
+.jnotify-container {
+	position: fixed; 
+	top: 40px; 
+	right: 20px; 
+	width: 160px; 
+	z-index: 100000;
+	
+	/* set maximum number of notes to show */
+	max-height: 270px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.jnotify-container .jnotify-notification {
+	position: relative; 
+	margin-bottom: 5px;
+}
+
+.jnotify-container .jnotify-notification .jnotify-background {
+	position: absolute; 
+	top: 2px; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+	background-color: #4c4c4c; 
+	filter: alpha(opacity=40); 
+	-moz-opacity: 7.90; 
+	opacity: 0.40; 
+	z-index: 1; 
+
+	/* round the corners */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.jnotify-container .jnotify-notification a.jnotify-close,
+.jnotify-container .jnotify-notification a.jnotify-close:link,
+.jnotify-container .jnotify-notification a.jnotify-close:visited,
+.jnotify-container .jnotify-notification a.jnotify-close:focus,
+.jnotify-container .jnotify-notification a.jnotify-close:hover {
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	padding: 0 5px;
+	font: 14px Arial,Helvetica,sans-serif;
+	line-height: 1em;
+	color: #fff;
+	text-decoration: none;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.jnotify-container .jnotify-notification .jnotify-message {
+	position: relative; 
+	z-index: 2; 
+	padding: 10px;
+	text-align: left;
+	color: #fff;
+	font: 14px Arial,Helvetica,sans-serif;
+	line-height: 1.2em; 
+}
+
+.jnotify-container .jnotify-notification .jnotify-message * {
+	font-size: 1em;
+}
+
+/* notification type == "error" */
+.jnotify-container .jnotify-notification-error .jnotify-background {
+	background-color: #d79eac; 
+}
+
+.jnotify-container .jnotify-notification-error .jnotify-close,
+.jnotify-container .jnotify-notification-error .jnotify-message {
+	color: #a72947 !important;
+}
+
+/* notification type == "warning" */
+.jnotify-container .jnotify-notification-warning .jnotify-background {
+	background-color: #fff7d1; 
+}
+
+.jnotify-container .jnotify-notification-warning .jnotify-close,
+.jnotify-container .jnotify-notification-warning .jnotify-message {
+	color: #c2a928 !important;
+}

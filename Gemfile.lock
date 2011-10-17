@@ -1,0 +1,18 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    mime-types (1.16)
+    proxies (0.2.1)
+    s3 (0.3.8)
+      proxies (~> 0.2.0)
+    safe_shell (1.0.1)
+    wand (0.4)
+      mime-types
+      safe_shell (~> 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  s3
+  wand
