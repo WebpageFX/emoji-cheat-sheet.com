@@ -212,7 +212,7 @@
         $('.emoji-button').mouseover( function() {
           try {
             if(clip_flash_block_detect.movie.PercentLoaded()){
-              clip.setText($(this).text());
+              clip.setText($(this).text().trim());
               if (clip.div && !reglue) {
                 clip.receiveEvent('mouseout', null);
                 clip.reposition(this);
