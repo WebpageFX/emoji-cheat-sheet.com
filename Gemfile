@@ -1,4 +1,4 @@
 source :rubygems
-gem 'wand'
 gem 'fog'
+gem 'mime-types'
 gem 'rake'

@@ -117,7 +117,7 @@ module SimpleS3Deploy
     end
 
     def mime_type
-      Wand.wave(path)
+      MIME::Types.type_for(path)[0].to_s
     end
 
   end
