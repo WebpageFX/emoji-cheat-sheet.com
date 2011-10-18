@@ -42,7 +42,7 @@ module SimpleS3Deploy
             cache_control: 'max-age=604800, public' )
         end
       end
-      if @tmp_files.any?
+      if tmp_files.any?
         puts " ** Cleaning up tmp files"
         cleanup
       end
@@ -59,7 +59,7 @@ module SimpleS3Deploy
     end
 
     def cleanup
-      @tmp_files.each do |file|
+      tmp_files.each do |file|
         puts "      Deleting #{file}"
         File.unlink(file)
       end
@@ -76,7 +76,7 @@ module SimpleS3Deploy
     def minify(file_path)
       "#{file_path}-tmp".tap do |tmp_file_name|
         `yuicompressor -o #{tmp_file_name} #{file_path}`
-        @tmp_files << tmp_file_name
+        tmp_files << tmp_file_name
       end
     end
 
