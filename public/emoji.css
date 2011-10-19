@@ -74,6 +74,10 @@ div#footer {
   color: #666;}
   #footer p {line-height: 1em; }
 
+#flash-test { 
+  width: 1px;
+  height: 1px; }
+
 .clearfix:after {
   zoom: 1;
   content: ".";
