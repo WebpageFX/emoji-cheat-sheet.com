@@ -1,4 +1,4 @@
 s3:
   access_key_id: 
   secret_access_key: 
-  bucket: www.emoji-cheat-sheet.com
+  bucket: 
