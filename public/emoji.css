@@ -49,6 +49,13 @@ a:hover, a.hover { color: #999; }
     max-width: 800px;
     margin-top: 0;
     color: #666;}
+  .sounds { margin-top: .6em; }
+    .sounds h3 {
+      margin-bottom: 0;
+      color: #666;
+      font-size: 16px;
+      font-weight: normal;}
+    .sounds li { height: 24px; }
   ul {
     padding:0;
     margin: 0;}
@@ -57,14 +64,15 @@ a:hover, a.hover { color: #999; }
     float: left;
     width: 160px;
     height: 30px; }
-    .emoji-button {
+    .button {
+      min-width: 110px;
       font-size: 14px;
       float: left;
       font-family: "Courier", monospace;
       padding: 4px;}
-    .emoji-button.hover { margin-left: -4px; }
-    .emoji-button.active { margin-left: 0;} 
-     .emoji-button img { vertical-align: middle; }
+    .button.hover { margin-left: -4px; }
+    .button.active { margin-left: 0;} 
+     .button img { vertical-align: middle; }
 div#footer { 
   background-color:rgba(200,200,200,0.15);
   border-top: 3px dotted #ddd;
@@ -100,7 +108,7 @@ div#footer {
 	position: fixed; 
 	top: 40px; 
 	right: 20px; 
-	width: 160px; 
+	max-width: 220px; 
 	z-index: 100000;
 	
 	/* set maximum number of notes to show */
