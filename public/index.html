@@ -223,6 +223,7 @@
         clip.setHandCursor(true);
         clip.addEventListener('complete', function(client, text) {
           $.jnotify("Copied <code>"+text+"</code>");
+          _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
         });
         
         $('.button').mouseover( function() {
