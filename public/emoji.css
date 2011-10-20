@@ -8,8 +8,8 @@ body {
   line-height: 1.4em;}
 h1 {
   width: 80%;
-  padding-top: 14px;
   margin-bottom: 16px;
+  margin-top: 14px;
   font-size: 48px;
   line-height: 1em;
   font-weight: normal;
@@ -22,32 +22,41 @@ a:hover, a.hover { color: #999; }
   margin: 0 auto;
   max-width: 1024px;}
   .share {
-    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
     -webkit-border-bottom-left-radius: 8px;
     -moz-border-radius-bottomright: 8px;
     -moz-border-radius-bottomleft: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-left: 2px dotted #ddd;
-    border-right: 2px dotted #ddd;
     border-bottom: 2px dotted #ddd;
+    border-top: 2px dotted #ddd;
     background: rgba(200,200,200,.2);
-    padding-top: 4px;
     text-align: right;
     position: absolute;
-    top: 0px;
-    padding: 4px 8px;
-    right: 20px;
-    width: 160px;
-    height: 28px;}
+    top: 126px;
+    padding: 8px;
+    right: 0;
+    height: 204px;
+    width: 55px;}
     #twitter, #gplus, #fb { 
-      float: right; 
-      margin-bottom: 4px;
-      height: 32px; }
-    #twitter, #gplus {margin-right: 5px; }
+      text-align: center;
+      margin: 0 auto 6px auto;
+      margin-bottom: 6px;
+      height: 64px; }
+    #twitter {margin-right: 5px; }
+    .share iframe {
+      opacity:.45;
+      filter:alpha(opacity=45);
+      filter: "alpha(opacity=45)";  }
+    .share:hover iframe {
+      opacity:1;
+      filter:alpha(opacity=100);
+      filter: "alpha(opacity=100)";  }
   p.intro { 
-    max-width: 800px;
+    max-width: 820px;
     margin-top: 0;
+    margin-right: 160px;
     color: #666;}
   .sounds { margin-top: .6em; }
     .sounds h3 {
@@ -58,7 +67,7 @@ a:hover, a.hover { color: #999; }
     .sounds li { height: 24px; }
   ul {
     padding:0;
-    margin: 0;}
+    margin: 0 34px 0 0;}
   li { 
     list-style: none;
     float: left;
@@ -94,19 +103,31 @@ div#footer {
   clear: both;
   visibility: hidden; }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 640px) {
   .share {
+    vertical-align: middle;
     background: none;
+    width: 220px;
+    height: 70px;
     padding: 0;
-    margin: 1em 0;
+    margin: 2em auto 0 auto;
     position: static;
+    display: block;
     border: none; }
+  ul, p.intro { margin-right: 0; }
+  #twitter, #gplus, #fb { 
+    float: left;
+    margin-right: 12px; }
+  .share iframe {
+    opacity:1;
+    filter:alpha(opacity=100);
+    filter: "alpha(opacity=100)";  }
 }
 /* jnotify */
 
 .jnotify-container {
 	position: fixed; 
-	top: 40px; 
+	top: 2px; 
 	right: 20px; 
 	max-width: 220px; 
 	z-index: 100000;
