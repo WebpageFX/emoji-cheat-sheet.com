@@ -7,3 +7,7 @@ Check it out at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com).
 ### Contribute
 
 Do the fork and pull request dance.
+
+#### Contributors
+
+* [kennethreitz](https://github.com/kennethreitz)
