@@ -187,31 +187,6 @@
     <script src="/libs.min.js?1" type="text/javascript"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-      if(false){ // for dev regenerate the emoji lists
-        var campfire_emoji = [
-          '+1', '-1', 'bulb', 'calling', 'clap', 'cop', 'email', 'feet', 'fish', 'fist', 'gift', 
-          'hammer', 'heart', 'leaves', 'lipstick', 'lock', 'mag', 'mega', 'memo', 'moneybag', 
-          'new', 'ok', 'pencil', 'punch', 'runner', 'scissors', 'smoking', 'sparkles', 'star', 
-          'sunny', 'tm', 'v', 'vs', 'warning', 'wheelchair', 'zap', 'zzz']
-        var github_emoji = [
-          '+1', '-1', 'airplane', 'apple', 'art', 'bear', 'beer', 'bike', 'bomb', 'book', 'broken_heart', 
-          'bulb', 'bus', 'cake', 'calling', 'cat', 'clap', 'computer', 'cool', 'cop', 'couple', 'dog',
-          'dolphin', 'email', 'feet', 'fire', 'fish', 'fist', 'gift', 'hammer', 'heart', 'horse', 'iphone',
-          'key', 'kiss', 'koala', 'leaves', 'lips', 'lipstick', 'lock', 'mag', 'mega', 'memo', 'moneybag', 
-          'nail_care', 'new', 'octocat', 'ok', 'pencil', 'princess', 'punch', 'rainbow', 'rose', 'runner',
-          'scissors', 'ski', 'smoking', 'sparkles', 'star', 'sunflower', 'sunny', 'taxi', 'thumbsdown', 
-          'thumbsup', 'tm', 'tophat', 'train', 'v', 'vs', 'warning', 'wheelchair', 'zap', 'zzz']
-
-        function create_emoji_list(emojis, element_id){
-          $(element_id).empty();
-          $.each(emojis,function(index, key){
-            $(element_id).append('<li><div class="button"><img src="/graphics/emojis/'+key+'.png" height="22" width="22"> :'+key+':</div></li>'+"\n");
-          });
-        }
-        create_emoji_list(campfire_emoji, "#campfire");
-        create_emoji_list(github_emoji, "#github");
-      }
-
       if(FlashDetect.installed){
         clip_flash_block_detect = new ZeroClipboard.Client();
         clip_flash_block_detect.glue(document.getElementById('flash-test'));
