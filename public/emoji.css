@@ -14,7 +14,10 @@ h1 {
   line-height: 1em;
   font-weight: normal;
   font-family: 'Yanone Kaffeesatz', sans-serif;}
-h2 { margin-top:1.2em; }
+h2 { 
+  margin-top:1.2em;
+  font-size: 22px;
+  color: #555;}
 a { color: #333;}
 a:hover, a.hover { color: #999; }
 #content, #footer {
@@ -58,6 +61,7 @@ a:hover, a.hover { color: #999; }
     margin-top: 0;
     margin-right: 160px;
     color: #666;}
+  #github_and_campfire {margin-top: 1.2em;}
   .sounds { margin-top: .6em; }
     .sounds h3 {
       margin-bottom: 0;
