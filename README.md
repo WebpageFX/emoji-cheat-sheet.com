@@ -11,3 +11,4 @@ Do the fork and pull request dance.
 #### Contributors
 
 * [kennethreitz](https://github.com/kennethreitz)
+* [skiz](https://github.com/skiz)
