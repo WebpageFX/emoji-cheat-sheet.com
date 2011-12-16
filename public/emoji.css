@@ -71,18 +71,18 @@ a:hover, a.hover { color: #999; }
     .sounds li { height: 24px; }
   ul {
     padding:0;
-    margin: 0 34px 0 0;}
+    margin: 0;}
   li { 
     list-style: none;
     float: left;
-    width: 260px;
+    width: 256px;
     height: 30px; }
     .button {
       min-width: 110px;
       font-size: 14px;
       float: left;
       font-family: "Courier", monospace;
-      padding: 4px;}
+      padding: 4px 0;}
     .button.hover { margin-left: -4px; }
     .button.active { margin-left: 0;} 
      .button img { vertical-align: middle; }
