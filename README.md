@@ -13,3 +13,4 @@ Do the fork and pull request dance.
 * [kennethreitz](https://github.com/kennethreitz)
 * [skiz](https://github.com/skiz)
 * [jstorimer](https://github.com/jstorimer)
+* [asianmack](https://github.com/asianmack)
