@@ -14,3 +14,4 @@ Do the fork and pull request dance.
 * [skiz](https://github.com/skiz)
 * [jstorimer](https://github.com/jstorimer)
 * [asianmack](https://github.com/asianmack)
+* [kuinak](https://github.com/kuinak)
