@@ -3,13 +3,13 @@
   <head>
     <title>Emoji cheat sheet for Campfire and GitHub</title>
     <meta charset="utf-8">
-    <meta property="og:title" content="Emoji cheat sheet for Campfire and GitHub"/> 
-    <meta property="og:image" content="http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png"/> 
-    <meta property="og:type" content="website"/> 
-    <meta property="og:url" content="http://www.emoji-cheat-sheet.com/"/> 
-    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-    <link href="/emoji.css?5" rel="stylesheet" title="Screen" type="text/css">
-    <script type="text/javascript">
+    <meta property="og:title" content="Emoji cheat sheet for Campfire and GitHub"/>
+    <meta property="og:image" content="http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.emoji-cheat-sheet.com/"/>
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+    <link href="/emoji.css?5" rel="stylesheet">
+    <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-20637790-4']);
       _gaq.push(['_trackPageview']);
@@ -24,8 +24,8 @@
     <div id="content">
       <h1>Emoji cheat sheet for Campfire and GitHub</h1>
       <p class="intro">
-      <a href="http://en.wikipedia.org/wiki/Emoji">Emoji</a> emoticons are supported on 37signals <a href="http://campfirenow.com/">Campfire</a> 
-      and on <a href="http://github.com/">GitHub</a>. However some of the emoji codes are not super easy to remember, <em>so here is a little cheat sheet</em>.<br> 
+      <a href="http://en.wikipedia.org/wiki/Emoji">Emoji</a> emoticons are supported on 37signals <a href="http://campfirenow.com/">Campfire</a>
+      and on <a href="http://github.com/">GitHub</a>. However some of the emoji codes are not super easy to remember, <em>so here is a little cheat sheet</em>.<br>
       ✈<b> Got flash enabled? Click the emoji code and it will be copied to your clipboard.</b> </p>
       <h2>People</h2>
       <ul id="people" class="clearfix">
@@ -577,24 +577,24 @@
     <a href="https://github.com/arvida/emoji-cheat-sheet.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
     <div id="flash-test"></div>
     <div id="footer">
-      <p>This page was created by <a href="http://arvidandersson.se">Arvid Andersson</a> / 
-        <a href="http://twitter.com/arvid_a">@arvid_a</a> at 
-        <a href="http://oktavilla.se">Oktavilla</a>. Source code is available on 
+      <p>This page was created by <a href="http://arvidandersson.se">Arvid Andersson</a> /
+        <a href="http://twitter.com/arvid_a">@arvid_a</a> at
+        <a href="http://oktavilla.se">Oktavilla</a>. Source code is available on
         <a href="https://github.com/arvida/emoji-cheat-sheet.com">GitHub</a>.</p>
-      <p>❤ Contributors: 
+      <p>❤ Contributors:
         <a href="https://github.com/kennethreitz">kennethreitz</a>,
         <a href="https://github.com/skiz">skiz</a>,
         <a href="https://github.com/jstorimer">jstorimer</a>,
         <a href="https://github.com/asianmack">asianmack</a>,
         <a href="https://github.com/kuinak">kuinak</a>.</p>
       <p>✔ Emoji-cheat-sheet.com is not affiliated with 37signals, LLC. or GitHub Inc. in any way.</p>
-      <p>♺ Built using bits from <a href="http://www.steamdev.com/zclip">zClip</a>, 
-        <a href="http://subtlepatterns.com/">SubtlePatterns</a> and 
+      <p>♺ Built using bits from <a href="http://www.steamdev.com/zclip">zClip</a>,
+        <a href="http://subtlepatterns.com/">SubtlePatterns</a> and
         <a href="http://www.givainc.com/labs/jnotify_jquery_plugin.htm">jnotify</a>.</p>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
-    <script src="/libs.min.js?1" type="text/javascript"></script>
-    <script type="text/javascript">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="/libs.min.js?1"></script>
+    <script>
     $(document).ready(function(){
       if(FlashDetect.installed){
         clip_flash_block_detect = new ZeroClipboard.Client();
@@ -610,7 +610,7 @@
           $.jnotify("Copied <code>"+text+"</code>");
           _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
         });
-        
+
         $('.button').mouseover( function() {
           try {
             if(clip_flash_block_detect.movie.PercentLoaded()){
@@ -623,7 +623,7 @@
                 reglue = false;
               }
               clip.receiveEvent('mouseover', null);
-            }  
+            }
           }catch(e){ }
         });
       }
