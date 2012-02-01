@@ -10,15 +10,15 @@
     <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
     <link href="/emoji.css?5" rel="stylesheet">
     <script>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-20637790-4']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-     </script>
+      // Optimized Google Analytics snippet: http://mths.be/aab
+      var _gaq = [['_setAccount', 'UA-20637790-4'], ['_trackPageview']];
+      (function(d, t) {
+        var g = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        g.src = '//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s);
+      }(document, 'script'));
+    </script>
   </head>
   <body>
     <div id="content">
@@ -595,8 +595,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script src="/libs.min.js?1"></script>
     <script>
-    $(document).ready(function(){
-      if(FlashDetect.installed){
+    $(function() {
+      if (FlashDetect.installed) {
         clip_flash_block_detect = new ZeroClipboard.Client();
         clip_flash_block_detect.glue(document.getElementById('flash-test'));
 
@@ -604,16 +604,16 @@
         clip.reposition(document.getElementById('flash-test'));
         clip.receiveEvent('mouseover', null);
 
-        $.jnotify.setup({delay: 1000, fadeSpeed: 500});
+        $.jnotify.setup({ 'delay': 1000, 'fadeSpeed': 500 });
         clip.setHandCursor(true);
         clip.addEventListener('complete', function(client, text) {
-          $.jnotify("Copied <code>"+text+"</code>");
+          $.jnotify('Copied <code>' + text + '</code>');
           _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
         });
 
         $('.button').mouseover( function() {
           try {
-            if(clip_flash_block_detect.movie.PercentLoaded()){
+            if (clip_flash_block_detect.movie.PercentLoaded()){
               clip.setText($(this).text().trim());
               if (clip.div && !reglue) {
                 clip.receiveEvent('mouseout', null);
@@ -624,12 +624,13 @@
               }
               clip.receiveEvent('mouseover', null);
             }
-          }catch(e){ }
+          } catch(e) { }
         });
       }
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      var po = document.createElement('script');
       po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(po, s);
     });
     </script>
   </body>
