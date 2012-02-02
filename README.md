@@ -15,3 +15,4 @@ Do the fork and pull request dance.
 * [jstorimer](https://github.com/jstorimer)
 * [asianmack](https://github.com/asianmack)
 * [kuinak](https://github.com/kuinak)
+* [mathiasbynens](https://github.com/mathiasbynens)
