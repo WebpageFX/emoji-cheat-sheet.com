@@ -16,3 +16,4 @@ Do the fork and pull request dance.
 * [asianmack](https://github.com/asianmack)
 * [kuinak](https://github.com/kuinak)
 * [mathiasbynens](https://github.com/mathiasbynens)
+* [bryanveloso](https://github.com/bryanveloso)
