@@ -1,0 +1,128 @@
+require 'digest/md5'
+require 'tmpdir'
+
+class EmojiOptimizer
+
+  def initialize(options = {})
+    @size    = options.delete(:size) { 22 }
+    @padding = options.delete(:padding) { 5 }
+    @source = Source.new('public/index.html')
+  end
+  
+  def optimize!(&block)
+    puts " ** Preparing for optimization"    
+    prepare
+  
+    puts " ** Generating emoji sprite image"
+    if @source.create_sprite(@size, @padding, sprite_path)
+      puts " ** Generating css and updating markup"
+      generate_and_save
+    else
+      puts " ** Could not generate emoji sprite =("
+    end
+
+    yield
+
+  ensure 
+    puts " ** Cleaning up after optimization"
+    cleanup
+  end
+   
+  private
+  
+  def prepare
+    FileUtils.cp 'public/index.html', File.join(tmp_dir, 'index.html')
+    FileUtils.cp 'public/emoji.css',  File.join(tmp_dir, 'emoji.css')
+  end
+  
+  def generate_and_save
+    update_source_markup
+
+    File.open('public/emoji.css', 'a') { |f| f.puts css_rules.join("\n") }
+    File.open('public/index.html','w') { |f| f.write @source.to_html }
+    FileUtils.mv sprite_path, "public/graphics/#{digest_name}"
+  end
+  
+  def cleanup
+    FileUtils.mv File.join(tmp_dir, 'index.html'), 'public/index.html'
+    FileUtils.mv File.join(tmp_dir, 'emoji.css'),  'public/emoji.css'
+    FileUtils.rm_f "public/graphics/#{@digest_name}"
+  end
+
+  def css_rules
+    [].tap do |rules|
+      rules << %Q{ 
+        .emoji {
+          display:inline-block;
+          width:#{@size}px;
+          height:#{@size}px;
+          background:transparent url(/graphics/#{digest_name}) 0 0 no-repeat;
+        }
+      }
+      @source.emojis.size.times do |index|
+        rules << css_sprite_mapping(index)
+      end
+    end
+  end
+
+  def update_source_markup
+    @source.emojis.each_with_index do |img, index|
+      img.replace @source.create_element('span', {
+        'id' => "e_#{index+1}",
+        'class' => 'emoji',
+        'data-src' => img['src']
+      })
+    end
+  end
+  
+  def css_sprite_mapping(index)
+    offset = ((@size + @padding * 2) * index) + @padding
+    "#e_#{index+1} { background-position:-#{offset}px 0; }" 
+  end
+
+  def sprite_path
+    @sprite_path ||= File.join(tmp_dir, 'sprite.png')
+  end
+
+  def digest_name
+    @digest_name ||= "sprite_#{Digest::MD5.hexdigest(File.read(sprite_path))}.png"
+  end
+
+  def tmp_dir
+    @tmp_dir ||= Dir.mktmpdir 'emoji-optimization'
+  end
+  
+  class Source
+
+    def initialize(file)
+      @file = file
+    end
+    
+    def emojis
+      @emojis ||= doc.css('#content img').find_all { |img| img['src'] =~ /emojis/ }
+    end
+
+    def emoji_paths
+      @emoji_paths ||= emojis.map { |img| File.join('public', img['src']) }
+    end
+    
+    def create_sprite(size, padding, path)
+      system "montage #{emoji_paths.join(' ')} -tile x1 -geometry #{size}x#{size}+#{padding} -background transparent #{path}"  
+    end
+
+    def create_element(*args)
+      doc.create_element *args
+    end
+    
+    def to_html
+      doc.to_html
+    end
+    
+    private
+    
+    def doc
+      @doc ||= Nokogiri::HTML(File.open(@file))
+    end
+
+  end
+end

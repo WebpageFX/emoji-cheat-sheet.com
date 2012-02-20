@@ -29,4 +29,5 @@ PLATFORMS
 DEPENDENCIES
   fog
   mime-types
+  nokogiri
   rake
