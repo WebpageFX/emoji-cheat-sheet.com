@@ -85,7 +85,7 @@ a:hover, a.hover { color: #999; }
       padding: 4px 0;}
     .button.hover { margin-left: -4px; }
     .button.active { margin-left: 0;}
-     .button img { vertical-align: middle; }
+     .button img, .button .emoji { vertical-align: middle; }
 div#footer {
   background-color:rgba(200,200,200,0.15);
   border-top: 3px dotted #ddd;
