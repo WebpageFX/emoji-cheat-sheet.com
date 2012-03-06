@@ -61,6 +61,7 @@ a:hover, a.hover { color: #999; }
     margin-top: 0;
     margin-right: 160px;
     color: #666;}
+    .product { font-weight: bold; }
   #github_and_campfire {margin-top: 1.2em;}
   .sounds { margin-top: .6em; }
     .sounds h3 {
