@@ -84,7 +84,7 @@ a:hover, a.hover { color: #999; }
       float: left;
       font-family: "Courier", monospace;
       padding: 4px 0;}
-    ul.buttons.hover { margin-left: -4px; }
+    ul.buttons div.hover { margin-left: -4px; }
     ul.buttons.active { margin-left: 0;}
       ul.buttons img, ul.buttons .emoji { vertical-align: middle; }
       ul.buttons img {
