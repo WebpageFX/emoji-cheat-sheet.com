@@ -144,7 +144,8 @@ module Emoji
               tile: 'x1',
           geometry: "#{@size}x#{@size}+#{@padding}",
              depth: '8',
-        background: 'transparent'
+        background: 'transparent',
+        sharpen: '0x1.5'
       }.map { |k, v| "-#{k} #{v}" }.join(' ')
       system "montage %s %s %s" % [ @files.join(' '), args, path ]
       optimize!(path)
