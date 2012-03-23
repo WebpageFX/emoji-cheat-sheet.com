@@ -18,3 +18,4 @@ Do the fork and pull request dance.
 * [mathiasbynens](https://github.com/mathiasbynens)
 * [bryanveloso](https://github.com/bryanveloso)
 * [joeljunstrom](https://github.com/joeljunstrom)
+* [petermanser](https://github.com/petermanser)
