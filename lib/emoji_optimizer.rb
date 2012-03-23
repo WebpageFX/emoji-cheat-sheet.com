@@ -6,7 +6,7 @@ module Emoji
   def self.tmp_dir
     @tmp_dir ||= Dir.mktmpdir 'emoji-optimization'
   end
-  
+
   class Optimizer
 
     def initialize options = {}
@@ -15,11 +15,11 @@ module Emoji
       @source = Source.new 'public/index.html'
       @sprite = Sprite.new @source.emoji_paths, @size, @padding
     end
-  
+
     def optimize! &block
-      puts " ** Preparing for optimization"    
+      puts " ** Preparing for optimization"
       prepare
-  
+
       puts " ** Generating emoji sprite image"
       if @sprite.generate sprite_path
         puts " ** Generating css and updating markup"
@@ -30,18 +30,18 @@ module Emoji
 
       yield
 
-    ensure 
+    ensure
       puts " ** Cleaning up after optimization"
       cleanup
     end
-   
+
     private
-  
+
     def prepare
       FileUtils.cp 'public/index.html', File.join(Emoji.tmp_dir, 'index.html')
       FileUtils.cp 'public/emoji.css',  File.join(Emoji.tmp_dir, 'emoji.css')
     end
-  
+
     def generate_and_save
       update_source_markup
 
@@ -49,7 +49,7 @@ module Emoji
       File.open('public/index.html','w') { |f| f.write @source.to_html }
       FileUtils.mv sprite_path, "public/graphics/#{digest_name}"
     end
-  
+
     def cleanup
       FileUtils.mv File.join(Emoji.tmp_dir, 'index.html'), 'public/index.html'
       FileUtils.mv File.join(Emoji.tmp_dir, 'emoji.css'),  'public/emoji.css'
@@ -58,7 +58,7 @@ module Emoji
 
     def css_rules
       [].tap do |rules|
-        rules << %Q{ 
+        rules << %Q{
           .emoji {
             display:inline-block;
             width:#{@size}px;
@@ -81,10 +81,10 @@ module Emoji
         }
       end
     end
-  
+
     def css_sprite_mapping index
       offset = @sprite.offset index
-      "#e_#{index+1} { background-position:-#{offset}px 0; }" 
+      "#e_#{index+1} { background-position:-#{offset}px 0; }"
     end
 
     def sprite_path
@@ -96,13 +96,13 @@ module Emoji
     end
 
   end
-  
+
   class Source
 
     def initialize file
       @file = file
     end
-    
+
     def emojis
       @emojis ||= doc.css('#content img').find_all { |img| img['src'] =~ /emojis/ }
     end
@@ -110,17 +110,17 @@ module Emoji
     def emoji_paths
       @emoji_paths ||= emojis.map { |img| File.join 'public', img['src'] }
     end
-    
+
     def create_element *args
       doc.create_element *args
     end
-    
+
     def to_html
       doc.to_html
     end
-    
+
     private
-    
+
     def doc
       @doc ||= Nokogiri::HTML File.open(@file)
     end
@@ -136,7 +136,7 @@ module Emoji
     end
 
     def offset index
-      ((@size + @padding * 2) * index) + @padding      
+      ((@size + @padding * 2) * index) + @padding
     end
 
     def generate path
@@ -149,7 +149,7 @@ module Emoji
       system "montage %s %s %s" % [ @files.join(' '), args, path ]
       optimize!(path)
     end
-  
+
     private
 
     def optimize!(path)
