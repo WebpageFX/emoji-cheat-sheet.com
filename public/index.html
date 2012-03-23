@@ -597,7 +597,7 @@
         <a href="http://subtlepatterns.com/">SubtlePatterns</a> and
         <a href="http://www.givainc.com/labs/jnotify_jquery_plugin.htm">jnotify</a>.</p>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="/libs.min.js?1"></script>
     <script>
     $(function() {
@@ -616,7 +616,7 @@
           _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
         });
 
-        $('ul.buttons > li > div').mouseover( function() {
+        $('ul.buttons').on('mouseover', 'div', function() {
           try {
             if (clip_flash_block_detect.movie.PercentLoaded()){
               clip.setText($(this).text().trim());
