@@ -135,39 +135,39 @@ div#footer {
 /* jnotify */
 
 .jnotify-container {
-	position: fixed;
-	top: 2px;
-	right: 20px;
-	max-width: 220px;
-	z-index: 100000;
+  position: fixed;
+  top: 2px;
+  right: 20px;
+  max-width: 220px;
+  z-index: 100000;
 
-	/* set maximum number of notes to show */
-	max-height: 270px;
-	overflow-x: hidden;
-	overflow-y: auto;
+  /* set maximum number of notes to show */
+  max-height: 270px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .jnotify-container .jnotify-notification {
-	position: relative;
-	margin-bottom: 5px;
+  position: relative;
+  margin-bottom: 5px;
 }
 
 .jnotify-container .jnotify-notification .jnotify-background {
-	position: absolute;
-	top: 2px;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #4c4c4c;
-	filter: alpha(opacity=40);
-	-moz-opacity: 7.90;
-	opacity: 0.40;
-	z-index: 1;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4c4c4c;
+  filter: alpha(opacity=40);
+  -moz-opacity: 7.90;
+  opacity: 0.40;
+  z-index: 1;
 
-	/* round the corners */
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+  /* round the corners */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .jnotify-container .jnotify-notification a.jnotify-close,
@@ -175,48 +175,48 @@ div#footer {
 .jnotify-container .jnotify-notification a.jnotify-close:visited,
 .jnotify-container .jnotify-notification a.jnotify-close:focus,
 .jnotify-container .jnotify-notification a.jnotify-close:hover {
-	position: absolute;
-	top: 2px;
-	right: 5px;
-	padding: 0 5px;
-	font: 14px Arial,Helvetica,sans-serif;
-	line-height: 1em;
-	color: #fff;
-	text-decoration: none;
-	z-index: 3;
-	cursor: pointer;
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  padding: 0 5px;
+  font: 14px Arial,Helvetica,sans-serif;
+  line-height: 1em;
+  color: #fff;
+  text-decoration: none;
+  z-index: 3;
+  cursor: pointer;
 }
 
 .jnotify-container .jnotify-notification .jnotify-message {
-	position: relative;
-	z-index: 2;
-	padding: 10px;
-	text-align: left;
-	color: #fff;
-	font: 14px Arial,Helvetica,sans-serif;
-	line-height: 1.2em;
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  font: 14px Arial,Helvetica,sans-serif;
+  line-height: 1.2em;
 }
 
 .jnotify-container .jnotify-notification .jnotify-message * {
-	font-size: 1em;
+  font-size: 1em;
 }
 
 /* notification type == "error" */
 .jnotify-container .jnotify-notification-error .jnotify-background {
-	background-color: #d79eac;
+  background-color: #d79eac;
 }
 
 .jnotify-container .jnotify-notification-error .jnotify-close,
 .jnotify-container .jnotify-notification-error .jnotify-message {
-	color: #a72947 !important;
+  color: #a72947 !important;
 }
 
 /* notification type == "warning" */
 .jnotify-container .jnotify-notification-warning .jnotify-background {
-	background-color: #fff7d1;
+  background-color: #fff7d1;
 }
 
 .jnotify-container .jnotify-notification-warning .jnotify-close,
 .jnotify-container .jnotify-notification-warning .jnotify-message {
-	color: #c2a928 !important;
+  color: #c2a928 !important;
 }
