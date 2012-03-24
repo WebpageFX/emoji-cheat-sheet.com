@@ -82,8 +82,7 @@ module SimpleS3Deploy
     def update_css_link
       puts "      Applying hashed css file name to index.html .."
       doc = Nokogiri::HTML File.open("#{path}/index.html")
-      link = doc.css('link').find{ |link| link['href'] =~ /emoji/ }
-      link['href'] = "/#{@css_file_name}"
+      doc.at_css('link[@href="/emoji.css"]')['href'] = "/#{@css_file_name}"
       doc.to_html
     end
 
