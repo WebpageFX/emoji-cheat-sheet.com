@@ -51,11 +51,11 @@ a:hover, a.hover { color: #999; }
     .share iframe {
       opacity:.45;
       filter:alpha(opacity=45);
-      filter: "alpha(opacity=45)";  }
+      filter: "alpha(opacity=45)"; }
     .share:hover iframe {
       opacity:1;
       filter:alpha(opacity=100);
-      filter: "alpha(opacity=100)";  }
+      filter: "alpha(opacity=100)"; }
   p.intro {
     max-width: 820px;
     margin-top: 0;
@@ -90,6 +90,7 @@ a:hover, a.hover { color: #999; }
       ul.buttons img {
          height: 22px;
          width: 22px;
+         margin-right: 8px;
       }
 div#footer {
   background-color:rgba(200,200,200,0.15);
@@ -130,7 +131,7 @@ div#footer {
   .share iframe {
     opacity:1;
     filter:alpha(opacity=100);
-    filter: "alpha(opacity=100)";  }
+    filter: "alpha(opacity=100)"; }
 }
 /* jnotify */
 
