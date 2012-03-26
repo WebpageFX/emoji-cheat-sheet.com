@@ -90,6 +90,7 @@ a:hover, a.hover { color: #999; }
       ul.buttons img {
          height: 22px;
          width: 22px;
+         margin-right: 8px;
       }
 div#footer {
   background-color:rgba(200,200,200,0.15);
