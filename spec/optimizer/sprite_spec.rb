@@ -54,6 +54,15 @@ describe Emoji::Sprite do
     sprite.system_calls[0].must_equal expected_command
   end
 
+  it 'calls optimize! when generating' do
+    def sprite.optimize! path
+      @optimize_called = true
+    end
+
+    sprite.generate 'sprite.png'
+    sprite.instance_variable_get(:@optimize_called).must_equal true
+  end
+
   describe 'sprite optimization' do
     it 'checks if optipng exists' do
       sprite.send :optimize!, 'test.png'
