@@ -98,13 +98,14 @@ module Emoji
   end
 
   class Source
+    attr_writer :html_source
 
-    def initialize file
-      @file = file
+    def initialize content
+      @content = content
     end
 
     def emojis
-      @emojis ||= doc.css('#content img').find_all { |img| img['src'] =~ /emojis/ }
+      @emojis ||= images.find_all { |img| img['src'] =~ /emojis/ }
     end
 
     def emoji_paths
@@ -119,36 +120,57 @@ module Emoji
       doc.to_html
     end
 
-    private
+    def images
+      doc.css('img')
+    end
 
     def doc
-      @doc ||= Nokogiri::HTML File.open(@file)
+      @doc ||= Nokogiri::HTML html_source.call(@content)
+    end
+
+    def html_source
+      @html_source ||= File.public_method :open
     end
 
   end
 
   class Sprite
+    attr_reader :files, :size, :padding, :options
 
-    def initialize files, size, padding
+    def initialize files, options = {}
       @files   = files
-      @size    = size
-      @padding = padding
+      @size    = options.delete(:size) { 22 }
+      @padding = options.delete(:padding) { 5 }
+      @options = Options.new({
+        tile:       'x1',
+        geometry:   "#{size}x#{size}+#{padding}",
+        depth:      '8',
+        background: 'transparent',
+        sharpen:    '0x1.5'
+      }.merge(options))
     end
 
     def offset index
-      ((@size + @padding * 2) * index) + @padding
+      (size + padding * 2) * index + padding
     end
 
     def generate path
-      args = {
-              tile: 'x1',
-          geometry: "#{@size}x#{@size}+#{@padding}",
-             depth: '8',
-        background: 'transparent',
-        sharpen: '0x1.5'
-      }.map { |k, v| "-#{k} #{v}" }.join(' ')
-      system "montage %s %s %s" % [ @files.join(' '), args, path ]
-      optimize!(path)
+      system "montage %s %s %s" % [ files.join(' '), options, path ]
+      optimize! path
+    end
+
+    class Options
+      extend Forwardable
+
+      def_delegators :@options, :[], :[]=, :map, :each
+
+      def initialize options
+        @options = options
+      end
+
+      def to_s
+        map { |k, v| "-#{k} #{v}" }.join ' '
+      end
     end
 
     private
