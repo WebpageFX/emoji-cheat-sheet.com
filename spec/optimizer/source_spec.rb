@@ -2,7 +2,6 @@ require_relative '../spec_helper'
 require_relative '../../lib/emoji_optimizer'
 
 describe Emoji::Source do
-
   let(:source) do
     Emoji::Source.new(HTML_SOURCE).tap do |s|
       s.html_source = ->(str) { str }

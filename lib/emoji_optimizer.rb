@@ -121,11 +121,11 @@ module Emoji
     end
 
     def images
-      doc.css('img')
+      doc.css 'img'
     end
 
     def doc
-      @doc ||= Nokogiri::HTML html_source.call(@content)
+      @doc ||= Nokogiri::HTML html_source.call @content
     end
 
     def html_source
