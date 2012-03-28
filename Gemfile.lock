@@ -15,6 +15,7 @@ GEM
       ruby-hmac
     formatador (0.2.1)
     mime-types (1.16)
+    minitest (2.11.2)
     multi_json (1.0.3)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
@@ -29,5 +30,6 @@ PLATFORMS
 DEPENDENCIES
   fog
   mime-types
+  minitest
   nokogiri
   rake
