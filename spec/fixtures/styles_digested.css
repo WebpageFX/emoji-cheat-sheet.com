@@ -1,0 +1,15 @@
+.emoji {
+  display:block;
+  width:64px;
+  height:64px;
+  text-indent:-9999px;
+}
+#e-1 {
+  background-image: url(graphics/+1_7141858e438c8b071217229ed1eb5cf3.png);
+}
+#e-2 {
+  background-image: url('graphics/-1_067e995ea1bb9b4f4819b454bc566f57.png');
+}
+#e-3 {
+  background-image: url('graphics/same_name-1_2134b68e36afc98a06ba4cf75540a337.png');
+}

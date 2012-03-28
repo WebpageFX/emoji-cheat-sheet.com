@@ -13,7 +13,7 @@ module Emoji
       @size    = options.delete(:size) { 22 }
       @padding = options.delete(:padding) { 5 }
       @source = Source.new 'public/index.html'
-      @sprite = Sprite.new @source.emoji_paths, @size, @padding
+      @sprite = Sprite.new sprite_path, @source.emoji_paths, size: @size, padding: @padding
     end
 
     def optimize! &block
@@ -21,8 +21,7 @@ module Emoji
       prepare
 
       puts " ** Generating emoji sprite image"
-      if @sprite.generate sprite_path
-        puts " ** Generating css and updating markup"
+      if @sprite.generate
         generate_and_save
       else
         puts " ** Could not generate emoji sprite =("
@@ -43,33 +42,20 @@ module Emoji
     end
 
     def generate_and_save
+      puts " ** Generating css and updating markup"
+
       update_source_markup
 
-      File.open('public/emoji.css', 'a') { |f| f.puts css_rules.join("\n") }
+      File.open('public/emoji.css', 'a') do |f|
+        f.puts @sprite.css_rules.join("\n")
+      end
       File.open('public/index.html','w') { |f| f.write @source.to_html }
-      FileUtils.mv sprite_path, "public/graphics/#{digest_name}"
     end
 
     def cleanup
       FileUtils.mv File.join(Emoji.tmp_dir, 'index.html'), 'public/index.html'
       FileUtils.mv File.join(Emoji.tmp_dir, 'emoji.css'),  'public/emoji.css'
-      FileUtils.rm_f "public/graphics/#{@digest_name}"
-    end
-
-    def css_rules
-      [].tap do |rules|
-        rules << %Q{
-          .emoji {
-            display:inline-block;
-            width:#{@size}px;
-            height:#{@size}px;
-            background:transparent url(/graphics/#{digest_name}) 0 0 no-repeat;
-          }
-        }
-        @source.emojis.size.times do |index|
-          rules << css_sprite_mapping(index)
-        end
-      end
+      FileUtils.rm "public/graphics/#{filename}"
     end
 
     def update_source_markup
@@ -82,29 +68,25 @@ module Emoji
       end
     end
 
-    def css_sprite_mapping index
-      offset = @sprite.offset index
-      "#e_#{index+1} { background-position:-#{offset}px 0; }"
-    end
-
     def sprite_path
-      @sprite_path ||= File.join Emoji.tmp_dir, 'sprite.png'
+      @sprite_path ||= "public/graphics/#{filename}"
     end
 
-    def digest_name
-      @digest_name ||= "sprite_%s.png" % Digest::MD5.hexdigest( File.read(sprite_path) )
+    def filename
+      'sprite.png'
     end
 
   end
 
   class Source
+    attr_writer :html_source
 
-    def initialize file
-      @file = file
+    def initialize content
+      @content = content
     end
 
     def emojis
-      @emojis ||= doc.css('#content img').find_all { |img| img['src'] =~ /emojis/ }
+      @emojis ||= images.find_all { |img| img['src'] =~ /emojis/ }
     end
 
     def emoji_paths
@@ -119,41 +101,87 @@ module Emoji
       doc.to_html
     end
 
-    private
+    def images
+      doc.css 'img'
+    end
 
     def doc
-      @doc ||= Nokogiri::HTML File.open(@file)
+      @doc ||= Nokogiri::HTML html_source.call @content
+    end
+
+    def html_source
+      @html_source ||= File.public_method :open
     end
 
   end
 
   class Sprite
+    attr_reader :filename, :files,
+                :size, :padding, :options
 
-    def initialize files, size, padding
-      @files   = files
-      @size    = size
-      @padding = padding
+    def initialize filename, files, options = {}
+      @filename = filename
+      @files    = files
+      @size     = options.delete(:size) { 22 }
+      @padding  = options.delete(:padding) { 5 }
+      @options  = Options.new({
+        tile:       'x1',
+        geometry:   "#{size}x#{size}+#{padding}",
+        depth:      '8',
+        background: 'transparent',
+        sharpen:    '0x1.5'
+      }.merge(options))
     end
 
     def offset index
-      ((@size + @padding * 2) * index) + @padding
+      (size + padding * 2) * index + padding
     end
 
-    def generate path
-      args = {
-              tile: 'x1',
-          geometry: "#{@size}x#{@size}+#{@padding}",
-             depth: '8',
-        background: 'transparent',
-        sharpen: '0x1.5'
-      }.map { |k, v| "-#{k} #{v}" }.join(' ')
-      system "montage %s %s %s" % [ @files.join(' '), args, path ]
-      optimize!(path)
+    def generate path = nil
+      path = filename unless path
+      result = system "montage %s %s %s" % [ files.join(' '), options, path ]
+      optimize! path
+
+      result
+    end
+
+    def css_rules
+      [].tap do |rules|
+        rules << %Q{
+          .emoji {
+            display:inline-block;
+            width:#{@size}px;
+            height:#{@size}px;
+            background:transparent url(graphics/#{File.basename(filename)}) 0 0 no-repeat;
+          }
+        }
+        files.size.times do |index|
+          rules << css_file_mapping(index)
+        end
+      end
+    end
+
+    def css_file_mapping index
+      "#e_#{index+1} { background-position:-#{offset index}px 0; }"
+    end
+
+    class Options
+      extend Forwardable
+
+      def_delegators :@options, :[], :[]=, :map, :each
+
+      def initialize options
+        @options = options
+      end
+
+      def to_s
+        map { |k, v| "-#{k} #{v}" }.join ' '
+      end
     end
 
     private
 
-    def optimize!(path)
+    def optimize! path
       puts "Checking for png optimizer"
       if system "which optipng"
         puts "Optimizing generated png"

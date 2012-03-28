@@ -2,3 +2,5 @@
 config.yaml
 passenger*
 *-tmp
+deploy_dry_run
+cache_busting_dry_run

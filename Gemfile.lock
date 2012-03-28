@@ -14,7 +14,11 @@ GEM
       nokogiri (~> 1.5.0)
       ruby-hmac
     formatador (0.2.1)
+    metaclass (0.0.1)
     mime-types (1.16)
+    minitest (2.11.2)
+    mocha (0.12.2)
+      metaclass (~> 0.0.1)
     multi_json (1.0.3)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
@@ -29,5 +33,7 @@ PLATFORMS
 DEPENDENCIES
   fog
   mime-types
+  minitest
+  mocha
   nokogiri
   rake

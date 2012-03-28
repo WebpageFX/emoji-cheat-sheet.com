@@ -1,3 +1,5 @@
+require_relative 'asset'
+
 module SimpleS3Deploy
 
   def self.deploy(site_path)
@@ -25,7 +27,7 @@ module SimpleS3Deploy
           puts "      Uploading #{remote_file_name} .."
           bucket.files.create(
             key: remote_file_name,
-            body: file.is_minifyable? ? open(minify(file.path)) : open(file.path),
+            body: file.minifyable? ? open(minify(file.path)) : open(file.path),
             public: true,
             content_type: file.mime_type,
             cache_control: 'max-age=604800, public' )
@@ -87,26 +89,18 @@ module SimpleS3Deploy
   end
 
   class SiteFile
-    attr_accessor :path
+    include Asset
 
-    def initialize(_path)
-      @path = _path
+    def css_file?
+      extension == '.css'
     end
 
-    def is_minifyable?
-      is_css_file? or is_js_file?
+    def js_file?
+      extension == '.js'
     end
 
-    def is_css_file?
-      path.end_with?('.css')
-    end
-
-    def is_js_file?
-      path.end_with?('.js')
-    end
-
-    def mime_type
-      MIME::Types.type_for(path)[0].to_s
+    def minifyable?
+      css_file? || js_file?
     end
 
   end

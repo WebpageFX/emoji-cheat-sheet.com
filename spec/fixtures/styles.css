@@ -1,0 +1,15 @@
+.emoji {
+  display:block;
+  width:64px;
+  height:64px;
+  text-indent:-9999px;
+}
+#e-1 {
+  background-image: url(graphics/+1.png);
+}
+#e-2 {
+  background-image: url('graphics/-1.png');
+}
+#e-3 {
+  background-image: url('graphics/same_name-1.png');
+}
