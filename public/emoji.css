@@ -15,7 +15,7 @@ p { margin: .5em 0; }
 a { color: #333; }
 a:hover, a.hover { color: #999; }
 
-#content, #footer {
+.wrap {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 1024px; }
