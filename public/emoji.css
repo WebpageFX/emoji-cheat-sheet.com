@@ -86,7 +86,6 @@ a:hover, a.hover { color: #999; }
   .share {
     position: static;
     width: 180px;
-    height: 70px;
     margin: 0 auto 2em auto;
     background: none;
     border: none; }
