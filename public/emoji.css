@@ -48,7 +48,7 @@ a:hover, a.hover { color: #999; }
   max-width: 80%;
   margin-bottom: 2em;
   font-size: 16px; }
-  .product { font-weight: bold; }
+  .intro a ~ a { font-weight: bold; }
 
 .buttons {
   padding: 0 0 1em 0;
