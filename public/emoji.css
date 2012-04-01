@@ -51,13 +51,13 @@ a:hover, a.hover { color: #999; }
   .intro a ~ a { font-weight: bold; }
 
 .buttons {
-  padding: 0 0 1em 0;
+  padding: 0 0 1em 20px;
   color: #333;
   font-family: "Courier", monospace; }
   .buttons li {
     list-style: none;
     float: left;
-    width: 254px; }
+    width: 250px; }
   .buttons div {
     float: left;
     padding: 4px 0; }
