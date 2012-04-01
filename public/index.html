@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/CreativeWork">
   <head>
     <title>Emoji cheat sheet for Campfire and GitHub</title>
     <meta charset="utf-8">
@@ -7,6 +7,8 @@
     <meta property="og:image" content="http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://www.emoji-cheat-sheet.com/">
+    <meta itemprop="name" content="Emoji cheat sheet for Campfire and GitHub">
+    <meta itemprop="image" content="http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
     <link rel="stylesheet" href="/emoji.css?8">
     <script>
@@ -565,7 +567,7 @@
       </div>
       <div class="share">
         <div id="twitter">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.emoji-cheat-sheet.com/" data-count="vertical">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.emoji-cheat-sheet.com/" data-count="vertical">Tweet</a>
         </div>
         <div id="fb">
           <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.emoji-cheat-sheet.com&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:90px;" allowTransparency="true"></iframe>
@@ -634,12 +636,16 @@
             } catch(e) { }
           });
         }
-
+      });
+    </script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      (function() {
         var po = document.createElement('script');
             po.src = 'https://apis.google.com/js/plusone.js';
         var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(po, s);
-      });
+      })();
     </script>
   </body>
 </html>
