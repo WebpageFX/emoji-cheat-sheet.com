@@ -3,14 +3,14 @@
   <head>
     <title>Emoji cheat sheet for Campfire and GitHub</title>
     <meta charset="utf-8">
-    <meta property="og:title" content="Emoji cheat sheet for Campfire and GitHub"/>
-    <meta property="og:image" content="http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.emoji-cheat-sheet.com/"/>
-    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
-    <link href="/emoji.css?8" rel="stylesheet">
+    <meta property="og:title" content="Emoji cheat sheet for Campfire and GitHub">
+    <meta property="og:image" content="http://www.emoji-cheat-sheet.com/graphics/emojis/thumbsup.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.emoji-cheat-sheet.com/">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+    <link rel="stylesheet" href="/emoji.css?8">
     <script>
-      // Optimized Google Analytics snippet: http://mths.be/aab
+      // http://mths.be/aab
       var _gaq = [['_setAccount', 'UA-20637790-4'], ['_trackPageview']];
       (function(d, t) {
         var g = d.createElement(t),
@@ -24,13 +24,13 @@
     <div id="content" class="wrap">
       <h1>Emoji cheat sheet</h1>
       <p class="intro">
-      <a href="http://en.wikipedia.org/wiki/Emoji">Emoji</a> emoticons are supported on
-      <a href="http://campfirenow.com/">Campfire</a>,
-      <a href="http://github.com/">GitHub</a>,
-      <a href="http://37signals.com/basecampnext/">Basecamp Next</a>
-      and <a href="http://turntable.fm/">Turntable.fm</a>.<br>
-      However some of the emoji codes are not super easy to remember, <em>so here is a little cheat sheet</em>.<br>
-      ✈<b> Got flash enabled? Click the emoji code and it will be copied to your clipboard.</b> </p>
+        <a href="http://en.wikipedia.org/wiki/Emoji">Emoji</a> emoticons are supported on
+        <a href="http://campfirenow.com/">Campfire</a>,
+        <a href="http://github.com/">GitHub</a>,
+        <a href="http://37signals.com/basecampnext/">Basecamp Next</a>
+        and <a href="http://turntable.fm/">Turntable.fm</a>.<br>
+        However some of the emoji codes are not super easy to remember, <em>so here is a little cheat sheet</em>.<br>
+        ✈<b> Got flash enabled? Click the emoji code and it will be copied to your clipboard.</b></p>
       <h2>People</h2>
       <ul id="people" class="buttons clearfix">
         <li><div><img src="/graphics/emojis/bowtie.png"> :bowtie:</div></li>
@@ -601,43 +601,45 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="/libs.min.js?1"></script>
     <script>
-    $(function() {
-      if (FlashDetect.installed) {
-        clip_flash_block_detect = new ZeroClipboard.Client();
-        clip_flash_block_detect.glue(document.getElementById('flash-test'));
+      $(function() {
+        if (FlashDetect.installed) {
+          clip_flash_block_detect = new ZeroClipboard.Client();
+          clip_flash_block_detect.glue(document.getElementById('flash-test'));
 
-        clip = new ZeroClipboard.Client();
-        clip.reposition(document.getElementById('flash-test'));
-        clip.receiveEvent('mouseover', null);
+          clip = new ZeroClipboard.Client();
+          clip.reposition(document.getElementById('flash-test'));
+          clip.receiveEvent('mouseover', null);
 
-        $.jnotify.setup({ 'delay': 1000, 'fadeSpeed': 500 });
-        clip.setHandCursor(true);
-        clip.addEventListener('complete', function(client, text) {
-          $.jnotify('Copied <code>' + text + '</code>');
-          _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
-        });
+          $.jnotify.setup({ 'delay': 1000, 'fadeSpeed': 500 });
 
-        $('ul.buttons').on('mouseover', 'div', function() {
-          try {
-            if (clip_flash_block_detect.movie.PercentLoaded()){
-              clip.setText($(this).text().trim());
-              if (clip.div && !reglue) {
-                clip.receiveEvent('mouseout', null);
-                clip.reposition(this);
-              } else {
-                clip.glue(this);
-                reglue = false;
+          clip.setHandCursor(true);
+          clip.addEventListener('complete', function(client, text) {
+            $.jnotify('Copied <code>' + text + '</code>');
+            _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
+          });
+
+          $('ul.buttons').on('mouseover', 'div', function() {
+            try {
+              if (clip_flash_block_detect.movie.PercentLoaded()){
+                clip.setText($(this).text().trim());
+                if (clip.div && !reglue) {
+                  clip.receiveEvent('mouseout', null);
+                  clip.reposition(this);
+                } else {
+                  clip.glue(this);
+                  reglue = false;
+                }
+                clip.receiveEvent('mouseover', null);
               }
-              clip.receiveEvent('mouseover', null);
-            }
-          } catch(e) { }
-        });
-      }
-      var po = document.createElement('script');
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(po, s);
-    });
+            } catch(e) { }
+          });
+        }
+
+        var po = document.createElement('script');
+            po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+      });
     </script>
   </body>
 </html>
