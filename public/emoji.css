@@ -99,79 +99,60 @@ a:hover, a.hover { color: #999; }
 
 /* jnotify */
 .jnotify-container {
-  position: fixed;
-  top: 2px;
-  right: 20px;
-  max-width: 220px;
-  z-index: 100000;
-
-  /* set maximum number of notes to show */
-  max-height: 270px;
   overflow-x: hidden;
-  overflow-y: auto;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  max-width: 220px;
+  color: #fff;
+  text-align: left;
+  line-height: 1em;
+  z-index: 100000;
 }
-.jnotify-container .jnotify-notification {
+.jnotify-notification {
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: .5em;
 }
-.jnotify-container .jnotify-notification .jnotify-background {
+.jnotify-background {
   position: absolute;
-  top: 2px;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: #4c4c4c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   filter: alpha(opacity=40);
   -moz-opacity: 7.90;
   opacity: 0.40;
   z-index: 1;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
 }
-.jnotify-container .jnotify-notification a.jnotify-close,
-.jnotify-container .jnotify-notification a.jnotify-close:link,
-.jnotify-container .jnotify-notification a.jnotify-close:visited,
-.jnotify-container .jnotify-notification a.jnotify-close:focus,
-.jnotify-container .jnotify-notification a.jnotify-close:hover {
+a.jnotify-close {
+  cursor: pointer;
   position: absolute;
   top: 2px;
   right: 5px;
   padding: 0 5px;
-  font: 14px Arial,Helvetica,sans-serif;
-  line-height: 1em;
-  color: #fff;
   text-decoration: none;
   z-index: 3;
-  cursor: pointer;
 }
-.jnotify-container .jnotify-notification .jnotify-message {
+.jnotify-notification .jnotify-message {
   position: relative;
-  z-index: 2;
   padding: 10px;
-  text-align: left;
-  color: #fff;
-  font: 14px Arial,Helvetica,sans-serif;
-  line-height: 1.2em;
-}
-.jnotify-container .jnotify-notification .jnotify-message * {
-  font-size: 1em;
+  z-index: 2;
 }
 
 /* notification type == "error" */
-.jnotify-container .jnotify-notification-error .jnotify-background {
+.jnotify-notification-error .jnotify-background {
   background-color: #d79eac;
 }
-.jnotify-container .jnotify-notification-error .jnotify-close,
-.jnotify-container .jnotify-notification-error .jnotify-message {
+.jnotify-notification-error .jnotify-close, .jnotify-notification-error .jnotify-message {
   color: #a72947 !important;
 }
 
 /* notification type == "warning" */
-.jnotify-container .jnotify-notification-warning .jnotify-background {
+.jnotify-notification-warning .jnotify-background {
   background-color: #fff7d1;
 }
-.jnotify-container .jnotify-notification-warning .jnotify-close,
-.jnotify-container .jnotify-notification-warning .jnotify-message {
+.jnotify-notification-warning .jnotify-close, .jnotify-notification-warning .jnotify-message {
   color: #c2a928 !important;
 }
