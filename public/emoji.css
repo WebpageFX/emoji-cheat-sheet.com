@@ -1,4 +1,4 @@
-html { background-image: url(graphics/stucco.png); }
+html { background: url(graphics/stucco.png); }
 body, h1, h2, h3 {
   color: #555;
   font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -20,30 +20,6 @@ a:hover, a.hover { color: #999; }
   padding: 0 20px;
   max-width: 1024px; }
 
-.share {
-  position: absolute;
-  top: 166px;
-  right: 0;
-  padding: 4px;
-  background-color: rgba(200,200,200,.2);
-  border: 2px dotted #ddd;
-  border-right: 0;
-  -webkit-border-radius: 8px 0 0 8px;
-  -moz-border-radius: 8px 0 0 8px;
-  border-radius: 8px 0 0 8px; }
-  .share div {
-    height: 64px;
-    margin: 4px;
-    text-align: center; }
-  .share iframe {
-    filter:alpha(opacity=45);
-    filter: "alpha(opacity=45)";
-    opacity: .45; }
-    .share:hover iframe {
-      filter:alpha(opacity=100);
-      filter: "alpha(opacity=100)";
-      opacity: 1; }
-
 .intro {
   max-width: 80%;
   margin-bottom: 2em;
@@ -51,6 +27,7 @@ a:hover, a.hover { color: #999; }
   .intro a ~ a { font-weight: bold; }
 
 .buttons {
+  margin-left: 0;
   padding: 0 0 1em 20px;
   color: #333;
   font-family: "Courier", monospace; }
@@ -61,26 +38,29 @@ a:hover, a.hover { color: #999; }
   .buttons div {
     float: left;
     padding: 4px 0; }
-    .buttons div.hover { margin-left: -4px; }
+    .buttons div:hover, .buttons div.hover { margin-left: -4px; }
   .buttons img {
     vertical-align: middle;
     height: 22px;
     width: 22px; }
 
-#flash-test {
-  width: 1px;
-  height: 1px; }
-
-#footer {
-  padding: 1.5em 20px;
-  background-color: rgba(200,200,200,.15);
-  border-top: 3px dotted #ddd; }
-
-.clearfix:before, .clearfix:after {
-  content: "";
-  display: table; }
-  .clearfix:after { clear: both; }
-  .clearfix { *zoom: 1; }
+.share {
+  position: absolute;
+  top: 166px;
+  right: 0;
+  padding: 4px;
+  background: rgba(200,200,200,.2);
+  border: 2px dotted #ddd;
+  border-right: 0;
+  -webkit-border-radius: 8px 0 0 8px;
+  -moz-border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px; }
+  .share div {
+    height: 64px;
+    margin: 4px;
+    text-align: center; }
+  .share iframe { opacity: .45; }
+    .share:hover iframe { opacity: 1; }
 
 @media screen and (max-width: 640px) {
   .share {
@@ -90,11 +70,23 @@ a:hover, a.hover { color: #999; }
     background: none;
     border: none; }
   .share div { float: left; }
-  .share iframe {
-    filter:alpha(opacity=100);
-    filter: "alpha(opacity=100)";
-    opacity: 1; }
+  .share iframe { opacity: 1; }
 }
+
+#flash-test {
+  width: 1px;
+  height: 1px; }
+
+#footer {
+  padding: 1.5em 20px;
+  background: rgba(200,200,200,.15);
+  border-top: 3px dotted #ddd; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+  .clearfix:after { clear: both; }
+  .clearfix { *zoom: 1; }
 
 /* jnotify */
 .jnotify-container {
@@ -104,54 +96,22 @@ a:hover, a.hover { color: #999; }
   right: 1em;
   max-width: 220px;
   color: #fff;
-  text-align: left;
   line-height: 1em;
-  z-index: 100000;
-}
-.jnotify-notification {
-  position: relative;
-  margin-bottom: .5em;
-}
-.jnotify-background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #4c4c4c;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  filter: alpha(opacity=40);
-  -moz-opacity: 7.90;
-  opacity: 0.40;
-  z-index: 1;
-}
-a.jnotify-close {
-  cursor: pointer;
-  position: absolute;
-  top: 2px;
-  right: 5px;
-  padding: 0 5px;
-  text-decoration: none;
-  z-index: 3;
-}
-.jnotify-notification .jnotify-message {
-  position: relative;
-  padding: 10px;
-  z-index: 2;
-}
-
-/* notification type == "error" */
-.jnotify-notification-error .jnotify-background {
-  background-color: #d79eac;
-}
-.jnotify-notification-error .jnotify-close, .jnotify-notification-error .jnotify-message {
-  color: #a72947 !important;
-}
-
-/* notification type == "warning" */
-.jnotify-notification-warning .jnotify-background {
-  background-color: #fff7d1;
-}
-.jnotify-notification-warning .jnotify-close, .jnotify-notification-warning .jnotify-message {
-  color: #c2a928 !important;
-}
+  z-index: 100000; }
+  .jnotify-notification {
+    position: relative;
+    margin-bottom: .5em; }
+  .jnotify-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #4c4c4c;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    opacity: .4;
+    z-index: 1; }
+  .jnotify-notification .jnotify-message {
+    position: relative;
+    padding: 10px;
+    z-index: 2; }
