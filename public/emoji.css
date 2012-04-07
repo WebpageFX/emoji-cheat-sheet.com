@@ -1,7 +1,8 @@
 html { background: url(graphics/stucco.png); }
 body, h1, h2, h3 {
   color: #555;
-  font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: none; }
 h1 {
   margin: 0;
   color: #333;
@@ -20,11 +21,11 @@ a:hover, a.hover { color: #999; }
   padding: 0 20px;
   max-width: 1024px; }
 
-.intro {
+#header p {
   max-width: 80%;
   margin-bottom: 2em;
   font-size: 16px; }
-  .intro a ~ a { font-weight: bold; }
+  #header a ~ a { font-weight: bold; }
 
 .buttons {
   margin-left: 0;
