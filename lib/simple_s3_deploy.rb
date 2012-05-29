@@ -7,6 +7,7 @@ module SimpleS3Deploy
   class Site
     attr_accessor :path
     attr_accessor :tmp_files
+    attr_accessor :css_file_name
 
     def initialize(path)
       @path = path
@@ -21,11 +22,11 @@ module SimpleS3Deploy
       puts " ** Uploading files"
       files.each do |file|
         if !File.directory?(file.path)
-          remote_file_name = file_base_path(file.path)
+          remote_file_name = file.is_emoji_css? ? generate_css_file_name(file.path) : file_base_path(file.path)
           puts "      Uploading #{remote_file_name} .."
           bucket.files.create(
             key: remote_file_name,
-            body: file.is_minifyable? ? open(minify(file.path)) : open(file.path),
+            body: file.should_be_altered? ? alter(file) : open(file.path),
             public: true,
             content_type: file.mime_type,
             cache_control: 'max-age=604800, public' )
@@ -60,6 +61,29 @@ module SimpleS3Deploy
 
     def file_base_path(file)
       file.gsub("#{path}/", "")
+    end
+
+    def alter(file)
+      if file.is_html_file? and file.path.match('index.html')
+        update_css_link
+      else
+        open(minify(file.path))
+      end
+    end
+
+    def generate_css_file_name(file_path)
+      puts "      Generating hashed css file name .."
+      ext = File.extname(file_path)
+      name = File.basename(file_path,File.extname(file_path))
+      hash = Digest::MD5.hexdigest(File.mtime(file_path).to_i.to_s+File.size(file_path).to_s)
+      @css_file_name = "#{name}-#{hash}#{ext}"
+    end
+
+    def update_css_link
+      puts "      Applying hashed css file name to index.html .."
+      doc = Nokogiri::HTML File.open("#{path}/index.html")
+      doc.at_css('link[@href="/emoji.css"]')['href'] = "/#{@css_file_name}"
+      doc.to_html
     end
 
     def minify(file_path)
@@ -103,6 +127,18 @@ module SimpleS3Deploy
 
     def is_js_file?
       path.end_with?('.js')
+    end
+
+    def is_html_file?
+      path.end_with?('.html')
+    end
+
+    def is_emoji_css?
+      path.match('emoji.css')
+    end
+
+    def should_be_altered?
+      is_html_file? or is_css_file? or is_js_file?
     end
 
     def mime_type
