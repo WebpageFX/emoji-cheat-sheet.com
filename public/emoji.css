@@ -220,3 +220,47 @@ div#footer {
 .jnotify-container .jnotify-notification-warning .jnotify-message {
   color: #c2a928 !important;
 }
+
+/* practice area */
+#emoji, #preview {
+  width: 820px;
+  font-family: "Courier", monospace;
+  font-size: 14px;
+}
+
+#emoji {
+  padding: 1px;
+}
+
+.autocomplete {
+  border:1px solid #999;
+  background: #FFF;
+  cursor:default;
+  text-align: left;
+  max-height: 350px;
+  overflow: auto;
+  box-shadow: 2px 3px 10px rgba(0,0,0,0.5);
+  width: 824px !important;
+  margin-top: 4px;
+}
+
+.autocomplete img, #preview img {
+  vertical-align: middle;
+}
+
+.autocomplete .selected {
+  background: #EEE;
+}
+
+.autocomplete div {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Courier", monospace;
+  font-size: 14px;
+}
+
+.autocomplete strong {
+  font-weight: normal;
+  color: #39F;
+}

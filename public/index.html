@@ -31,6 +31,12 @@
       and <a href="http://turntable.fm/" class="product">Turntable.fm</a>.<br>
       However some of the emoji codes are not super easy to remember, <em>so here is a little cheat sheet</em>.<br>
       ✈<b> Got flash enabled? Click the emoji code and it will be copied to your clipboard.</b> </p>
+
+      <h2>Practice here:</h2>
+      <input id="emoji" type="text" autocomplete="off"
+             placeholder="(we generously auto-complete for you)">
+      <p id="preview"></p>
+
       <h2>People</h2>
       <ul id="people" class="buttons clearfix">
         <li><div><img src="/graphics/emojis/bowtie.png"> :bowtie:</div></li>
@@ -601,11 +607,13 @@
         <a href="https://github.com/joeljunstrom">joeljunstrom</a>,
         <a href="https://github.com/petermanser">petermanser</a>,
         <a href="https://github.com/mattiasottosson">mattiasottosson</a>,
-        <a href="https://github.com/wjessop">wjessop</a>.</p>
+        <a href="https://github.com/wjessop">wjessop</a>,
+        <a href="https://github.com/johan">johan</a>.</p>
       <p>✔ Emoji-cheat-sheet.com is not affiliated with 37signals, LLC. or GitHub Inc. in any way.</p>
       <p>♺ Built using bits from <a href="http://www.steamdev.com/zclip">zClip</a>,
-        <a href="http://subtlepatterns.com/">SubtlePatterns</a> and
-        <a href="http://www.givainc.com/labs/jnotify_jquery_plugin.htm">jnotify</a>.</p>
+        <a href="http://subtlepatterns.com/">SubtlePatterns</a>,
+        <a href="http://www.givainc.com/labs/jnotify_jquery_plugin.htm">jnotify</a> and
+        <a href="http://www.devbridge.com/projects/autocomplete/jquery/">jquery.autocomplete</a>.</p>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="/libs.min.js?1"></script>
@@ -641,6 +649,37 @@
             }
           } catch(e) { }
         });
+
+        var emojis   = $('#content > ul[id] > li > div').map(text).get()
+          , reEscape = /([\/.*+?|()\[\]{}\\])/g
+          , quoted   = $(emojis).map(function() { return quoteRe(this); }).get()
+          , emojiRe  = new RegExp('('+ quoted.join('|') + ')', 'g');
+
+        function text() { return $(this).text().replace(/\s+/g, ''); }
+        function quoteRe(s) { return s.replace(reEscape, '\\$1'); }
+        function preview(e) {
+          return $('#preview').html(this.value.replace(emojiRe, emojiImg));
+        }
+        function emojiImg(s) {
+          var alt = s.replace(/:/g, '')
+            , url  = '/graphics/emojis/'+ alt.replace(/\+/g, 'plus') +'.png';
+          return '<img width="22" height="22" alt="'+ alt +'" src="'+ url +'">';
+        }
+        function format(value, data, currentValue) {
+          var pattern  = new RegExp('('+ quoteRe(currentValue) +')', 'i')
+            , emoji    = emojiImg(value);
+          return emoji + value.replace(pattern, ' <strong>$1<\/strong>');
+        }
+
+        $('#emoji')
+          .bind({ keyup: preview
+                , paste: preview
+                , cut:   preview
+                })
+          .autocomplete({ lookup: emojis
+                        , delimiter: /\s+/
+                        , fnFormatResult: format
+                        });
       }
       var po = document.createElement('script');
       po.src = 'https://apis.google.com/js/plusone.js';

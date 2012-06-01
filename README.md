@@ -22,3 +22,4 @@ Do the fork and pull request dance.
 * [petermanser](https://github.com/petermanser)
 * [mattiasottosson](https://github.com/mattiasottosson)
 * [wjessop](https://github.com/wjessop)
+* [johan](https://github.com/johan)
