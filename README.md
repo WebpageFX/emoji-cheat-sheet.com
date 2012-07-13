@@ -27,3 +27,4 @@ Do the fork and pull request dance.
 * [JustinCampbell](https://github.com/JustinCampbell)
 * [fixlr](https://github.com/fixlr)
 * [trevorturk](https://github.com/trevorturk)
+* [ejensen](https://github.com/ejensen)
