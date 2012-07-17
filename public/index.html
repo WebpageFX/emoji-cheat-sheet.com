@@ -582,7 +582,7 @@
           <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.emoji-cheat-sheet.com&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:90px;" allowTransparency="true"></iframe>
         </div>
         <div id="gplus">
-          <g:plusone size="tall" href="http://www.emoji-cheat-sheet.com/"></g:plusone>
+          <div class="g-plusone" data-size="tall" data-href="http://www.emoji-cheat-sheet.com/"></div>
         </div>
       </div>
     </div>
@@ -651,10 +651,9 @@
           } catch(e) { }
         });
       }
-      var po = document.createElement('script');
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
       po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(po, s);
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
     });
     </script>
   </body>
