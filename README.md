@@ -28,3 +28,4 @@ Do the fork and pull request dance.
 * [fixlr](https://github.com/fixlr)
 * [trevorturk](https://github.com/trevorturk)
 * [ejensen](https://github.com/ejensen)
+* [talltroym](https://github.com/talltroym)
