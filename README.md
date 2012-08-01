@@ -29,3 +29,4 @@ Do the fork and pull request dance.
 * [trevorturk](https://github.com/trevorturk)
 * [ejensen](https://github.com/ejensen)
 * [talltroym](https://github.com/talltroym)
+* [juliamae](https://github.com/juliamae)
