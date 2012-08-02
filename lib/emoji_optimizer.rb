@@ -20,7 +20,7 @@ module Emoji
       puts " ** Preparing for optimization"
       prepare
 
-      puts " ** Generating emoji sprite image"
+      puts " ** Generating emoji sprite image #{sprite_path}"
       if @sprite.generate sprite_path
         puts " ** Generating css and updating markup"
         generate_and_save
