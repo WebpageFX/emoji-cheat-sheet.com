@@ -30,3 +30,4 @@ Do the fork and pull request dance.
 * [ejensen](https://github.com/ejensen)
 * [talltroym](https://github.com/talltroym)
 * [juliamae](https://github.com/juliamae)
+* [vinbarnes](https://github.com/vinbarnes)
