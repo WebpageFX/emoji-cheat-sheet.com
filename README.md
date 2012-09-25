@@ -31,4 +31,4 @@ Do the fork and pull request dance.
 * [talltroym](https://github.com/talltroym)
 * [juliamae](https://github.com/juliamae)
 * [vinbarnes](https://github.com/vinbarnes)
-* [madasi](httpsL//github.com/madasi)
+* [madasi](https://github.com/madasi)
