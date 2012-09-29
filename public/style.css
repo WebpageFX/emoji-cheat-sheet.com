@@ -56,6 +56,11 @@ a:hover, a.hover { color: #999; }
       opacity:1;
       filter:alpha(opacity=100);
       filter: "alpha(opacity=100)"; }
+    #fb iframe {
+      border: none;
+      overflow: hidden;
+      width: 50px;
+      height: 90px; }
   p.intro {
     max-width: 820px;
     margin-top: 0;
@@ -99,6 +104,12 @@ div#footer {
   font-size: 14px;
   color: #666;}
   #footer p {line-height: 1.3em; }
+
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
 
 #flash-test {
   width: 1px;

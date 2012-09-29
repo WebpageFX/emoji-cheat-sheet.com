@@ -8,7 +8,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://www.emoji-cheat-sheet.com/"/>
     <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
-    <link href="emoji.css?9" rel="stylesheet">
+    <link href="style.css?1" rel="stylesheet">
     <script>
       // Optimized Google Analytics snippet: http://mths.be/aab
       var _gaq = [['_setAccount', 'UA-20637790-4'], ['_trackPageview']];
@@ -933,14 +933,14 @@
           <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.emoji-cheat-sheet.com/" data-count="vertical">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
         </div>
         <div id="fb">
-          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.emoji-cheat-sheet.com&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:90px;" allowTransparency="true"></iframe>
+          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.emoji-cheat-sheet.com&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=90" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
         <div id="gplus">
           <div class="g-plusone" data-size="tall" data-href="http://www.emoji-cheat-sheet.com/"></div>
         </div>
       </div>
     </div>
-    <a href="https://github.com/arvida/emoji-cheat-sheet.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/arvida/emoji-cheat-sheet.com"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" class="github" alt="Fork me on GitHub"></a>
     <div id="flash-test"></div>
     <div id="footer">
       <p>This page was created by <a href="http://arvidandersson.se">Arvid Andersson</a> /
@@ -975,44 +975,6 @@
         <a href="http://www.givainc.com/labs/jnotify_jquery_plugin.htm">jnotify</a>.</p>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="libs.min.js?1"></script>
-    <script>
-    $(function() {
-      if (FlashDetect.installed) {
-        clip_flash_block_detect = new ZeroClipboard.Client();
-        clip_flash_block_detect.glue(document.getElementById('flash-test'));
-
-        clip = new ZeroClipboard.Client();
-        clip.reposition(document.getElementById('flash-test'));
-        clip.receiveEvent('mouseover', null);
-
-        $.jnotify.setup({ 'delay': 1000, 'fadeSpeed': 500 });
-        clip.setHandCursor(true);
-        clip.addEventListener('complete', function(client, text) {
-          $.jnotify('Copied <code>' + text + '</code>');
-          _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
-        });
-
-        $('ul.buttons').on('mouseover', 'div', function() {
-          try {
-            if (clip_flash_block_detect.movie.PercentLoaded()){
-              clip.setText($(this).text().trim());
-              if (clip.div && !reglue) {
-                clip.receiveEvent('mouseout', null);
-                clip.reposition(this);
-              } else {
-                clip.glue(this);
-                reglue = false;
-              }
-              clip.receiveEvent('mouseover', null);
-            }
-          } catch(e) { }
-        });
-      }
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    });
-    </script>
+    <script src="script.js?1"></script>
   </body>
 </html>
