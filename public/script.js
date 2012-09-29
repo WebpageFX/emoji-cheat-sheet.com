@@ -55,7 +55,7 @@ $(function() {
       _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
     });
 
-    $('ul.buttons').on('mouseover', 'div', function() {
+    $('ul').on('mouseover', 'div', function() {
       try {
         if (clip_flash_block_detect.movie.PercentLoaded()) {
           clip.setText($(this).text().trim());
