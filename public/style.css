@@ -1,233 +1,107 @@
-body {
-  background: #fff url('graphics/stucco.png');
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  line-height: 1.4em;}
+html {
+  color: #444;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: url(graphics/stucco.png); }
+
 h1 {
-  width: 80%;
-  margin-bottom: 16px;
-  margin-top: 14px;
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 48px;
-  line-height: 1em;
-  font-weight: normal;
-  font-family: 'Yanone Kaffeesatz', sans-serif;}
-h2 {
-  margin-top:1.2em;
-  font-size: 22px;
-  color: #555;}
-a { color: #333;}
-a:hover, a.hover { color: #999; }
-#content, #footer {
-  padding: 0 20px 0 20px;
-  margin: 0 auto;
-  max-width: 1024px;}
-  .share {
-    -webkit-border-top-left-radius: 8px;
-    -webkit-border-bottom-left-radius: 8px;
-    -moz-border-radius-bottomright: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-left: 2px dotted #ddd;
-    border-bottom: 2px dotted #ddd;
-    border-top: 2px dotted #ddd;
-    background: rgba(200,200,200,.2);
-    text-align: right;
-    position: absolute;
-    top: 166px;
-    padding: 8px;
-    right: 0;
-    height: 204px;
-    width: 55px;}
-    #twitter, #gplus, #fb {
-      text-align: center;
-      margin: 0 auto 6px auto;
-      margin-bottom: 6px;
-      height: 64px; }
-    #twitter {margin-right: 5px; }
-    .share iframe {
-      opacity:.45;
-      filter:alpha(opacity=45);
-      filter: "alpha(opacity=45)"; }
-    .share:hover iframe {
-      opacity:1;
-      filter:alpha(opacity=100);
-      filter: "alpha(opacity=100)"; }
-    #fb iframe {
-      border: none;
-      overflow: hidden;
-      width: 50px;
-      height: 90px; }
-  p.intro {
-    max-width: 820px;
-    margin-top: 0;
-    margin-right: 160px;
-    color: #666;}
-    .product { font-weight: bold; }
-  #github_and_campfire {margin-top: 1.2em;}
-  .sounds { margin-top: .6em; }
-    .sounds h3 {
-      margin-bottom: 0;
-      color: #666;
-      font-size: 16px;
-      font-weight: normal;}
-    .sounds li { height: 24px; }
-  ul {
-    padding:0;
-    margin: 0;}
+  font-weight: normal; }
+
+a {
+  color: inherit;
+  font-weight: bold; }
+  a:hover { color: #999; }
+
+ul {
+  display: table;
+  padding: 0 0 1em 1.5em;
+  font-family: monospace; }
   li {
     list-style: none;
     float: left;
     width: 330px;
-    height: 30px; }
-    ul.buttons div {
-      min-width: 110px;
-      font-size: 14px;
-      float: left;
-      font-family: "Courier", monospace;
-      padding: 4px 0;}
-    ul.buttons div.hover { margin-left: -4px; }
-    ul.buttons.active { margin-left: 0;}
-      ul.buttons img, ul.buttons .emoji { vertical-align: middle; }
-      ul.buttons img {
-         height: 22px;
-         width: 22px;
-      }
-div#footer {
-  background-color:rgba(200,200,200,0.15);
-  border-top: 3px dotted #ddd;
-  margin-top: 2em;
-  padding: 1em;
-  font-size: 14px;
-  color: #666;}
-  #footer p {line-height: 1.3em; }
+    margin-bottom: .5em; }
+    li .hover { margin-left: -4px; }
+    li img {
+      vertical-align: middle;
+      height: 22px;
+      width: 22px; }
 
-.github {
+#content, #footer {
+  margin: 0 auto;
+  padding: .5em 1em;
+  max-width: 1024px; }
+  #footer {
+    margin: 0 -1em;
+    background: rgba(200,200,200,.2);
+    border-top: 3px dotted #ddd; }
+
+#description {
+  max-width: 80%;
+  margin: 0 0 1.5em 0;
+  font-size: 16px; }
+
+#share {
   position: absolute;
-  top: 0;
+  top: 166px;
   right: 0;
-  border: 0; }
+  padding: 4px;
+  background: rgba(200,200,200,.2);
+  border: 2px dotted #ddd;
+  border-right: 0;
+  border-radius: 8px 0 0 8px; }
+  #share:hover > div { opacity: 1; }
+  #share > div {
+    height: 64px;
+    margin: 4px;
+    text-align: center;
+    opacity: .45; }
+    #share iframe { width: 50px; }
+
+@media screen and (max-width: 640px) {
+  #share {
+    position: static;
+    display: table;
+    width: 180px;
+    margin: 0 auto 2em auto;
+    background: none;
+    border: none;
+    opacity: 1; }
+    #share > div { float: left; }
+}
 
 #flash-test {
   width: 1px;
   height: 1px; }
 
-.clearfix:after {
-  zoom: 1;
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; }
-
-@media screen and (max-width: 640px) {
-  .share {
-    vertical-align: middle;
-    background: none;
-    width: 220px;
-    height: 70px;
-    padding: 0;
-    margin: 2em auto 0 auto;
-    position: static;
-    display: block;
-    border: none; }
-  ul, p.intro { margin-right: 0; }
-  #twitter, #gplus, #fb {
-    float: left;
-    margin-right: 12px; }
-  .share iframe {
-    opacity:1;
-    filter:alpha(opacity=100);
-    filter: "alpha(opacity=100)"; }
-}
-/* jnotify */
+#github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
 
 .jnotify-container {
   position: fixed;
-  top: 2px;
-  right: 20px;
-  max-width: 220px;
-  z-index: 100000;
-
-  /* set maximum number of notes to show */
-  max-height: 270px;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.jnotify-container .jnotify-notification {
-  position: relative;
-  margin-bottom: 5px;
-}
-
-.jnotify-container .jnotify-notification .jnotify-background {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4c4c4c;
-  filter: alpha(opacity=40);
-  -moz-opacity: 7.90;
-  opacity: 0.40;
-  z-index: 1;
-
-  /* round the corners */
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-
-.jnotify-container .jnotify-notification a.jnotify-close,
-.jnotify-container .jnotify-notification a.jnotify-close:link,
-.jnotify-container .jnotify-notification a.jnotify-close:visited,
-.jnotify-container .jnotify-notification a.jnotify-close:focus,
-.jnotify-container .jnotify-notification a.jnotify-close:hover {
-  position: absolute;
-  top: 2px;
-  right: 5px;
-  padding: 0 5px;
-  font: 14px Arial,Helvetica,sans-serif;
-  line-height: 1em;
-  color: #fff;
-  text-decoration: none;
-  z-index: 3;
-  cursor: pointer;
-}
-
-.jnotify-container .jnotify-notification .jnotify-message {
-  position: relative;
-  z-index: 2;
-  padding: 10px;
-  text-align: left;
-  color: #fff;
-  font: 14px Arial,Helvetica,sans-serif;
-  line-height: 1.2em;
-}
-
-.jnotify-container .jnotify-notification .jnotify-message * {
-  font-size: 1em;
-}
-
-/* notification type == "error" */
-.jnotify-container .jnotify-notification-error .jnotify-background {
-  background-color: #d79eac;
-}
-
-.jnotify-container .jnotify-notification-error .jnotify-close,
-.jnotify-container .jnotify-notification-error .jnotify-message {
-  color: #a72947 !important;
-}
-
-/* notification type == "warning" */
-.jnotify-container .jnotify-notification-warning .jnotify-background {
-  background-color: #fff7d1;
-}
-
-.jnotify-container .jnotify-notification-warning .jnotify-close,
-.jnotify-container .jnotify-notification-warning .jnotify-message {
-  color: #c2a928 !important;
-}
+  top: 1em;
+  right: 1em;
+  z-index: 999; }
+  .jnotify-notification {
+    position: relative;
+    margin-bottom: .5em; }
+  .jnotify-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.33);
+    border-radius: 10px; }
+  .jnotify-message {
+    position: relative;
+    padding: .5em 1em;
+    color: #fff;
+    font: inherit; }
