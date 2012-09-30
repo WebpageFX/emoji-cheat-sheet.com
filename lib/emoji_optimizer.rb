@@ -39,20 +39,20 @@ module Emoji
 
     def prepare
       FileUtils.cp 'public/index.html', File.join(Emoji.tmp_dir, 'index.html')
-      FileUtils.cp 'public/emoji.css',  File.join(Emoji.tmp_dir, 'emoji.css')
+      FileUtils.cp 'public/style.css',  File.join(Emoji.tmp_dir, 'style.css')
     end
 
     def generate_and_save
       update_source_markup
 
-      File.open('public/emoji.css', 'a') { |f| f.puts css_rules.join("\n") }
+      File.open('public/style.css', 'a') { |f| f.puts css_rules.join("\n") }
       File.open('public/index.html','w') { |f| f.write @source.to_html }
       FileUtils.mv sprite_path, "public/graphics/#{digest_name}"
     end
 
     def cleanup
       FileUtils.mv File.join(Emoji.tmp_dir, 'index.html'), 'public/index.html'
-      FileUtils.mv File.join(Emoji.tmp_dir, 'emoji.css'),  'public/emoji.css'
+      FileUtils.mv File.join(Emoji.tmp_dir, 'style.css'),  'public/style.css'
       FileUtils.rm_f "public/graphics/#{@digest_name}"
     end
 

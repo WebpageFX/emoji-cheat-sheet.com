@@ -1,0 +1,107 @@
+html {
+  color: #444;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: url(graphics/stucco.png); }
+
+h1 {
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 48px;
+  font-weight: normal; }
+
+a {
+  color: inherit;
+  font-weight: bold; }
+  a:hover { color: #999; }
+
+ul {
+  display: table;
+  padding: 0 0 1em 1.5em;
+  font-family: monospace; }
+  li {
+    list-style: none;
+    float: left;
+    width: 330px;
+    margin-bottom: .5em; }
+    li .hover { margin-left: -4px; }
+    li img {
+      vertical-align: middle;
+      height: 22px;
+      width: 22px; }
+
+#content, #footer {
+  margin: 0 auto;
+  padding: .5em 1em;
+  max-width: 1024px; }
+  #footer {
+    margin: 0 -1em;
+    background: rgba(200,200,200,.2);
+    border-top: 3px dotted #ddd; }
+
+#description {
+  max-width: 80%;
+  margin: 0 0 1.5em 0;
+  font-size: 16px; }
+
+#share {
+  position: absolute;
+  top: 166px;
+  right: 0;
+  padding: 4px;
+  background: rgba(200,200,200,.2);
+  border: 2px dotted #ddd;
+  border-right: 0;
+  border-radius: 8px 0 0 8px; }
+  #share:hover > div { opacity: 1; }
+  #share > div {
+    height: 64px;
+    margin: 4px;
+    text-align: center;
+    opacity: .45; }
+    #share iframe { width: 50px; }
+
+@media screen and (max-width: 640px) {
+  #share {
+    position: static;
+    display: table;
+    width: 180px;
+    margin: 0 auto 2em auto;
+    background: none;
+    border: none;
+    opacity: 1; }
+    #share > div { float: left; }
+}
+
+#flash-test {
+  width: 1px;
+  height: 1px; }
+
+#github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+.jnotify-container {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 999; }
+  .jnotify-notification {
+    position: relative;
+    margin-bottom: .5em; }
+  .jnotify-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.33);
+    border-radius: 10px; }
+  .jnotify-message {
+    position: relative;
+    padding: .5em 1em;
+    color: #fff;
+    font: inherit; }
