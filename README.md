@@ -33,3 +33,4 @@ Do the fork and pull request dance.
 * [vinbarnes](https://github.com/vinbarnes)
 * [madasi](https://github.com/madasi)
 * [niclasgelin](https://github.com/niclasgelin)
+* [pykler](https://github.com/pykler)
