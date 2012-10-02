@@ -60,7 +60,8 @@ module Emoji
       [].tap do |rules|
         rules << %Q{
           .emoji {
-            display:inline-block;
+            float:left;
+            margin-right:.5em;
             width:#{@size}px;
             height:#{@size}px;
             background:transparent url(/graphics/#{digest_name}) 0 0 no-repeat;
