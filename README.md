@@ -3,7 +3,7 @@
 A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/),
 [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com) and [Turntable.fm](http://turntable.fm/).
 
-Check it out at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com).
+Check them out at our home page at (http://emoji-cheat-sheet.com).
 
 ### Contribute
 
