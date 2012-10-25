@@ -5,6 +5,8 @@ A one pager listing the different emoji emoticons supported on [Campfire](http:/
 
 Check them out at our home page at (http://emoji-cheat-sheet.com).
 
+__Want to add emojis your own projects?__ Check out: [github.com/github/gemoji](https://github.com/github/gemoji).
+
 ### Contribute
 
 Do the fork and pull request dance.
