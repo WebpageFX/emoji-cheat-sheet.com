@@ -1,17 +1,17 @@
-# emoji-cheat-sheet.com
+# :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
 A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/),
 [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com) and [Turntable.fm](http://turntable.fm/).
 
-Check them out at our home page at (http://emoji-cheat-sheet.com).
+:point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
 __Want to add emojis to your own projects?__ Check out: [github.com/github/gemoji](https://github.com/github/gemoji).
 
-### Contribute
+## Contribute
 
 Do the fork and pull request dance.
 
-#### Contributors
+### Contributors
 
 * [kennethreitz](https://github.com/kennethreitz)
 * [skiz](https://github.com/skiz)
