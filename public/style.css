@@ -31,14 +31,17 @@ ul {
       height: 22px;
       width: 22px; }
 
-#content, #footer {
+#content {
   margin: 0 auto;
-  padding: .5em 1em;
-  max-width: 1024px; }
+  padding: 0 30px; }
   #footer {
-    margin: 0 -1em;
+    padding: 8px 20px;
     background: rgba(200,200,200,.2);
-    border-top: 3px dotted #ddd; }
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd; }
 
 #description {
   max-width: 80%;
