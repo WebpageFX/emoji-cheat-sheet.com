@@ -1,15 +1,17 @@
-# emoji-cheat-sheet.com
+# :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
 A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/),
-[GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com) and [Turntable.fm](http://turntable.fm/).
+[GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/) and [Flowdock](https://www.flowdock.com/).
 
-Check it out at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com).
+:point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
-### Contribute
+__Want to add emojis to your own projects?__ Check out: [github.com/github/gemoji](https://github.com/github/gemoji).
+
+## Contribute
 
 Do the fork and pull request dance.
 
-#### Contributors
+### Contributors
 
 * [kennethreitz](https://github.com/kennethreitz)
 * [skiz](https://github.com/skiz)
@@ -31,3 +33,8 @@ Do the fork and pull request dance.
 * [talltroym](https://github.com/talltroym)
 * [juliamae](https://github.com/juliamae)
 * [vinbarnes](https://github.com/vinbarnes)
+* [madasi](https://github.com/madasi)
+* [niclasgelin](https://github.com/niclasgelin)
+* [pykler](https://github.com/pykler)
+* [arunagw](https://github.com/arunagw)
+* [lawa](https://github.com/lawa)
