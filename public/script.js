@@ -79,4 +79,15 @@ $(function() {
 
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(po, s);
+
+
+  var lists = ["people", "nature", "objects", "places", "symbols"]
+  for (var i = lists.length - 1; i >= 0; i--) {
+    new List("content", {
+      valueNames: ['name'],
+      listClass: lists[i]
+    });
+  };
+
+  $("input.search").focus();
 });
