@@ -38,3 +38,4 @@ Do the fork and pull request dance.
 * [pykler](https://github.com/pykler)
 * [arunagw](https://github.com/arunagw)
 * [lawa](https://github.com/lawa)
+* [himynameisjonas](https://github.com/himynameisjonas)
