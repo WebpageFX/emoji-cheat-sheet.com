@@ -54,10 +54,11 @@ return obj;};var parseActiveXVersion=function(str){var versionArray=str.split(",
 
 $(function() {
   if (FlashDetect.installed) {
-    clip_flash_block_detect = new ZeroClipboard.Client();
+    var reglue;
+    var clip_flash_block_detect = new ZeroClipboard.Client();
     clip_flash_block_detect.glue(document.getElementById('flash-test'));
 
-    clip = new ZeroClipboard.Client();
+    var clip = new ZeroClipboard.Client();
     clip.reposition(document.getElementById('flash-test'));
     clip.receiveEvent('mouseover', null);
 
@@ -86,21 +87,27 @@ $(function() {
     });
   }
 
+  var listIds = ["people", "nature", "objects", "places", "symbols"];
+  var lists = [];
+  for (var i = listIds.length - 1; i >= 0; i--) {
+    lists[i] = new List("content", { valueNames: ['name'], listClass: listIds[i] });
+  };
+
+  $("#header .search").keyup(function(e) {
+    if (e.keyCode == 27) { // ESC
+      $(this).val('').blur();
+      for (var i = lists.length - 1; i >= 0; i--) {
+        lists[i].search('');
+      };
+    }
+  });
+  $("#header .search").focus();
+
   var po = document.createElement('script');
   po.type = 'text/javascript';
   po.async = true;
   po.src = 'https://apis.google.com/js/plusone.js';
-
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(po, s);
 
-  var lists = ["people", "nature", "objects", "places", "symbols"]
-  for (var i = lists.length - 1; i >= 0; i--) {
-    new List("content", {
-      valueNames: ['name'],
-      listClass: lists[i]
-    });
-  };
-
-  $("input.search").focus();
 });
