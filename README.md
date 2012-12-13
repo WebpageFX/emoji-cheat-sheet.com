@@ -40,3 +40,4 @@ Do the fork and pull request dance.
 * [lawa](https://github.com/lawa)
 * [himynameisjonas](https://github.com/himynameisjonas)
 * [martinlissmyr](https://github.com/martinlissmyr)
+* [joeshaw](https://github.com/joeshaw)
