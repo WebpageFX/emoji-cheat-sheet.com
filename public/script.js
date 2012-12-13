@@ -90,7 +90,7 @@ $(function() {
   var listIds = ["people", "nature", "objects", "places", "symbols"];
   var lists = [];
   for (var i = listIds.length - 1; i >= 0; i--) {
-    lists[i] = new List("content", { valueNames: ['name'], listClass: listIds[i] });
+    lists[i] = new List("content", { valueNames: ['name'], listClass: listIds[i], page: 1000 });
   };
 
   $("#header .search").keyup(function(e) {
