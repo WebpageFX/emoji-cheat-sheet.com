@@ -5,7 +5,7 @@ A one pager listing the different emoji emoticons supported on [Campfire](http:/
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
-__Want to add emojis to your own projects?__ Check out: [github.com/github/gemoji](https://github.com/github/gemoji).
+__Want to add emojis to your own projects?__ Check out: [github.com/github/gemoji](https://github.com/github/gemoji) or [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js).
 
 ## Contribute
 
@@ -38,3 +38,4 @@ Do the fork and pull request dance.
 * [pykler](https://github.com/pykler)
 * [arunagw](https://github.com/arunagw)
 * [lawa](https://github.com/lawa)
+* [hassankhan](https://github.com/hassankhan)
