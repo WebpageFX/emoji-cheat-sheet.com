@@ -41,3 +41,4 @@ Do the fork and pull request dance.
 * [himynameisjonas](https://github.com/himynameisjonas)
 * [martinlissmyr](https://github.com/martinlissmyr)
 * [hassankhan](https://github.com/hassankhan)
+* [leereilly](https://github.com/leereilly)
