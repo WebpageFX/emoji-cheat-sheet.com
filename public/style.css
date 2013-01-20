@@ -1,3 +1,7 @@
+*::selection,*::-moz-selection {
+  text-shadow: none;
+  background-color: rgba(65,131,196,0.4) }
+
 html {
   color: #444;
   font-family: "Helvetica Neue", helvetica, arial, sans-serif;

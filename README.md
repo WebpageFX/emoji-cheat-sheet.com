@@ -13,6 +13,7 @@ Do the fork and pull request dance.
 
 ### Contributors
 
+* [santosh](https://github.com/santosh)
 * [kennethreitz](https://github.com/kennethreitz)
 * [skiz](https://github.com/skiz)
 * [jstorimer](https://github.com/jstorimer)
