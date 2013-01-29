@@ -44,3 +44,4 @@ Do the fork and pull request dance.
 * [leereilly](https://github.com/leereilly)
 * [drewtempelmeyer](https://github.com/drewtempelmeyer)
 * [tricknotes](https://github.com/tricknotes)
+* [bitboxer](https://github.com/bitboxer)
