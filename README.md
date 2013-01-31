@@ -5,7 +5,11 @@ A one pager listing the different emoji emoticons supported on [Campfire](http:/
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
-__Want to add emojis to your own projects?__ Check out: [github.com/github/gemoji](https://github.com/github/gemoji) or [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js).
+## Want to add emojis to your projects?
+
+* Ruby – [github.com/github/gemoji](https://github.com/github/gemoji)
+* Javascript – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
+* Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
 
 ## Contribute
 
