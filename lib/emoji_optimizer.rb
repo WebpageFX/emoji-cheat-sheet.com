@@ -11,9 +11,10 @@ module Emoji
 
     def initialize options = {}
       @size    = options.delete(:size) { 22 }
-      @padding = options.delete(:padding) { 5 }
+      @padding = options.delete(:padding) { 2 }
       @source = Source.new 'public/index.html'
       @sprite = Sprite.new @source.emoji_paths, @size, @padding
+      @retina_sprite = Sprite.new @source.emoji_paths, @size*2, @padding*2
     end
 
     def optimize! &block
@@ -22,6 +23,8 @@ module Emoji
 
       puts " ** Generating emoji sprite image #{sprite_path}"
       if @sprite.generate sprite_path
+        puts " ** Generating emoji retina sprite image #{retina_sprite_path}"
+        @retina_sprite.generate retina_sprite_path
         puts " ** Generating css and updating markup"
         generate_and_save
       else
@@ -48,12 +51,14 @@ module Emoji
       File.open('public/style.css', 'a') { |f| f.puts css_rules.join("\n") }
       File.open('public/index.html','w') { |f| f.write @source.to_html }
       FileUtils.mv sprite_path, "public/graphics/#{digest_name}"
+      FileUtils.mv retina_sprite_path, "public/graphics/#{retina_digest_name}"
     end
 
     def cleanup
       FileUtils.mv File.join(Emoji.tmp_dir, 'index.html'), 'public/index.html'
       FileUtils.mv File.join(Emoji.tmp_dir, 'style.css'),  'public/style.css'
       FileUtils.rm_f "public/graphics/#{@digest_name}"
+      FileUtils.rm_f "public/graphics/#{@retina_digest_name}"
     end
 
     def css_rules
@@ -64,7 +69,23 @@ module Emoji
             margin-right:.5em;
             width:#{@size}px;
             height:#{@size}px;
-            background:transparent url(/graphics/#{digest_name}) 0 0 no-repeat;
+          }
+          @media all and (-webkit-min-device-pixel-ratio: 1),
+                 all and (-moz-min-device-pixel-ratio: 1),
+                 all and (-o-min-device-pixel-ratio: 1),
+                 all and (min-device-pixel-ratio: 1) {
+            .emoji {
+              background:transparent url(/graphics/#{digest_name}) 0 0 no-repeat;
+            }
+          }
+          @media all and (-webkit-min-device-pixel-ratio: 1.5),
+                 all and (-moz-min-device-pixel-ratio: 1.5),
+                 all and (-o-min-device-pixel-ratio: 3/2),
+                 all and (min-device-pixel-ratio: 1.5) {
+            .emoji {
+              background:transparent url(/graphics/#{retina_digest_name}) 0 0 no-repeat;
+              background-size: #{(@size+@padding*2)*@source.emoji_paths.size}px #{@size}px;
+            }
           }
         }
         @source.emojis.size.times do |index|
@@ -92,8 +113,16 @@ module Emoji
       @sprite_path ||= File.join Emoji.tmp_dir, 'sprite.png'
     end
 
+    def retina_sprite_path
+      @retina_sprite_path ||= File.join Emoji.tmp_dir, 'sprite@2x.png'
+    end
+
     def digest_name
       @digest_name ||= "sprite_%s.png" % Digest::MD5.hexdigest( File.read(sprite_path) )
+    end
+
+    def retina_digest_name
+      @retina_digest_name ||= "sprite_%s@2x.png" % Digest::MD5.hexdigest( File.read(retina_sprite_path) )
     end
 
   end
