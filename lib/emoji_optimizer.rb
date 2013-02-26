@@ -71,7 +71,7 @@ module Emoji
             height:#{@size}px;
           }
           @media all and (-webkit-min-device-pixel-ratio: 1),
-                 all and (-moz-min-device-pixel-ratio: 1),
+                 all and (min--moz-device-pixel-ratio: 1),
                  all and (-o-min-device-pixel-ratio: 1),
                  all and (min-device-pixel-ratio: 1) {
             .emoji {
@@ -79,7 +79,7 @@ module Emoji
             }
           }
           @media all and (-webkit-min-device-pixel-ratio: 1.5),
-                 all and (-moz-min-device-pixel-ratio: 1.5),
+                 all and (min--moz-device-pixel-ratio: 1.5),
                  all and (-o-min-device-pixel-ratio: 3/2),
                  all and (min-device-pixel-ratio: 1.5) {
             .emoji {
