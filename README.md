@@ -50,3 +50,4 @@ Do the fork and pull request dance.
 * [tricknotes](https://github.com/tricknotes)
 * [bitboxer](https://github.com/bitboxer)
 * [mattrobenolt](https://github.com/mattrobenolt)
+* [wdaher](https://github.com/wdaher)
