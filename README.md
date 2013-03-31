@@ -1,7 +1,7 @@
 # :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
 A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/),
-[GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/) and [Kandan](http://kandanapp.com).
+[GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [Kandan](http://kandanapp.com) and [andbang](http://next.andbang.com).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
@@ -9,6 +9,7 @@ A one pager listing the different emoji emoticons supported on [Campfire](http:/
 
 * Ruby – [github.com/github/gemoji](https://github.com/github/gemoji)
 * Javascript – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
+* Alt. JS version (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
 
 ## Contribute
