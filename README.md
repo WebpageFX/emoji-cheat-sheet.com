@@ -52,3 +52,6 @@ Do the fork and pull request dance.
 * [bitboxer](https://github.com/bitboxer)
 * [mattrobenolt](https://github.com/mattrobenolt)
 * [wdaher](https://github.com/wdaher)
+* [HenrikJoreteg](https://github.com/HenrikJoreteg)
+* [KamranMackey](https://github.com/KamranMackey)
+* [fusion94](https://github.com/fusion94)
