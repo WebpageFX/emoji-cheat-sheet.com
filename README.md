@@ -54,3 +54,4 @@ Do the fork and pull request dance.
 * [HenrikJoreteg](https://github.com/HenrikJoreteg)
 * [KamranMackey](https://github.com/KamranMackey)
 * [fusion94](https://github.com/fusion94)
+* [streeter](https://github.com/streeter)
