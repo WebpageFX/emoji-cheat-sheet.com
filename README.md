@@ -1,7 +1,7 @@
 # :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
 A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/),
-[GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Piki](http://piki.fm), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com) and [andbang](http://next.andbang.com).
+[GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Piki](http://piki.fm), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com) and [Trello](https://trello.com/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
@@ -55,3 +55,4 @@ Do the fork and pull request dance.
 * [HenrikJoreteg](https://github.com/HenrikJoreteg)
 * [KamranMackey](https://github.com/KamranMackey)
 * [fusion94](https://github.com/fusion94)
+* [streeter](https://github.com/streeter)
