@@ -55,3 +55,4 @@ Do the fork and pull request dance.
 * [KamranMackey](https://github.com/KamranMackey)
 * [fusion94](https://github.com/fusion94)
 * [streeter](https://github.com/streeter)
+* [take](https://github.com/take)
