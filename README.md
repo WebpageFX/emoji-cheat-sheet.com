@@ -1,6 +1,6 @@
 # :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
-A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/), [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Piki](http://piki.fm), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com), [Trello](https://trello.com/), [Hall](https://hall.com/), [Qiita](http://qiita.com) and [Zendesk](http://zendesk.com).
+A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/), [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Piki](http://piki.fm), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com), [Trello](https://trello.com/), [Hall](https://hall.com/), [Qiita](http://qiita.com), [Trello](http://trello.com) and [Zendesk](http://zendesk.com).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
@@ -56,3 +56,4 @@ Do the fork and pull request dance.
 * [fusion94](https://github.com/fusion94)
 * [streeter](https://github.com/streeter)
 * [take](https://github.com/take)
+* [jamescmartinez](https://github.com/jamescmartinez)
