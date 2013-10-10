@@ -1,6 +1,6 @@
 # :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
-A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/), [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Piki](http://piki.fm), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com), [Trello](https://trello.com/), [Hall](https://hall.com/), [Qiita](http://qiita.com), [Trello](http://trello.com), [Zendesk](http://zendesk.com) and [Ruby-China](http://ruby-china.org/).
+A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/), [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com), [Trello](https://trello.com/), [Hall](https://hall.com/), [Qiita](http://qiita.com), [Trello](http://trello.com), [Zendesk](http://zendesk.com) and [Ruby-China](http://ruby-china.org/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
