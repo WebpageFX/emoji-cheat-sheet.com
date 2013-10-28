@@ -80,13 +80,17 @@ module Emoji
             }
           }
           @media all and (-webkit-min-device-pixel-ratio: 1.5),
-                 all and (min--moz-device-pixel-ratio: 1.5),
                  all and (-o-min-device-pixel-ratio: 3/2),
                  all and (min-device-pixel-ratio: 1.5),
                  all and (min-resolution: 144dpi) {
             .emoji {
               background:transparent url(/graphics/#{retina_digest_name}) 0 0 no-repeat;
               background-size: #{(@size+@padding*2)*@source.emoji_paths.size}px #{@size}px;
+            }
+          }
+          @-moz-document url-prefix() {
+            .emoji {
+              background:transparent url(/graphics/#{digest_name}) 0 0 no-repeat;
             }
           }
         }
