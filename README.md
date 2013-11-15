@@ -10,6 +10,7 @@ A one pager listing the different emoji emoticons supported on [Campfire](http:/
 * Javascript – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
 * Alt. JS version (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
+* Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
 
 ## Contribute
 
