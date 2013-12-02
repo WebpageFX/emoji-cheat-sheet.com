@@ -1,6 +1,6 @@
 # :sparkles: :heart: Emoji-Cheat-Sheet.com :heart: :sparkles:
 
-A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/), [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com), [Trello](https://trello.com/), [Hall](https://hall.com/), [Qiita](http://qiita.com), [Trello](http://trello.com), [Zendesk](http://zendesk.com), [Ruby-China](http://ruby-china.org/), [Grove](https://grove.io/) and [Idobata](https://idobata.io/).
+A one pager listing the different emoji emoticons supported on [Campfire](http://campfirenow.com/), [GitHub](http://github.com/), [Basecamp Next](http://37signals.com/basecampnext/), [Teambox](http://teambox.com), [Turntable.fm](http://turntable.fm/), [Plug.dj](http://plug.dj), [Flowdock](https://www.flowdock.com/), [Sprint.ly](https://sprint.ly/), [GitLab](http://gitlab.org), [Kandan](http://kandanapp.com), [andbang](http://next.andbang.com), [Trello](https://trello.com/), [Hall](https://hall.com/), [Qiita](http://qiita.com), [Trello](http://trello.com), [Zendesk](http://zendesk.com), [Ruby-China](http://ruby-china.org/), [Grove](https://grove.io/) and [Idobata](https://idobata.io/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
@@ -59,3 +59,4 @@ Do the fork and pull request dance.
 * [take](https://github.com/take)
 * [jamescmartinez](https://github.com/jamescmartinez)
 * [nicholasserra](https://github.com/nicholasserra)
+* [MichaelBanks](https://github.com/MichaelBanks
