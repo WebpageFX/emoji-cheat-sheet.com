@@ -7,6 +7,7 @@ A one pager listing the different emoji emoticons supported on [Campfire](http:/
 ## Want to add emojis to your projects?
 
 * Ruby – [github.com/github/gemoji](https://github.com/github/gemoji), [github.com/jsw0528/rails_emoji](https://github.com/jsw0528/rails_emoji)
+* Javascript – [github.com/kof/emoticons](https://github.com/kof/emoticons)
 * Javascript – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
 * Alt. JS version (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
