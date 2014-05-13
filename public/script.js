@@ -121,3 +121,7 @@ $(function() {
   s.parentNode.insertBefore(po, s);
 
 });
+
+function play(sound) {
+  new Audio("https://emoji-cheat-sheet.campfirenow.com/sounds/" + sound + ".mp3").play();
+}

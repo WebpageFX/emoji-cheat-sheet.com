@@ -138,3 +138,10 @@ ul {
     padding: .5em 1em;
     color: #fff;
     font: inherit; }
+
+#campfire-sounds > li > a {
+  text-decoration: none; 
+  font-size: 12px; }
+
+#campfire-sounds > li > div {
+  display: inline-block; }
