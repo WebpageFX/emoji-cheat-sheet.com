@@ -120,8 +120,29 @@ $(function() {
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(po, s);
 
-});
+  function play(sound) {
+    new Audio("https://emoji-cheat-sheet.campfirenow.com/sounds/" + sound + ".mp3").play();
+  }
 
-function play(sound) {
-  new Audio("https://emoji-cheat-sheet.campfirenow.com/sounds/" + sound + ".mp3").play();
-}
+  function canPlayMp3() {
+    var audio = new Audio(),
+      result = audio.canPlayType("audio/mpeg");
+
+    if(result != "") {
+      return true;
+    }
+  }
+
+  if (canPlayMp3() == true) {
+    $("#campfire-sounds li").prepend('<a href="#" class="play">&#9658; </a>');
+    $("#campfire-sounds .play").on("click", function(e){
+      e.preventDefault();
+
+      var $el = $(this),
+        soundContainer = $el.find("~ div").first();
+        soundName = $(soundContainer).data("sound");
+
+      play(soundName);
+    });
+  }
+});
