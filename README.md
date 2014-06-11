@@ -28,7 +28,8 @@ A one pager listing the different emoji emoticons supported on
 [Kato](https://kato.im),
 [Reportedly](http://reportedly.co),
 [Cheerful Ghost](http://cheerfulghost.com)
-& [IRCCloud](https://www.irccloud.com).
+[IRCCloud](https://www.irccloud.com)
+& [Dashcube](https://dashcube.com).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
