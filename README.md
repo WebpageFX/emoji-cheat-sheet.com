@@ -8,7 +8,6 @@ A one pager listing the different emoji emoticons supported on
 [Plug.dj](http://plug.dj/),
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
-[GitLab](http://gitlab.org/),
 [Redmine](https://github.com/tmy/redmine_gemoji),
 [Kandan](http://kandanapp.com/),
 [andbang](http://next.andbang.com/),
