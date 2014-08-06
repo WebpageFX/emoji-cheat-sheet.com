@@ -29,7 +29,8 @@ A one pager listing the different emoji emoticons supported on
 [Cheerful Ghost](http://cheerfulghost.com),
 [IRCCloud](https://www.irccloud.com),
 [Dashcube](https://dashcube.com),
-& [MyVideoGameList](http://myvideogamelist.com).
+[MyVideoGameList](http://myvideogamelist.com),
+& [Subrosa](https://subrosa.io).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
