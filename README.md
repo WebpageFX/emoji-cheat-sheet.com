@@ -43,6 +43,7 @@ A one pager listing the different emoji emoticons supported on
 * Alt. JS version (+node.js) - [github.com/frissdiegurke/emoji-parser](https://github.com/frissdiegurke/emoji-parser)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
 * Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
+* Python - [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji)
 
 ## Contribute
 
