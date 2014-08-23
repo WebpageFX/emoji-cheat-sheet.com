@@ -4,6 +4,7 @@ A one pager listing the different emoji emoticons supported on
 [Campfire](http://campfirenow.com/),
 [GitHub](http://github.com/),
 [Basecamp Next](http://37signals.com/basecampnext/),
+[Bonusly](https://bonus.ly)
 [Redbooth](http://redbooth.com/),
 [Plug.dj](http://plug.dj/),
 [Flowdock](https://www.flowdock.com/),
