@@ -4,16 +4,18 @@ A one pager listing the different emoji emoticons supported on
 [Campfire](http://campfirenow.com/),
 [GitHub](http://github.com/),
 [Basecamp Next](http://37signals.com/basecampnext/),
-[Bonusly](https://bonus.ly)
 [Redbooth](http://redbooth.com/),
-[Plug.dj](http://plug.dj/),
+[Trac](http://trac-hacks.org/wiki/TracEmojiPlugin),
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
-[Redmine](https://github.com/tmy/redmine_gemoji),
 [Kandan](http://kandanapp.com/),
-[andbang](http://next.andbang.com/),
+[Textbox.io](https://textbox.io/),
+[Kippt](http://kippt.com),
+[Redmine](https://github.com/tmy/redmine_gemoji),
+[JabbR](http://about.jabbr.net/),
 [Trello](https://trello.com/),
 [Hall](https://hall.com/),
+[Plug.dj](http://plug.dj/),
 [Qiita](http://qiita.com/),
 [Zendesk](http://zendesk.com/),
 [Ruby-China](http://ruby-china.org/),
@@ -22,16 +24,21 @@ A one pager listing the different emoji emoticons supported on
 [NodeBB Forums](https://nodebb.org),
 [Slack](https://slack.com),
 [Streamup](https://streamup.com/),
-[Quip](https://quip.com),
 [OrganisedMinds](http://organisedminds.com),
 [Hackpad](https://hackpad.com),
+[Cryptbin](https://cryptbin.com/),
 [Kato](https://kato.im),
 [Reportedly](http://reportedly.co),
 [Cheerful Ghost](http://cheerfulghost.com),
 [IRCCloud](https://www.irccloud.com),
 [Dashcube](https://dashcube.com),
 [MyVideoGameList](http://myvideogamelist.com),
-& [Subrosa](https://subrosa.io).
+[Subrosa](https://subrosa.io),
+[Sococo](https://www.sococo.com),
+[Quip](https://quip.com),
+[And Bang](https://andbang.com)
+[Bonusly](https://bonus.ly),
+& [Discourse](https://discourse.org).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
@@ -97,3 +104,4 @@ Do the fork and pull request dance.
 * [GrahamCampbell](https://github.com/GrahamCampbell)
 * [alirayl](https://github.com/alirayl)
 * [hnrc](https://github.com/hnrc)
+* [awesomerobot](https://github.com/awesomerobot)
