@@ -63,4 +63,4 @@ A one pager listing the different emoji emoticons supported on
 
 ### Contributors
 
-See [here](https://github.com/arvida/emoji-cheat-sheet.com/graphs/contributors) all contributors.
+Check out all the super awesome contributors at [the contributors page](https://github.com/arvida/emoji-cheat-sheet.com/graphs/contributors). :sparkling_heart:
