@@ -38,7 +38,8 @@ A one pager listing the different emoji emoticons supported on
 [Quip](https://quip.com),
 [And Bang](https://andbang.com)
 [Bonusly](https://bonus.ly),
-& [Discourse](https://discourse.org).
+[Discourse](https://discourse.org),
+& [Ello](https://ello.co).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
