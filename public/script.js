@@ -42,9 +42,62 @@ return obj;};var parseActiveXVersion=function(str){var versionArray=str.split(",
  * Emoji cheat sheet
  */
 
-$(function() {
+$(function ()
+{
+  // Render the emojis that are present in the local storage as of loading.
+  function refreshMostOftenCopiedEmojis()
+  {
+    var list = $("#mostOftenCopiedEmojis ul");
+    list.html(null);
+    var emojis = [];
+    for (var i = 0; i < localStorage.length; i++)
+    {
+      var key = localStorage.key(i);
+      var item = localStorage.getItem(key);
+      emojis.push({ code: key, count: item });
+    }
+
+    emojis.sort(function(a, b) { return a.count == b.count ? 0 : (a.count > b.count ? 1 : -1); });
+
+    for (var i = 0; i < emojis.length; i++)
+    {
+      var emoji = emojis[i];
+      var code = emoji.code.substr(1, emoji.code.length - 2);
+      list
+        .append($("<li>")
+        .html(
+          "<li><div><img src='graphics/emojis/" +
+          code +
+          ".png' /> :<span class='name'>" + code + "</span>:</div>(" +
+          emoji.count +
+          "x) - <a class='forgetLink'>forget</a></li>"));
+    }
+
+    $(".forgetLink").click(function ()
+    {
+      var code = $(this).parent().find(".name").text();
+      // No need to check for local storage from the handler - wouldn't be populated in a first place.
+      window.localStorage.removeItem(':' + code + ':');
+      refreshMostOftenCopiedEmojis();
+    });
+    $("#mostOftenCopiedEmojis").toggle(localStorage.length > 0);
+  }
+
+  // Courtesy of http://diveintohtml5.info/storage.html
+  function supports_html5_storage()
+  {
+    try
+    {
+      return 'localStorage' in window && window['localStorage'] !== null;
+    } catch (e)
+    {
+      return false;
+    }
+  }
+
   if (FlashDetect.installed) {
     var reglue;
+    var isStorageSupported = supports_html5_storage();
     var clip_flash_block_detect = new ZeroClipboard.Client();
     clip_flash_block_detect.glue(document.getElementById('flash-test'));
 
@@ -55,7 +108,16 @@ $(function() {
     $.jnotify.setup({ 'delay': 1000, 'fadeSpeed': 500 });
 
     clip.setHandCursor(true);
-    clip.addEventListener('complete', function(client, text) {
+    clip.addEventListener('complete', function (client, text)
+    {
+      // TODO: Add a fallback to cookies if local storage is not available.
+      if (isStorageSupported)
+      {
+        var currentCount = window.localStorage.getItem(text) | 0;
+        window.localStorage.setItem(text, currentCount + 1);
+        refreshMostOftenCopiedEmojis();
+      }
+
       $.jnotify('Copied <code>' + text + '</code>');
       _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
     });
@@ -75,6 +137,8 @@ $(function() {
         }
       } catch(e) { }
     });
+
+    refreshMostOftenCopiedEmojis();
   }
 
   function isElementMatching(element, needle) {

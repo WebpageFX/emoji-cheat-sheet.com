@@ -145,3 +145,5 @@ ul {
 
 #campfire-sounds > li > div {
   display: inline-block; }
+
+.forgetLink{cursor: pointer;}
