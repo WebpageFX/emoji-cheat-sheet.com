@@ -78,7 +78,7 @@ $(function ()
 
     emojis.sort(function (a, b)
     {
-      return a.count == b.count ? 0 : (a.count > b.count ? 1 : -1);
+      return a.count == b.count ? 0 : (a.count > b.count ? -1 : 1);
     });
 
     for (var i = 0; i < Math.min(emojis.length, 5) ; i++)
