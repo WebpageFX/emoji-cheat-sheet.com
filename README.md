@@ -36,7 +36,7 @@ A one pager listing the different emoji emoticons supported on
 [Subrosa](https://subrosa.io),
 [Sococo](https://www.sococo.com),
 [Quip](https://quip.com),
-[And Bang](https://andbang.com)
+[And Bang](https://andbang.com),
 [Bonusly](https://bonus.ly),
 [Discourse](https://discourse.org),
 [Ello](https://ello.co),
