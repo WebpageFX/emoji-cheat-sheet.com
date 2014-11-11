@@ -39,7 +39,7 @@ A one pager listing the different emoji emoticons supported on
 [And Bang](https://andbang.com)
 [Bonusly](https://bonus.ly),
 [Discourse](https://discourse.org),
-[Ello](https://ello.co).
+[Ello](https://ello.co),
 & [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
