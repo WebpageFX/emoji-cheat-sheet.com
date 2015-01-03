@@ -9,7 +9,7 @@ A one pager listing the different emoji emoticons supported on
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
 [Kandan](http://kandanapp.com/),
-[Textbox.io](https://textbox.io/),
+[Textbox.io](http://textbox.io/),
 [Kippt](http://kippt.com),
 [Redmine](https://github.com/tmy/redmine_gemoji),
 [JabbR](http://about.jabbr.net/),
