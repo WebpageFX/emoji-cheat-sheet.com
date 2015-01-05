@@ -36,11 +36,11 @@ A one pager listing the different emoji emoticons supported on
 [Subrosa](https://subrosa.io),
 [Sococo](https://www.sococo.com),
 [Quip](https://quip.com),
-[And Bang](https://andbang.com),
 [Bonusly](https://bonus.ly),
 [Discourse](https://discourse.org),
 [Ello](https://ello.co),
-& [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/).
+[Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/)
+& [DBook](https://www.DBook.org).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
