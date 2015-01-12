@@ -42,7 +42,8 @@ A one pager listing the different emoji emoticons supported on
 [Ello](https://ello.co),
 [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/),
 [ReadMe.io](https://readme.io),
-& [esa](https://esa.io/).
+[esa](https://esa.io/)
+& [DBook](https://www.DBook.org).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
