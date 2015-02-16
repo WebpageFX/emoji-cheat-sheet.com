@@ -44,8 +44,9 @@ A one pager listing the different emoji emoticons supported on
 [ReadMe.io](https://readme.io),
 [esa](https://esa.io/),
 [DBook](https://www.DBook.org),
-[Groups.io](https://groups.io)
-& [TeamworkChat](http://www.teamwork.com/chat).
+[Groups.io](https://groups.io),
+[TeamworkChat](http://www.teamwork.com/chat)
+& [Damn Bugs](https://bugtrack.in).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
