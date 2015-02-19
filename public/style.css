@@ -75,7 +75,8 @@ ul {
   margin: 16px 0 16px 32px;
   background-color: #fff;
   border: 1px solid #ededed;
-  border-radius: 3px; }
+  border-radius: 3px;
+  line-height: 1.4; }
   #carbonads a { text-decoration: none; }
   #carbonads a:hover { color: #000; }
   .carbon-text {
