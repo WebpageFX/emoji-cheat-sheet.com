@@ -163,4 +163,8 @@ $(function() {
     $("#campfire-sounds li").prepend('<a href="#" class="play">&#9658; </a>');
     $("#campfire-sounds .play").on("click", play);
   }
+
+  $("#description a").on("click", function() {
+    _gaq.push(["_trackEvent", "Services", "Click", $(this).text()]);
+  });
 });
