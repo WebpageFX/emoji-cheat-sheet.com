@@ -69,6 +69,25 @@ ul {
 
 #share > div { display: inline; }
 
+#carbonads {
+  float: right;
+  padding: 8px 8px 6px 8px;
+  margin: 16px 0 16px 32px;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 3px; }
+  #carbonads a { text-decoration: none; }
+  #carbonads a:hover { color: #000; }
+  .carbon-text {
+    display: block;
+    width: 130px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    color: #555; }
+  .carbon-poweredby {
+    font-size: 11px;
+    color: #999; }
+
 @media screen and (max-width: 640px) {
   .search {
     position: relative;
