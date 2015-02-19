@@ -42,7 +42,84 @@ return obj;};var parseActiveXVersion=function(str){var versionArray=str.split(",
  * Emoji cheat sheet
  */
 
-$(function() {
+$(function ()
+{
+  // Render the emojis that are present in the local storage as of loading.
+  function refreshMostOftenCopiedEmojis()
+  {
+    var list = $("#mostOftenCopiedEmojis ul");
+    list.html(null);
+    var emojis = [];
+    if (supports_html5_storage())
+    {
+      for (var i = 0; i < localStorage.length; i++)
+      {
+        var key = localStorage.key(i);
+        var item = localStorage.getItem(key);
+        emojis.push({ code: key, count: parseInt(item) });
+      }
+    }
+    else
+    {
+      document.cookie.split(";").forEach(function(c)
+      {
+        var parts = c.split("=");
+        var code = parts[0].trim();
+        if (code[0] == ':' && code[code.length - 1] == ':')
+        {
+          var count = parseInt(parts[1]);
+          if (count > 0)
+          {
+            emojis.push({ code: code, count: parseInt(count) });
+          }
+        }
+      });
+    }
+
+    emojis.sort(function (a, b)
+    {
+      return a.count == b.count ? 0 : (a.count > b.count ? -1 : 1);
+    });
+
+    for (var i = 0; i < Math.min(emojis.length, 5) ; i++)
+    {
+      var emoji = emojis[i];
+      var code = emoji.code.substr(1, emoji.code.length - 2);
+      list
+        .append($("<li style='position: relative;'>")
+        .html("<span class='count' style='position: absolute; top: 0; left: -15px; font-size: 8.25pt;'>" + emoji.count + "x</span><div><img src='graphics/emojis/" + code + ".png' /> :<span class='name'>" + code + "</span>:</div>"));
+    }
+
+    $(".forgetLink").click(function ()
+    {
+      var code = $(this).parent().find(".name").text();
+      if (supports_html5_storage())
+      {
+        window.localStorage.removeItem(':' + code + ':');
+      }
+      else
+      {
+        document.cookie = ":" + code + ":=0";
+      }
+
+      refreshMostOftenCopiedEmojis();
+    });
+
+    $("#mostOftenCopiedEmojis").toggle(emojis.length > 0);
+  }
+
+  // Courtesy of http://diveintohtml5.info/storage.html
+  function supports_html5_storage()
+  {
+    try
+    {
+      return 'localStorage' in window && window['localStorage'] !== null;
+    } catch (e)
+    {
+      return false;
+    }
+  }
+
   if (FlashDetect.installed) {
     var reglue;
     var clip_flash_block_detect = new ZeroClipboard.Client();
@@ -55,7 +132,29 @@ $(function() {
     $.jnotify.setup({ 'delay': 1000, 'fadeSpeed': 500 });
 
     clip.setHandCursor(true);
-    clip.addEventListener('complete', function(client, text) {
+    clip.addEventListener('complete', function (client, text)
+    {
+      if (supports_html5_storage())
+      {
+        var currentCount = window.localStorage.getItem(text) | 0;
+        window.localStorage.setItem(text, currentCount + 1);
+      }
+      else
+      {
+        var currentCount = 0;
+        document.cookie.split(';').forEach(function (c)
+        {
+          var parts = c.split('=');
+          if (parts[0].trim() == text)
+          {
+            currentCount = parseInt(parts[1]);
+          }
+        });
+        document.cookie = text + '=' + (currentCount + 1);
+      }
+
+      refreshMostOftenCopiedEmojis();
+
       $.jnotify('Copied <code>' + text + '</code>');
       _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
     });
@@ -74,6 +173,29 @@ $(function() {
           clip.receiveEvent('mouseover', null);
         }
       } catch(e) { }
+    });
+
+    refreshMostOftenCopiedEmojis();
+    $("#eraseLink").click(function()
+    {
+      if (supports_html5_storage())
+      {
+        window.localStorage.clear();
+      }
+      else
+      {
+        document.cookie.split(";").forEach(function(c)
+        {
+          var parts = c.split("=");
+          var code = parts[0].trim();
+          if (code[0] == ':' && code[code.length - 1] == ':')
+          {
+            document.cookie = code + "=0; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+          }
+        });
+      }
+
+      refreshMostOftenCopiedEmojis();
     });
   }
 
