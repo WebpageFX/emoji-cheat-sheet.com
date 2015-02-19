@@ -3,7 +3,7 @@ html {
   font-family: "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  background: url(graphics/stucco.png); }
+  background: #fefefe; }
 
 h1 {
   margin: 0;
@@ -12,9 +12,7 @@ h1 {
   text-transform: uppercase;
   font-weight: normal; }
 
-a {
-  color: inherit;
-  font-weight: bold; }
+a { color: inherit; }
   a:hover { color: #999; }
 
 ul {
@@ -36,7 +34,6 @@ ul {
   margin: 0 auto;
   padding: 0 30px; }
   #header {
-    max-width: 80%;
     overflow: hidden;
     zoom: 1;
     position: relative;
@@ -45,10 +42,8 @@ ul {
   #description {
     border-top: 1px solid #fff;
     font-weight: 300;
-    max-width: 80%;
-    padding: 13px 0;
-    margin: 0 0 1.5em 0;
-    font-size: 16px; }
+    margin: 12px 0 0 0; }
+  #description a { font-weight: bold; }
   #footer {
     padding: 8px 20px;
     background: rgba(200,200,200,.2);
@@ -72,36 +67,12 @@ ul {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(82, 168, 236, 0.3); }
   .search:-moz-placeholder { color: #a1a1a1; }
 
-#share {
-  position: absolute;
-  top: 166px;
-  right: 0;
-  padding: 4px;
-  background: rgba(200,200,200,.2);
-  border: 2px dotted #ddd;
-  border-right: 0;
-  border-radius: 8px 0 0 8px; }
-  #share:hover > div { opacity: 1; }
-  #share > div {
-    height: 64px;
-    margin: 4px;
-    text-align: center;
-    opacity: .45; }
-    #share iframe { width: 50px; }
+#share > div { display: inline; }
 
 @media screen and (max-width: 640px) {
   .search {
     position: relative;
     top: 0; }
-  #share {
-    position: static;
-    display: table;
-    width: 180px;
-    margin: 0 auto 2em auto;
-    background: none;
-    border: none;
-    opacity: 1; }
-    #share > div { float: left; }
 }
 
 #flash-test {
@@ -110,12 +81,6 @@ ul {
   left: 0;
   width: 1px;
   height: 1px; }
-
-#github {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0; }
 
 .jnotify-container {
   position: fixed;
@@ -140,7 +105,7 @@ ul {
     font: inherit; }
 
 #campfire-sounds > li > a {
-  text-decoration: none; 
+  text-decoration: none;
   font-size: 12px; }
 
 #campfire-sounds > li > div {
