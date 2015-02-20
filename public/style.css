@@ -40,9 +40,10 @@ ul {
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding: 10px 0 7px 0; }
   #description {
+    width: 85%;
+    margin: 12px 0 0 0;
     border-top: 1px solid #fff;
-    font-weight: 300;
-    margin: 12px 0 0 0; }
+    font-weight: 300; }
   #description a { font-weight: bold; }
   #footer {
     padding: 8px 20px;
@@ -93,6 +94,7 @@ ul {
   .search {
     position: relative;
     top: 0; }
+  #description { width: 100%; }
 }
 
 #flash-test {
