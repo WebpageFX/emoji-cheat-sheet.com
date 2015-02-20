@@ -45,18 +45,19 @@ A one pager listing the different emoji emoticons supported on
 [esa](https://esa.io/),
 [DBook](https://www.DBook.org),
 [Groups.io](https://groups.io),
-[TeamworkChat](http://www.teamwork.com/chat)
-& [Damn Bugs](https://bugtrack.in).
+[TeamworkChat](http://www.teamwork.com/chat),
+[Damn Bugs](https://bugtrack.in)
+& [Let's Chat](https://sdelements.github.io/lets-chat).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
 ## Contributions wanted - help people in their search for emojis
 
-There is a feature in the cheat sheet that allows you to add synonyms (or alternative names) for each emoji. This is used when use the ”Instant Search” search field in the page top. 
+There is a feature in the cheat sheet that allows you to add synonyms (or alternative names) for each emoji. This is used when use the ”Instant Search” search field in the page top.
 
 You can see how this works in [public/index.html on line 143](https://github.com/arvida/emoji-cheat-sheet.com/blob/master/public/index.html#L143). Look for `data-alternative-name` on that line.
 
-Currently there are very few synonyms in the cheat sheet and it would be great to add more to make it easier to search. 
+Currently there are very few synonyms in the cheat sheet and it would be great to add more to make it easier to search.
 
 Feel inspired? Do a pull request and add a synonym for you favourite emoji or maybe animal to one of the animals. :heart_eyes:
 
