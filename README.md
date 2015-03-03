@@ -63,10 +63,10 @@ Feel inspired? Do a pull request and add a synonym for you favourite emoji or ma
 ## Want to add emojis to your projects?
 
 * Ruby – [github.com/github/gemoji](https://github.com/github/gemoji), [github.com/jsw0528/rails_emoji](https://github.com/jsw0528/rails_emoji)
-* Javascript – [github.com/kof/emoticons](https://github.com/kof/emoticons)
-* Javascript – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
-* Alt. JS version (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
-* Alt. JS version (+node.js) - [github.com/frissdiegurke/emoji-parser](https://github.com/frissdiegurke/emoji-parser)
+* Javascript (+node.js) – [github.com/kof/emoticons](https://github.com/kof/emoticons)
+* Javascript (+node.js) – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
+* Javascript (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
+* Javascript (+node.js) - [github.com/frissdiegurke/emoji-parser](https://github.com/frissdiegurke/emoji-parser)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
 * Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
 * Python - [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji)
