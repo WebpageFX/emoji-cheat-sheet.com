@@ -47,8 +47,9 @@ A one pager listing the different emoji emoticons supported on
 [Groups.io](https://groups.io),
 [TeamworkChat](http://www.teamwork.com/chat),
 [Damn Bugs](https://bugtrack.in),
-[Let's Chat](https://sdelements.github.io/lets-chat)
-& [Buildkite](https://buildkite.com).
+[Let's Chat](https://sdelements.github.io/lets-chat),
+[Buildkite](https://buildkite.com)
+& [IGDB.com](https://www.igdb.com/forums)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
