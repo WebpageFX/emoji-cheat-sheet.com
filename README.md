@@ -48,8 +48,10 @@ A one pager listing the different emoji emoticons supported on
 [TeamworkChat](http://www.teamwork.com/chat),
 [Damn Bugs](https://bugtrack.in),
 [Let's Chat](https://sdelements.github.io/lets-chat),
-[Buildkite](https://buildkite.com)
-& [IGDB.com](https://www.igdb.com/forums)
+[Buildkite](https://buildkite.com),
+[IGDB.com](https://www.igdb.com/forums),
+[ChatGrape](https://chatgrape.com),
+& [Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
