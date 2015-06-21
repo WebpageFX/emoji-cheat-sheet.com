@@ -51,7 +51,8 @@ A one pager listing the different emoji emoticons supported on
 [Buildkite](https://buildkite.com),
 [IGDB.com](https://www.igdb.com/forums),
 [ChatGrape](https://chatgrape.com),
-& [Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki)
+[Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki),
+& [Usersnap](https://usersnap.com)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
