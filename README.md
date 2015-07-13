@@ -60,7 +60,7 @@ A one pager listing the different emoji emoticons supported on
 
 There is a feature in the cheat sheet that allows you to add synonyms (or alternative names) for each emoji. This is used when use the ”Instant Search” search field in the page top.
 
-You can see how this works in [public/index.html on line 149](https://github.com/arvida/emoji-cheat-sheet.com/blob/master/public/index.html#L149). Look for `data-alternative-name` on that line.
+You can see how this works in [public/index.html on line 152](https://github.com/arvida/emoji-cheat-sheet.com/blob/master/public/index.html#L152). Look for `data-alternative-name` on that line.
 
 Currently there are very few synonyms in the cheat sheet and it would be great to add more to make it easier to search.
 
