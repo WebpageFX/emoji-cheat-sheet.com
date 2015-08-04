@@ -30,6 +30,12 @@ ul {
       height: 22px;
       width: 22px; }
 
+@media screen and (max-width: 640px) {
+  ul {
+    padding-left: 0; }
+    li { width: 100%; }
+}
+
 #content {
   margin: 0 auto;
   padding: 0 30px; }
