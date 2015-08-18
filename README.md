@@ -8,6 +8,7 @@ A one pager listing the different emoji emoticons supported on
 [Trac](http://trac-hacks.org/wiki/TracEmojiPlugin),
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
+[ChatGrape](https://chatgrape.com/),
 [Kandan](http://kandanapp.com/),
 [Textbox.io](http://textbox.io/),
 [Kippt](http://kippt.com),
