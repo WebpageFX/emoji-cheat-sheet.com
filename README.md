@@ -52,8 +52,7 @@ A one pager listing the different emoji emoticons supported on
 [IGDB.com](https://www.igdb.com/forums),
 [ChatGrape](https://chatgrape.com),
 [Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki),
-[Usersnap](https://usersnap.com),
-& [Discord](https://discordapp.com/)
+& [Usersnap](https://usersnap.com)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
