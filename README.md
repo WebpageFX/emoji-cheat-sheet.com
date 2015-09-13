@@ -53,7 +53,8 @@ A one pager listing the different emoji emoticons supported on
 [ChatGrape](https://chatgrape.com),
 [Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki),
 [Usersnap](https://usersnap.com),
-& [Discord](https://discordapp.com/)
+[Discord](https://discordapp.com/),
+& [Status Hero](https://statushero.com/)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
