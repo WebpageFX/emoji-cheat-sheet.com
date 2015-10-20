@@ -54,7 +54,8 @@ A one pager listing the different emoji emoticons supported on
 [Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki),
 [Usersnap](https://usersnap.com),
 [Discord](https://discordapp.com/),
-& [Status Hero](https://statushero.com/)
+[Status Hero](https://statushero.com/),
+& [Gitter](https://gitter.im/)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
