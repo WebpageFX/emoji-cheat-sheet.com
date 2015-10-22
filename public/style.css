@@ -15,6 +15,12 @@ h1 {
 a { color: inherit; }
   a:hover { color: #999; }
 
+@-webkit-keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 ul {
   display: table;
   padding: 0 0 1em 1.5em;
@@ -24,7 +30,37 @@ ul {
     float: left;
     width: 330px;
     margin-bottom: .5em; }
-    li .hover { margin-left: -4px; }
+    li div.hover .name,
+    li:hover div .name { 
+      color: #000;  
+      text-shadow: 0px 0px 2px #ccc; }
+      li div.hover:after,
+      li:hover div:after { 
+        font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+        content: 'copy'; 
+        margin-left: 5px;
+        padding: 4px;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #EEE;
+        background-image: linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
+        background-repeat: no-repeat;
+        border: 1px solid #D5D5D5; }
+      li div.copied:after { 
+        font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+        content: 'copied ✔'; 
+        margin-left: 5px;
+        padding: 4px;
+        color: #0B0;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #EEE;
+        background-image: linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
+        background-repeat: no-repeat;
+        border: 1px solid #D5D5D5;
+        -webkit-animation-duration: 1.5s;
+        -webkit-animation-name: fadeOut;
+        -webkit-animation-iteration-count : 1; }
     li img {
       vertical-align: middle;
       height: 22px;
