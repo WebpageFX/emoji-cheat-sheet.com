@@ -29,7 +29,8 @@ ul {
     list-style: none;
     float: left;
     width: 330px;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    cursor: pointer; }
     li div.hover .name,
     li:hover div .name { 
       color: #000;  
@@ -45,7 +46,9 @@ ul {
         background-color: #EEE;
         background-image: linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
         background-repeat: no-repeat;
-        border: 1px solid #D5D5D5; }
+        border: 1px solid #D5D5D5;
+        user-select: none;
+        -ms-user-select: none; }
       li div.copied:after { 
         font-family: "Helvetica Neue", helvetica, arial, sans-serif;
         content: 'copied ✔'; 
@@ -60,7 +63,7 @@ ul {
         border: 1px solid #D5D5D5;
         -webkit-animation-duration: 1.5s;
         -webkit-animation-name: fadeOut;
-        -webkit-animation-iteration-count : 1; }
+        -webkit-animation-iteration-count: 1; }
     li img {
       vertical-align: middle;
       height: 22px;
