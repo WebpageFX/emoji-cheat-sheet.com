@@ -15,6 +15,17 @@ h1 {
 a { color: inherit; }
   a:hover { color: #999; }
 
+@-webkit-keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 ul {
   display: table;
   padding: 0 0 1em 1.5em;
@@ -23,12 +34,52 @@ ul {
     list-style: none;
     float: left;
     width: 330px;
-    margin-bottom: .5em; }
-    li .hover { margin-left: -4px; }
+    margin-bottom: .5em;
+    cursor: pointer; }
+    li div.hover .name,
+    li:hover div .name { 
+      color: #000;  
+      text-shadow: 0px 0px 2px #ccc; }
+      li div:after {
+        font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+        margin-left: 5px;
+        padding: 4px;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #EEE;
+        background-image: linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
+        background-repeat: no-repeat;
+        border: 1px solid #D5D5D5;
+        user-select: none;
+        -ms-user-select: none; }
+      li div.clipboardError:after {
+        content: 'Could not copy emoji, your browser does not support it'; 
+        padding-right: 20px;
+        color: #B00;
+        background-image: url('graphics/emojis/mask.png'), linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
+        background-repeat: no-repeat, no-repeat;
+        background-position: right center, 0 0;
+        background-size: 17px 17px, auto;
+        -webkit-animation-duration: 1.5s;
+        -webkit-animation-name: fadeOut;
+        -webkit-animation-iteration-count: 1;
+        animation-duration: 6s;
+        animation-name: fadeOut;
+        animation-iteration-count: 1; }
+      li div.copied:after { 
+        content: 'copied ✔'; 
+        color: #0B0;
+        -webkit-animation-duration: 1.5s;
+        -webkit-animation-name: fadeOut;
+        -webkit-animation-iteration-count: 1; 
+        animation-duration: 1.5s;
+        animation-name: fadeOut;
+        animation-iteration-count: 1; }
     li img {
       vertical-align: middle;
       height: 22px;
-      width: 22px; }
+      width: 22px;
+      margin-right: 7px; }
 
 @media screen and (max-width: 640px) {
   ul {
@@ -109,28 +160,6 @@ ul {
   left: 0;
   width: 1px;
   height: 1px; }
-
-.jnotify-container {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  z-index: 999; }
-  .jnotify-notification {
-    position: relative;
-    margin-bottom: .5em; }
-  .jnotify-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.33);
-    border-radius: 10px; }
-  .jnotify-message {
-    position: relative;
-    padding: .5em 1em;
-    color: #fff;
-    font: inherit; }
 
 #campfire-sounds > li > a {
   text-decoration: none;
