@@ -34,9 +34,7 @@ $(document).ready(function() {
       $('ul').on('mouseover', 'div', function() {
         try {
           clipboardclient.clip(this);
-        } catch(e) {
-          console.log(e);
-        }
+        } catch(e) { }
       });
 
       clipboardclient.on('copy', function(evt) {
@@ -92,9 +90,7 @@ $(document).ready(function() {
           }
           selection.removeAllRanges();
         }
-      } catch(e) {
-        console.log(e);
-      }
+      } catch(e) { }
     });
   }
 
