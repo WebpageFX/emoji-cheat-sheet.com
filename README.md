@@ -67,7 +67,7 @@ You can see how this works in a snapshot of [public/index.html on line 154](http
 
 Currently there are very few synonyms in the cheat sheet and it would be great to add more to make it easier to search.
 
-Feel inspired? Do a pull request and add a synonym for you favourite emoji or maybe animal to one of the animals. :heart_eyes:
+Feel inspired? Do a pull request and add a synonym for your favourite emoji or maybe animal to one of the animals. :heart_eyes:
 
 ## Want to add emojis to your projects?
 
