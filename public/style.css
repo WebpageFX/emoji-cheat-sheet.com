@@ -17,12 +17,12 @@ a { color: inherit; }
 
 @-webkit-keyframes fadeOut {
     0% { opacity: 1; }
-    80% { opacity: 1; }
+    50% { opacity: 1; }
     100% { opacity: 0; }
 }
 @keyframes fadeOut {
     0% { opacity: 1; }
-    80% { opacity: 1; }
+    50% { opacity: 1; }
     100% { opacity: 0; }
 }
 
@@ -36,43 +36,30 @@ ul {
     width: 330px;
     margin-bottom: .5em;
     cursor: pointer; }
-    li div.hover .name,
-    li:hover div .name { 
-      color: #000;  
-      text-shadow: 0px 0px 2px #ccc; }
+    li:hover {
+      margin-left: -4px;
+      margin-right: 4px;
+    }
       li div:after {
         font-family: "Helvetica Neue", helvetica, arial, sans-serif;
         margin-left: 5px;
         padding: 4px;
         font-size: 11px;
         font-weight: bold;
-        background-color: #EEE;
-        background-image: linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
-        background-repeat: no-repeat;
-        border: 1px solid #D5D5D5;
         user-select: none;
         -ms-user-select: none; }
       li div.clipboardError:after {
-        content: 'Could not copy emoji, your browser does not support it'; 
+        content: 'Your browser does not support copy';
         padding-right: 20px;
         color: #B00;
-        background-image: url('graphics/emojis/mask.png'), linear-gradient(to bottom, #FCFCFC 0px, #EEE 100%);
-        background-repeat: no-repeat, no-repeat;
-        background-position: right center, 0 0;
-        background-size: 17px 17px, auto;
-        -webkit-animation-duration: 1.5s;
-        -webkit-animation-name: fadeOut;
-        -webkit-animation-iteration-count: 1;
         animation-duration: 6s;
         animation-name: fadeOut;
         animation-iteration-count: 1; }
-      li div.copied:after { 
-        content: 'copied ✔'; 
-        color: #0B0;
-        -webkit-animation-duration: 1.5s;
-        -webkit-animation-name: fadeOut;
-        -webkit-animation-iteration-count: 1; 
-        animation-duration: 1.5s;
+      li div.copied:after {
+        content: 'Copied';
+        color: #63bf8a;
+        overflow: hidden;
+        animation-duration: .8s;
         animation-name: fadeOut;
         animation-iteration-count: 1; }
     li img {

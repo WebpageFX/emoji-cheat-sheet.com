@@ -37,7 +37,7 @@ $(document).ready(function() {
         $(highlightedElement).addClass('copied');
         setTimeout(function(){
           $(highlightedElement).removeClass('copied');
-        },1500);
+        },800);
 
         _gaq.push(['_trackEvent', 'Emojis', 'Copy', text]);
       });
@@ -67,7 +67,7 @@ $(document).ready(function() {
             _gaq.push(['_trackEvent', 'Emojis', 'Copy', $(this).text().trim()]);
             setTimeout(function(){
               $(highlightedElement).removeClass('copied');
-            },1500);
+            },800);
           } else {
             // copying was not successfull or denied by the user or browser preferences
             // see Firefox about:config "dom.allow_cut_copy"
