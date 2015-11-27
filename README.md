@@ -55,6 +55,7 @@ A one pager listing the different emoji emoticons supported on
 [Usersnap](https://usersnap.com),
 [Discord](https://discordapp.com/),
 [Status Hero](https://statushero.com/),
+[Morfy](http://morfy.org/),
 & [Gitter](https://gitter.im/)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
