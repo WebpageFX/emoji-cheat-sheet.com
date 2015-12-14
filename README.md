@@ -15,7 +15,6 @@ A one pager listing the different emoji emoticons supported on
 [JabbR](http://about.jabbr.net/),
 [Trello](https://trello.com/),
 [Hall](https://hall.com/),
-[Plug.dj](http://plug.dj/),
 [Qiita](http://qiita.com/),
 [Zendesk](http://zendesk.com/),
 [Ruby-China](http://ruby-china.org/),
