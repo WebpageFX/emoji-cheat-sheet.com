@@ -56,7 +56,8 @@ A one pager listing the different emoji emoticons supported on
 [Discord](https://discordapp.com/),
 [Status Hero](https://statushero.com/),
 [Morfy](http://morfy.org/),
-& [Gitter](https://gitter.im/)
+[Gitter](https://gitter.im/),
+& [Mattermost](http://www.mattermost.org/)
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
