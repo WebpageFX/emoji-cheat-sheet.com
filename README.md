@@ -8,7 +8,7 @@ A one pager listing the different emoji emoticons supported on
 [Trac](http://trac-hacks.org/wiki/TracEmojiPlugin),
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
-[Kandan](http://kandanapp.com/),
+[Kandan](http://getkandan.com/),
 [Textbox.io](http://textbox.io/),
 [Kippt](http://kippt.com),
 [Redmine](https://github.com/tmy/redmine_gemoji),
