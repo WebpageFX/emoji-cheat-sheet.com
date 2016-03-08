@@ -56,7 +56,7 @@ A one pager listing the different emoji emoticons supported on
 [Status Hero](https://statushero.com/),
 [Morfy](http://morfy.org/),
 [Gitter](https://gitter.im/),
-[Yellow](https://github.com/datenstrom/yellow-plugins/tree/master/emojiawesome)
+[Yellow](http://datenstrom.se/yellow/)
 and [YouTube](https://youtube.com).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
