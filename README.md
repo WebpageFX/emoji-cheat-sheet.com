@@ -56,7 +56,9 @@ A one pager listing the different emoji emoticons supported on
 [Status Hero](https://statushero.com/),
 [Morfy](http://morfy.org/),
 [Gitter](https://gitter.im/),
-& [Mattermost](http://www.mattermost.org/)
+[Yellow](http://datenstrom.se/yellow/),
+[YouTube](https://youtube.com)
+and [Mattermost](http://www.mattermost.org/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
