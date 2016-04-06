@@ -8,7 +8,7 @@ A one pager listing the different emoji emoticons supported on
 [Trac](http://trac-hacks.org/wiki/TracEmojiPlugin),
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
-[Kandan](http://kandanapp.com/),
+[Kandan](http://getkandan.com/),
 [Textbox.io](http://textbox.io/),
 [Kippt](http://kippt.com),
 [Redmine](https://github.com/tmy/redmine_gemoji),
@@ -55,7 +55,10 @@ A one pager listing the different emoji emoticons supported on
 [Discord](https://discordapp.com/),
 [Status Hero](https://statushero.com/),
 [Morfy](http://morfy.org/),
-& [Gitter](https://gitter.im/)
+[Gitter](https://gitter.im/),
+[Yellow](http://datenstrom.se/yellow/),
+[YouTube](https://youtube.com)
+and [Mattermost](http://www.mattermost.org/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
