@@ -76,7 +76,7 @@ Feel inspired? Do a pull request and add a synonym for your favourite emoji or m
 ## Want to add emojis to your projects?
 
 * Ruby – [github.com/github/gemoji](https://github.com/github/gemoji), [github.com/jsw0528/rails_emoji](https://github.com/jsw0528/rails_emoji)
-* Ruby (+Rails) [github.com/ID25/rails_emoji_picker](https://github.com/ID25/rails_emoji_picker)
+* Ruby (+Rails) [github.com/ID25/rails_emoji_picker](https://github.com/ID25/rails_emoji_picker), [github.com/jollygoodcode/twemoji](https://github.com/jollygoodcode/twemoji)
 * Javascript (+node.js) – [github.com/kof/emoticons](https://github.com/kof/emoticons)
 * Javascript (+node.js) – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
 * Javascript (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
