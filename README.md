@@ -84,6 +84,7 @@ Feel inspired? Do a pull request and add a synonym for your favourite emoji or m
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
 * Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
 * Python - [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji)
+* Swift - [https://github.com/onmyway133/Omnia](https://github.com/onmyway133/Omnia)
 
 ## Contributing
 
