@@ -60,7 +60,8 @@ A one pager listing the different emoji emoticons supported on
 [YouTube](https://youtube.com),
 [Habitica](https://habitica.com),
 [Mattermost](http://www.mattermost.org/)
-and [Kanban Tool](http://kanbantool.com/).
+[Kanban Tool](http://kanbantool.com/)
+and [PHPHub](https://phphub.org/topics/45).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
