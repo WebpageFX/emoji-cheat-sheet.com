@@ -166,7 +166,7 @@ $(document).ready(function() {
     }
   }
 
-  if (canPlayMp3() == true) {
+  if (canPlayMp3() == false) {
     $("#campfire-sounds li").prepend('<a href="#" class="play">&#9658; </a>');
     $("#campfire-sounds .play").on("click", play);
   }
