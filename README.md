@@ -82,7 +82,6 @@ Feel inspired? Do a pull request and add a synonym for your favourite emoji or m
 * Javascript (+node.js) – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
 * Javascript (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
-* Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
 * Python - [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji)
 * Swift - [https://github.com/onmyway133/Smile](https://github.com/onmyway133/Smile)
 
