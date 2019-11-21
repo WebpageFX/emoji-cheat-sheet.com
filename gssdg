@@ -1,0 +1,4990 @@
+[33mcommit 9f55a3c45ce72610cc6632e2d80efc7aca089e3c[m
+Author: omkar langhe <omkar>
+Date:   Sat May 27 12:24:23 2017 +0530
+
+    alternative name changed at line 150 of grimacing to mental and emotional
+
+[33mcommit c59bf0aad0a7238050c1a3896ecad650af227d59[m
+Merge: 024acb0 4f10297
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Jul 2 21:10:48 2016 +0200
+
+    Merge pull request #387 from zzemla/master
+    
+    Add Kanban Tool to the list of sites supporting Emoji.
+
+[33mcommit 4f102972c9f92a22cf31bf96e47d686d4481f450[m
+Author: Zbyszek Zemla <zbyszek@shorelabs.com>
+Date:   Sat Jul 2 10:10:04 2016 +0200
+
+    Add http://kanbantool.com to the list of sites supporting Emoji.
+
+[33mcommit 024acb0b2897a16be8be9af0619ab0bc949ee2f0[m
+Merge: 9cad9f8 c104a29
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Jun 15 10:33:51 2016 +0200
+
+    Merge pull request #386 from onmyway133/patch-1
+    
+    Update Swift library
+
+[33mcommit c104a2981f66e33e068b9b27f5cc607d452906d1[m
+Author: Khoa Pham <onmyway133@gmail.com>
+Date:   Tue Jun 14 23:27:32 2016 +0200
+
+    Update README.md
+
+[33mcommit 9cad9f8948cc9ce81d6a5aa94184fa6704103cb4[m
+Merge: e182a3d 966d9a7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jun 14 11:10:30 2016 +0200
+
+    Merge pull request #385 from marcobiedermann/feature/images
+    
+    Feature: Optimize Images
+
+[33mcommit 966d9a7b551d4f573929001a38e5b71ff5ec4686[m
+Author: Marco Biedermann <marco.biedermann@gmx.de>
+Date:   Tue Jun 14 11:04:55 2016 +0200
+
+    optimize images
+
+[33mcommit e182a3d474b5d1d275d0e484e593fa8337bb3664[m
+Merge: ee4ac8f 944bcf8
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jun 13 08:53:56 2016 +0200
+
+    Merge pull request #383 from stephenpcook/alt-symbols
+    
+    Add alternative names for symbols
+
+[33mcommit ee4ac8f925a37b5e7e67f1c97be2e4701b44816c[m
+Merge: 838a680 784953f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 20:50:45 2016 +0200
+
+    Merge pull request #382 from JuanitoFatas/add-twemoji
+    
+    Add https://github.com/jollygoodcode/twemoji
+
+[33mcommit 944bcf82fdfd11600a3b293398095f7f9b2427f6[m
+Author: Stephen P Cook <mc.steven@gmail.com>
+Date:   Tue May 31 14:25:04 2016 +0100
+
+    Add alternative names for symbols
+    
+    Descriptions from http://www.iemoji.com
+
+[33mcommit 784953f1a825e8b877c085ed049490e00d33cbae[m
+Author: JuanitoFatas <katehuang0320@gmail.com>
+Date:   Tue Jun 7 15:26:47 2016 +0800
+
+    Add https://github.com/jollygoodcode/twemoji
+
+[33mcommit 838a680516f3771c88af3e5427369aaa5b718601[m
+Merge: b91902b 751fa3d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:15:13 2016 +0200
+
+    Merge pull request #377 from onmyway133/patch-1
+    
+    Add Emoji in Omnia
+
+[33mcommit b91902b157646789aed30190bdb539ee0784fa05[m
+Merge: 7caa715 620ab55
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:14:46 2016 +0200
+
+    Merge pull request #373 from meeks16/master
+    
+    Added synonyms in Index
+
+[33mcommit 7caa715008fa9621977353bd2215387843d8a293[m
+Merge: e75f519 d0b4dbb
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:14:13 2016 +0200
+
+    Merge pull request #372 from donderme/patch-1
+    
+    Update index.html
+
+[33mcommit e75f519e471a3446813809c49bc22d0636ea2672[m
+Merge: e76c7c0 38115ac
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:13:04 2016 +0200
+
+    Merge pull request #375 from Nikitaw99/feature/add-habitica-to-pages
+    
+    Add habitica to pages list
+
+[33mcommit e76c7c068283d6132016e3a0c7f24964aa2883ac[m
+Merge: 508d166 a1aecc3
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:11:40 2016 +0200
+
+    Merge pull request #374 from ID25/patch-1
+    
+    Add rails emoji picker gem for ruby on rails
+
+[33mcommit 508d1668e57527f9d8394c31418823bce69c0e6e[m
+Merge: 8dc1b66 b57fa3a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:11:03 2016 +0200
+
+    Merge pull request #381 from fybwid/fybwid-data-alternative-name
+    
+    Add data alternative name
+
+[33mcommit 8dc1b66df244f321efc3dcaa757c12856f298463[m
+Merge: 75049bf 6dfc11f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 09:09:22 2016 +0200
+
+    Merge pull request #361 from mattmarillac/master
+    
+    added simple_smile emoticon
+
+[33mcommit 75049bf77040f8842839ef6edb1ca1a3dc38e43a[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 12 07:52:00 2016 +0200
+
+    Temp fix to get ZeroClipboard working
+    
+    It looks like it can't be loaded from cdnjs in later Chrome versions.
+    https://github.com/zeroclipboard/zeroclipboard/issues/632
+    
+    The long term fix is to use something else to get copy to work. SWF
+    doesn't really feel like the future ;)
+    
+    Ref #371
+
+[33mcommit b57fa3a5dda27de08a74e637ef1272cfaa814e27[m
+Author: FYBWid <fybwid@gmail.com>
+Date:   Tue Jun 7 11:41:11 2016 +0800
+
+    Add data alternative name
+
+[33mcommit 751fa3d4177ba4ec1249a96e8ca0a9b922e65b08[m
+Author: Khoa Pham <onmyway133@gmail.com>
+Date:   Wed May 11 15:44:23 2016 +0200
+
+    Add Emoji in Omnia
+    
+    It works like this
+    
+    ```swift
+    Emoji.flag("NO") // 🇳🇴
+    Emoji.standardName("😁") // GRINNING FACE WITH SMILING EYES
+    Emoji.search(["GRINNING"]) // ["😁", "😸"]
+    Emoji.list()
+    ```
+
+[33mcommit 38115acb4757ee13d133d4a1b7e4965977986fb5[m
+Author: Nikita Manahov <manahovman@gmail.com>
+Date:   Thu Apr 21 21:34:17 2016 +0400
+
+    Added habitica to pages list.
+
+[33mcommit a1aecc3713d0d9d5a244f13355759bd2222b1bd7[m
+Author: Eugene Domosedov <xid25x@gmail.com>
+Date:   Mon Apr 11 11:09:04 2016 +0300
+
+    Add rails emoji picker gem for ruby on rails
+
+[33mcommit 620ab550cff605effbbb1b5ed2789eec8274ed8a[m
+Merge: ff7c523 5b94561
+Author: michael TanLiao <michael.tanliao@gmail.com>
+Date:   Wed Apr 6 18:24:12 2016 -0500
+
+    merging current version
+
+[33mcommit ff7c523f998af555cd867384a28400ffc6d82739[m
+Author: michael TanLiao <michael.tanliao@gmail.com>
+Date:   Wed Apr 6 17:20:13 2016 -0500
+
+    Added Synonyms
+
+[33mcommit d0b4dbb2fbab8edf5e80e9b1b18ccbf3f92a49f8[m
+Author: donderme <donderme@mcmaster.ca>
+Date:   Sun Apr 3 02:53:18 2016 -0400
+
+    Update index.html
+    
+    updated description based on pop-culture
+
+[33mcommit 5b9456142d92fe143b49a93b9794d42ee3e68101[m
+Merge: 7e3a9aa 7b34247
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 29 08:51:49 2016 +0200
+
+    Merge pull request #369 from lazy-sunshine/patch-1
+    
+    Update index.html
+
+[33mcommit 7b34247653489d9e713cd1870d06c94b22237605[m
+Author: Kirti Chaturvedi <kirti7756@gmail.com>
+Date:   Fri Mar 25 09:57:19 2016 +0530
+
+    Update index.html
+
+[33mcommit 7e3a9aae08c384485eaf8661b6279777a26685b3[m
+Merge: 7281c35 23729bc
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Mar 16 08:07:50 2016 +0100
+
+    Merge pull request #366 from markseu/master
+    
+    Added Yellow CMS
+
+[33mcommit 23729bc51412e9210000187c81fedff7fd04a3ca[m
+Author: markseu <mark2011@mayberg.se>
+Date:   Tue Mar 15 21:26:51 2016 +0100
+
+    Updated README
+
+[33mcommit 4c7cab33872d6d5d82aebe73a4aef45c85635a5c[m
+Merge: d532d86 7281c35
+Author: markseu <mark2011@mayberg.se>
+Date:   Tue Mar 15 21:21:48 2016 +0100
+
+    Merge branch 'arvida/master'
+    
+    # Conflicts:
+    #       README.md
+    #       public/index.html
+
+[33mcommit 7281c35cad3700cc58da23fb15461a3e20af40ca[m
+Merge: 3f94eb7 93c499d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 15 20:42:56 2016 +0100
+
+    Merge pull request #365 from oscarb-se/synonyms
+    
+    Added synonyms for monkey
+
+[33mcommit 3f94eb7cf4b9e59eb54142e580309f7028f3075a[m
+Merge: 9cd5835 105983d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 15 20:34:30 2016 +0100
+
+    Merge pull request #356 from jhogoforbroke/master
+    
+    updating for kadan link
+
+[33mcommit 9cd5835b5811d04086831d597e7b1807adb5df16[m
+Merge: 41c5fef db86ab0
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 15 20:34:05 2016 +0100
+
+    Merge pull request #355 from harianus/patch-1
+    
+    Female gays are also named lesbians
+
+[33mcommit 41c5fef2da2e92edbf56870c80c6381713e97536[m
+Merge: 50382ff de4d027
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 15 20:33:33 2016 +0100
+
+    Merge pull request #350 from vrenjith/patch-1
+    
+    Update README.md
+
+[33mcommit d532d860277c81222a23cdc50f4c7509e0570e19[m
+Author: markseu <mark2011@mayberg.se>
+Date:   Tue Mar 8 16:36:26 2016 +0100
+
+    Updated links
+
+[33mcommit ababad26885bcb87ff1065e25a5dae74af526bc1[m
+Author: markseu <mark2011@mayberg.se>
+Date:   Tue Mar 8 11:23:04 2016 +0100
+
+    Updated README
+
+[33mcommit a103e099f6232fa01547fd64a2e3e0762d1e761e[m
+Author: markseu <mark2011@mayberg.se>
+Date:   Tue Mar 8 11:20:41 2016 +0100
+
+    Added Yellow CMS
+
+[33mcommit 93c499d5ecb3915eaec185177369b4249fb064f8[m
+Author: oscarb-se <github@oscarb.se>
+Date:   Mon Mar 7 02:03:59 2016 +0100
+
+    Added synonyms for monkey
+
+[33mcommit 6dfc11fa11b2e4ebe11938bbce009585faa1d3dd[m
+Author: mattd360 <mattmarillac@hotmail.com>
+Date:   Sat Feb 27 21:55:27 2016 +1000
+
+    added simple_smile emoticon
+
+[33mcommit 105983d697b2a6408d203f691204d24df43ba1b8[m
+Merge: 50382ff caddfe7
+Author: Jonatas Marinho <jmarinho87@live.com>
+Date:   Wed Jan 20 15:53:37 2016 -0200
+
+    Merge pull request #1 from jhogoforbroke/updates-kandan-link
+    
+    updates kandan link
+
+[33mcommit caddfe701b8c5b209ea4bf3f12b2ee8c9f658857[m
+Author: Jonatas Marinho <jmarinho87@live.com>
+Date:   Wed Jan 20 15:51:09 2016 -0200
+
+    updates kandan link
+
+[33mcommit db86ab02b3f199fad4b02370ee445006e3a1ce7b[m
+Author: Adriaan <harianus@users.noreply.github.com>
+Date:   Sun Jan 17 15:33:03 2016 +0100
+
+    Female gays are also named lesbians
+
+[33mcommit de4d027a942a50132f46a226a9c0429746895bdf[m
+Merge: 2b9e25b e58db82
+Author: vrenjith <v.renjith@gmail.com>
+Date:   Fri Jan 15 23:49:16 2016 +0530
+
+    Merge pull request #1 from vrenjith/master
+    
+    Update index.html
+
+[33mcommit e58db82254689063026a308dccf41147468986dd[m
+Author: vrenjith <v.renjith@gmail.com>
+Date:   Fri Jan 15 23:45:50 2016 +0530
+
+    Update index.html
+    
+    Added http://www.mattermost.org/
+
+[33mcommit 50382ff8a885715186da4869433e9812d2ee00f3[m
+Merge: 89d8f20 f33c612
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jan 15 10:47:27 2016 +0100
+
+    Merge pull request #348 from ChipWolf/master
+    
+    plug.dj shut down
+
+[33mcommit 2b9e25b887ac5a662cb1669c9e841993e55fccfc[m
+Author: vrenjith <v.renjith@gmail.com>
+Date:   Mon Jan 4 11:17:39 2016 +0530
+
+    Update README.md
+    
+    Added link to Mattermost
+
+[33mcommit f33c612b37be57c6d8be4e2e8be0659b7aaad66a[m
+Author: Chip ‮♥ <hi@itschip.com>
+Date:   Fri Dec 18 14:24:05 2015 +0000
+
+    plug.dj shut down
+
+[33mcommit d130419d79e7e1758a5da14933307629e3c910b2[m
+Author: Chip ‮♥ <hi@itschip.com>
+Date:   Fri Dec 18 14:22:54 2015 +0000
+
+    plug.dj shut down
+
+[33mcommit 89d8f20318a74396234d6374c95874ca06c94df2[m
+Merge: 2419c9f 5c96464
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 3 17:31:21 2015 +0100
+
+    Merge pull request #339 from Awilum/patch-1
+    
+    Morfy also uses emoji as plugin
+
+[33mcommit 2419c9fae2f7a07cd3f7eaeb705eede247efa8e5[m
+Merge: d53da49 2d9f413
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 3 10:57:28 2015 +0100
+
+    Merge pull request #342 from Awilum/master
+    
+    Added Morfy to public/index.html
+
+[33mcommit 2d9f413e27cbdfa5b18cbe13ca56cfe4b77f93a1[m
+Author: Sergey Romanenko <awilum@msn.com>
+Date:   Thu Dec 3 09:13:07 2015 +0300
+
+    Update index.html
+
+[33mcommit d53da49f840499f7862a4141da81eca74a315b68[m
+Merge: cba60b0 4fd9f61
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Dec 2 20:06:12 2015 +0100
+
+    Merge pull request #341 from kodie/master
+    
+    Added a ton of alternative names/keywords from the emojilib repo
+
+[33mcommit 4fd9f61bc00ccf53b1625d8e2c5c5161544769e2[m
+Merge: 682e4fc cba60b0
+Author: Kodie Grantham <kodie.grantham@gmail.com>
+Date:   Wed Dec 2 12:53:57 2015 -0600
+
+    Changes with updates from upstream
+
+[33mcommit cba60b0e754c619f05b5ef477202ec9835ab955f[m
+Merge: 987ed69 cbe5ae3
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Dec 2 19:41:10 2015 +0100
+
+    Merge pull request #340 from chadoh/patch-1
+    
+    Remove duplicate 8ball declaration
+
+[33mcommit 987ed69534662550c9d973194bd0d7be09094463[m
+Merge: d636aff d81ccef
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Dec 2 19:39:24 2015 +0100
+
+    Merge pull request #335 from LEOXDmtar/master
+    
+    added YouTube
+
+[33mcommit 682e4fc81199fc1903a969678b4962b3b432431a[m
+Author: Kodie Grantham <kodie.grantham@gmail.com>
+Date:   Wed Dec 2 11:32:24 2015 -0600
+
+    Added a ton of alternative names/keywords from the emojilib repo
+
+[33mcommit cbe5ae3b59d1f29975a66b82beee4958a1578021[m
+Author: Chad Ostrowski <hi@chadoh.com>
+Date:   Fri Nov 27 08:50:11 2015 -0500
+
+    Remove duplicate 8ball declaration
+    
+    The 8ball is listed twice!
+    
+    Maybe there's supposed to be some other sport ball that goes here, I'm not sure.
+
+[33mcommit 5c96464c5f806894b4f009fd3bc1c6507d4573c9[m
+Author: Sergey Romanenko <awilum@msn.com>
+Date:   Fri Nov 27 13:02:02 2015 +0300
+
+    Morfy also uses emoji as plugin
+
+[33mcommit d636aff027d3363c4bee2f0391d8dc281be07dd4[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 19 07:54:42 2015 +0100
+
+    Flash is a name
+
+[33mcommit 683de95028db31ece0678ba775a068c8c8ddaeb6[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 20:42:44 2015 +0100
+
+    More subtle notice
+
+[33mcommit 290c51f4767c26129297527b7c2f228aab92a2de[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 20:31:50 2015 +0100
+
+    Copy copy & cache invalidator
+
+[33mcommit 95ea0927429bc5cb2198f16e2ad0d9415c59619b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 17:30:25 2015 +0100
+
+    Load ZeroClipboard from CDNJS
+
+[33mcommit c3c9c541186a749a13b034549cb746594e7dc5a8[m
+Author: Christoph Kisfeld <spam@b-web.org>
+Date:   Sun Oct 25 10:00:08 2015 +0100
+
+    Remove console.log
+
+[33mcommit 851172eab129a21de55be4a0d97b45531742a711[m
+Author: Christoph Kisfeld <spam@b-web.org>
+Date:   Fri Oct 23 16:31:51 2015 +0200
+
+    Code cleanup
+
+[33mcommit baf75616ca542d5e284e58bef7994780b5e369a2[m
+Author: Christoph Kisfeld <spam@b-web.org>
+Date:   Fri Oct 23 03:41:24 2015 +0200
+
+    Javascript copy function :sparkles: #247
+
+[33mcommit 30050acc72379aa057a9d550618587f92c2408b0[m
+Author: Christoph Kisfeld <spam@b-web.org>
+Date:   Fri Oct 23 03:40:59 2015 +0200
+
+    Update links and jquery
+
+[33mcommit d1f94906f49d7ff5a1f53ab18ca3ca47aacf4e13[m
+Author: Christoph Kisfeld <spam@b-web.org>
+Date:   Fri Oct 23 02:24:04 2015 +0200
+
+    Update ZeroClipboard to most recent version
+
+[33mcommit f607ab8f909bd461b8c4a4787a344331be59fe96[m
+Author: Christoph Kisfeld <spam@b-web.org>
+Date:   Fri Oct 23 01:46:48 2015 +0200
+
+    Remove jnotify in favour of CSS animations
+
+[33mcommit d8ff647ac0c9242f927d2ece015d76d04b3ae49b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 17:18:49 2015 +0100
+
+    Delete index.html~
+
+[33mcommit 76164eaa4dbcfe0d0dd5f00fb1bb75375ca5d4ba[m
+Merge: 5a6432b 98047c3
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 16:54:58 2015 +0100
+
+    Merge branch 'codirt-master'
+
+[33mcommit 98047c38d597ce88fc37782e8055340db1c088d4[m
+Merge: 5a6432b fbe5eb8
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 16:54:46 2015 +0100
+
+    Merge branch 'master' of https://github.com/codirt/emoji-cheat-sheet.com into codirt-master
+
+[33mcommit 5a6432b1151947525a6611095a12457ac9be04ea[m
+Merge: 674dc98 510f4eb
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 16:50:46 2015 +0100
+
+    Merge branch 'raychung02-raychung02-patch-2'
+
+[33mcommit 510f4eb4903d5d3a4f4d7cf84f00261c7e80f64c[m
+Merge: 674dc98 c9a3b68
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 16:50:37 2015 +0100
+
+    Merge branch 'raychung02-patch-2' of https://github.com/raychung02/emoji-cheat-sheet.com into raychung02-raychung02-patch-2
+
+[33mcommit 674dc98bcac3c03350979a690d2264c433cead12[m
+Merge: a6f5eec fda723b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Nov 18 16:32:55 2015 +0100
+
+    Merge pull request #321 from sanspace/suggest-eyes-synonym
+    
+    Add synonym for eyes: eye-rolling
+
+[33mcommit d81ccefd68f0e76288e239f585c7aa1b3ec6100c[m
+Author: LEOXDmtar <leoxd@googlegroups.com>
+Date:   Sat Nov 14 21:19:26 2015 +0100
+
+    added YouTube
+
+[33mcommit a6f5eecbd1ca652ae0b527fda16f20e4c6e4bb92[m
+Merge: 8e884f2 5852849
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Nov 9 09:35:05 2015 +0100
+
+    Merge pull request #333 from ohbarye/remove-out-of-place-string
+    
+    Remove out of place string
+
+[33mcommit 5852849cd2f90ba1bc4a37af7b26de2f301047bd[m
+Author: ohbarye <over.rye@gmail.com>
+Date:   Sat Nov 7 20:10:19 2015 +0900
+
+    Remove out of place string
+
+[33mcommit 8e884f285150577262cc4e2922c86f581aedb760[m
+Merge: ec0126e 3653f22
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 21:37:38 2015 +0100
+
+    Merge pull request #278 from alexchantastic/patch-1
+    
+    Added synonyms for :neckbeard:
+
+[33mcommit 3653f22b13f42ba2e826ec7e35c60303a989db38[m
+Author: Alex Chan <alexchantastic@users.noreply.github.com>
+Date:   Wed Oct 28 11:00:39 2015 -0700
+
+    Added synonyms for :neckbeard:
+
+[33mcommit ec0126ec31eee19872b282caaecd0c6ddf5d0dd1[m
+Merge: 99e017d 77882d1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:35:02 2015 +0100
+
+    Merge pull request #329 from Sinzio/patch-5
+    
+    Update index.html
+
+[33mcommit 99e017d951bb2182699276e887d8a6d6c06c2301[m
+Merge: 40d0d80 6f62fe5
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:34:46 2015 +0100
+
+    Merge pull request #327 from Sinzio/patch-3
+    
+    Update index.html
+
+[33mcommit 40d0d80dd65f77763a5d8969c35be6ed8b465e34[m
+Merge: 5521e75 c33d919
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:34:28 2015 +0100
+
+    Merge pull request #326 from Sinzio/patch-2
+    
+    Update index.html
+
+[33mcommit 5521e7552627f51f7461de9afd911f077a4908bd[m
+Merge: 41eb9d9 246600c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:34:12 2015 +0100
+
+    Merge pull request #325 from Sinzio/patch-1
+    
+    Update index.html
+
+[33mcommit 41eb9d9587cb888e6f97467b191ec1c581101b51[m
+Merge: 356ee7f 063cff9
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:33:58 2015 +0100
+
+    Merge pull request #324 from sjs7007/master
+    
+    added description for skull emoji
+
+[33mcommit 356ee7f41d5d9c8ae11fdcd1bb4784bbe74095ba[m
+Merge: b64d3a6 858062e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:32:47 2015 +0100
+
+    Merge pull request #318 from lurkingh/master
+    
+    Old man/woman
+
+[33mcommit b64d3a6d6b8a64a257b42c443cb5c85062d4b417[m
+Merge: 2249508 6ea93c8
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:20:57 2015 +0100
+
+    Merge pull request #314 from Wishful2/master
+    
+    Added alternative name
+
+[33mcommit 2249508b8044e4194573eeef565785481083cb66[m
+Merge: 48c8535 6a50574
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:15:38 2015 +0100
+
+    Merge pull request #312 from snoopyq/master
+    
+    Additional pinyin entries
+
+[33mcommit 48c8535fd1b71c392fe93805045993b7d865a047[m
+Merge: 049c434 0041b79
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:14:18 2015 +0100
+
+    Merge pull request #311 from laurskies/my-new-feature
+    
+    Add more synonyms
+
+[33mcommit 049c43482a6f9cd4d16b4ba7a237cfad6a12850d[m
+Merge: cafc0ab 48a8277
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:13:32 2015 +0100
+
+    Merge pull request #307 from skitau/patch-2
+    
+    Update index.html
+
+[33mcommit cafc0abf3ea1d3cd5aabf02ecc4df4af11f018fe[m
+Merge: 723edfa 321284f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:13:05 2015 +0100
+
+    Merge pull request #306 from skitau/patch-1
+    
+    Update index.html
+
+[33mcommit 723edfa140204ad1d256c580ee7bffc3e77c1697[m
+Merge: 84b4e9c 7d5af45
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:11:41 2015 +0100
+
+    Merge pull request #303 from Maylort/patch-1
+    
+    Update index.html
+
+[33mcommit 84b4e9c6c9ad810a8f4193b9630331b788834af2[m
+Merge: 008c463 9a7100d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:11:11 2015 +0100
+
+    Merge pull request #301 from NextLevelWeirdo/patch-3
+    
+    Update index.html
+
+[33mcommit 008c46384d4ebcd4f5a45e9773b182bfcdb02145[m
+Merge: fc5143b 2d1a22b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 5 20:02:22 2015 +0100
+
+    Merge pull request #283 from MishaLarionov/patch-2
+    
+    Made the license easier to read and understand
+
+[33mcommit 77882d129d9ea13318b0965e74b0fb1de4569950[m
+Author: Sinzio <sinakokab@gmail.com>
+Date:   Sat Oct 31 16:33:10 2015 +0000
+
+    Update index.html
+
+[33mcommit 6f62fe55c732600092bb3356072e789d4e219c56[m
+Author: Sinzio <sinakokab@gmail.com>
+Date:   Sat Oct 31 16:30:42 2015 +0000
+
+    Update index.html
+
+[33mcommit c33d919401d5a99406b0f5abe4d0e8dae5ecd900[m
+Author: Sinzio <sinakokab@gmail.com>
+Date:   Sat Oct 31 16:29:54 2015 +0000
+
+    Update index.html
+
+[33mcommit 246600cd3a85d13ae1fe89e5231db38bf2325965[m
+Author: Sinzio <sinakokab@gmail.com>
+Date:   Sat Oct 31 16:27:21 2015 +0000
+
+    Update index.html
+
+[33mcommit 063cff9fd9cc5cfe2bb9d1991f03385de2ceda27[m
+Author: Saravanan SJ <sjs7007@gmail.com>
+Date:   Sat Oct 31 11:56:15 2015 -0400
+
+    added description for skull emoji
+
+[33mcommit fda723bfe8722854625212ddc68adc0c8c5d81c6[m
+Author: Santhosh Kumar Srinivasan <san@sanspace.in>
+Date:   Sat Oct 31 13:52:45 2015 +0530
+
+    Add synonym for eyes: eye-rolling
+
+[33mcommit 858062e658e79cfa7f9a75520bf8b740c416f416[m
+Author: lurkingh <lurkingh@gmail.com>
+Date:   Fri Oct 30 21:46:32 2015 +0100
+
+    Old man/woman
+    
+    Added grandpa/grandma
+
+[33mcommit 6ea93c8ef3727415031580f6541c2a721f66bb55[m
+Author: Wishful2 <legendzgm@yahoo.com>
+Date:   Fri Oct 30 19:05:03 2015 +0800
+
+    Added alternative name
+    
+    Added alternative name
+
+[33mcommit 6a50574a33564ad5750561fea333453af293a654[m
+Author: snoopyq <srnolez@gmail.com>
+Date:   Fri Oct 30 20:14:49 2015 +1030
+
+    Update index.html
+
+[33mcommit 0041b79c141137bd93981d6e84a74e2ba2d4fe84[m
+Author: laur <laur.ye.email@gmail.com>
+Date:   Fri Oct 30 20:40:50 2015 +1100
+
+    Add more synonyms
+
+[33mcommit fc5143b8411bbc75ce5d099c161fc6fb264599e3[m
+Merge: e1245e1 a275f50
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:19:00 2015 +0100
+
+    Merge pull request #300 from NextLevelWeirdo/patch-2
+    
+    Update index.html
+
+[33mcommit e1245e1324814b16db71b249639d2854431f4ca0[m
+Merge: 52374fc 8668ca8
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:18:25 2015 +0100
+
+    Merge pull request #298 from codename13/patch-1
+    
+    Added miscellaneous food-related tags
+
+[33mcommit 52374fc211df207ead2e10f6d49d667bfd1fa503[m
+Merge: 231e39b 062451c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:17:24 2015 +0100
+
+    Merge pull request #297 from cyturralde/patch-7
+    
+    Update index.html
+
+[33mcommit 231e39b61f85bfa39664dc22c090e53358302a25[m
+Merge: 6f96bb4 8d69a7b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:16:49 2015 +0100
+
+    Merge pull request #299 from NextLevelWeirdo/patch-1
+    
+    Update index.html
+
+[33mcommit 6f96bb48a51c1dce0de1cc18de3fc9d15a346296[m
+Merge: b0688b6 78ad6de
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:16:34 2015 +0100
+
+    Merge pull request #296 from cyturralde/patch-6
+    
+    Update index.html
+
+[33mcommit b0688b631604e8cd45f7356d088b3e72207a3182[m
+Merge: fb627c2 6e02379
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:16:17 2015 +0100
+
+    Merge pull request #295 from cyturralde/patch-5
+    
+    Update index.html
+
+[33mcommit fb627c236bb6b094bfb012bc5eeff373546104da[m
+Merge: 9989fd7 84aa852
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:15:54 2015 +0100
+
+    Merge pull request #294 from cyturralde/patch-4
+    
+    Update index.html
+
+[33mcommit 9989fd70e4883863d1d9b4a117f0fa6edfe2d138[m
+Merge: ffc8005 d945340
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:15:23 2015 +0100
+
+    Merge pull request #293 from cyturralde/patch-3
+    
+    Update index.html
+
+[33mcommit ffc800558ebd6ae5f97870d0862f3e8a85fa38cc[m
+Merge: 6fc2b30 3862ccd
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:15:03 2015 +0100
+
+    Merge pull request #292 from cyturralde/patch-2
+    
+    Update index.html
+
+[33mcommit 6fc2b30798cf9f954f9e8c9d8cc0832f494426af[m
+Merge: e42bcba 9e60918
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:14:35 2015 +0100
+
+    Merge pull request #291 from johnpaul91/johnpaul91-moresynonyms
+    
+    moresynonyms
+
+[33mcommit e42bcba89bcdd0bee79d2acc6e7755a0e8518f00[m
+Merge: cb53083 73a7086
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:14:08 2015 +0100
+
+    Merge pull request #290 from johnpaul91/master
+    
+    Added synonyms for sound
+
+[33mcommit cb5308379651875d2fb2248f98643442a9fee4ab[m
+Merge: 158883b 67fc426
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:13:46 2015 +0100
+
+    Merge pull request #289 from SimoneNigro/master
+    
+    added alternative description for smiley and smile
+
+[33mcommit 158883b1d71f2da023bd2721c0d4fe142ab4d784[m
+Merge: 45c4b3a 8380a0c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 30 10:13:11 2015 +0100
+
+    Merge pull request #288 from snoopyq/master
+    
+    Ying & Wari
+
+[33mcommit 48a82777b2f7fa59d5e9133337dec21c3f679879[m
+Author: skitau <robert@blackstock.id.au>
+Date:   Fri Oct 30 10:08:40 2015 +0800
+
+    Update index.html
+    
+    Added controller to video_game.png
+    Added jewelry to gem.png and ring.png
+
+[33mcommit 321284f7016548bc560f86917eff3a72ab23413c[m
+Author: skitau <robert@blackstock.id.au>
+Date:   Fri Oct 30 09:54:32 2015 +0800
+
+    Update index.html
+    
+    Added asleep to sleeping.png
+    Added scared, terrified to scream.png
+
+[33mcommit c9a3b68820c81ed49579a096471fb19f62beb857[m
+Author: Ray Chung <raychung02@gmail.com>
+Date:   Thu Oct 29 17:54:22 2015 -0700
+
+    More synonyms added
+
+[33mcommit 7d5af45b3238f47178cce1c1532a5c6cca7486a0[m
+Author: Maylort <matthewtaylor711@gmail.com>
+Date:   Thu Oct 29 19:56:35 2015 -0400
+
+    Update index.html
+
+[33mcommit 9a7100dd649e1f86636537bf8581f4941e73c0de[m
+Author: NextLevelWeirdo <seanlundin@gmail.com>
+Date:   Thu Oct 29 18:32:15 2015 -0500
+
+    Update index.html
+
+[33mcommit a275f5057a167f7e82188653ea97eeee853d8e6a[m
+Author: NextLevelWeirdo <seanlundin@gmail.com>
+Date:   Thu Oct 29 18:31:34 2015 -0500
+
+    Update index.html
+
+[33mcommit 8d69a7b6020575f4e3988e3ce3071a6986bb3ff1[m
+Author: NextLevelWeirdo <seanlundin@gmail.com>
+Date:   Thu Oct 29 18:29:55 2015 -0500
+
+    Update index.html
+
+[33mcommit 8668ca8deed917d5c2c09cd0e6bd05a13969c0b7[m
+Author: codename13 <codename13@users.noreply.github.com>
+Date:   Thu Oct 29 18:26:25 2015 -0400
+
+    Added miscellaneous food-related tags
+
+[33mcommit 062451c0aca32e12af4dcec4d50de710b221f368[m
+Author: Chris Yturralde <imjustkit@gmail.com>
+Date:   Thu Oct 29 13:34:13 2015 -0400
+
+    Update index.html
+    
+    Added another name for traffic light
+
+[33mcommit 78ad6defb18600099d4c3904c95a35b4e556bfc8[m
+Author: Chris Yturralde <imjustkit@gmail.com>
+Date:   Thu Oct 29 13:33:27 2015 -0400
+
+    Update index.html
+    
+    Added another name for purse
+
+[33mcommit 6e02379a656411b9f5ca1f2a41142d5b38a24f3a[m
+Author: Chris Yturralde <imjustkit@gmail.com>
+Date:   Thu Oct 29 13:32:29 2015 -0400
+
+    Update index.html
+    
+    Added an alternative name for halloween
+
+[33mcommit 84aa852ca234515b70fcc29cf6c3f1eec065ede5[m
+Author: Chris Yturralde <imjustkit@gmail.com>
+Date:   Thu Oct 29 13:31:29 2015 -0400
+
+    Update index.html
+    
+    Added another name for grinning
+
+[33mcommit d94534093fc02e2fb06e53a0c42c4e544cf4aeac[m
+Author: Chris Yturralde <imjustkit@gmail.com>
+Date:   Thu Oct 29 13:29:31 2015 -0400
+
+    Update index.html
+    
+    Added another name for embarassed
+
+[33mcommit 3862ccdf16a5c42ff351e106b56fba6804208b1b[m
+Author: Chris Yturralde <imjustkit@gmail.com>
+Date:   Thu Oct 29 13:27:49 2015 -0400
+
+    Update index.html
+    
+    updated another alternative name for unamused
+
+[33mcommit 9e609181a8cf7aafc61e3754fdc444a302e0e837[m
+Author: johnpaul91 <john@johncassil.com>
+Date:   Thu Oct 29 12:45:03 2015 -0400
+
+    Update with more synonyms!
+    
+    Hopefully I'm doing this right!!
+
+[33mcommit 73a708689d010c84a6dda56b6c43e12b0ab4fc70[m
+Merge: 45c4b3a 6bcd267
+Author: johnpaul91 <john@johncassil.com>
+Date:   Thu Oct 29 12:25:08 2015 -0400
+
+    Merge pull request #1 from johnpaul91/johnpaul91-patch-1
+    
+    Update index.html
+
+[33mcommit 6bcd267dcdf10bc34064ed80d8ae51a393c1dafd[m
+Author: johnpaul91 <john@johncassil.com>
+Date:   Thu Oct 29 12:24:34 2015 -0400
+
+    Update index.html
+
+[33mcommit 67fc42696949839ab1cca97ff38d0354cb799091[m
+Author: SimoneNigro <simone.nigro.3@gmail.com>
+Date:   Thu Oct 29 15:30:46 2015 +0100
+
+    added alternative description for smiley and smile
+
+[33mcommit 8380a0c058d7db54bf0c444ce861b88c6a5b7c18[m
+Author: snoopyq <srnolez@gmail.com>
+Date:   Thu Oct 29 23:26:41 2015 +1030
+
+    Update index.html
+
+[33mcommit 64ca5caea5f1c27788f23057d26f8daea1bd11ae[m
+Author: snoopyq <srnolez@gmail.com>
+Date:   Thu Oct 29 23:18:21 2015 +1030
+
+    Update index.html
+
+[33mcommit cb0bd9eee7a151fa7dd3a25b48094c98d4d28254[m
+Author: snoopyq <srnolez@gmail.com>
+Date:   Thu Oct 29 23:11:49 2015 +1030
+
+    Update index.html
+
+[33mcommit 45c4b3a1b869d00e4d80cc9d23689121c665fc7b[m
+Merge: 63d5c10 e7f1b83
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 29 07:27:28 2015 +0100
+
+    Merge pull request #282 from MishaLarionov/patch-1
+    
+    Added "happy" alternate name to "joy" emoji
+
+[33mcommit 63d5c102407f38f3b16a4416f3cdf1fa10b65324[m
+Merge: 0df8c5a b799b71
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 29 07:27:05 2015 +0100
+
+    Merge pull request #284 from otep/master
+    
+    Added synonyms for alcoholic drinks and monetary icons.
+
+[33mcommit 0df8c5ac6148c14bb984de2aaf86c17ea7705f86[m
+Merge: 2bd7024 0cfa397
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 29 07:25:54 2015 +0100
+
+    Merge pull request #285 from fahrielle/master
+    
+    added more tags for smiley cats
+
+[33mcommit 0cfa397a1bc158661eba8875d5eac96e694bb2d1[m
+Author: Caroline <carolinew1224@gmail.com>
+Date:   Thu Oct 29 00:37:52 2015 -0400
+
+    added more tags for smiley cats
+
+[33mcommit b799b71fda6ff4436afff9825d93530ca2a28c42[m
+Author: Joe <otep@users.noreply.github.com>
+Date:   Wed Oct 28 23:39:58 2015 -0400
+
+    Added synonyms for monetary icons.
+
+[33mcommit e7c0eb4c7f655b4649c37fde7c27ddd696257d49[m
+Author: Joe <otep@users.noreply.github.com>
+Date:   Wed Oct 28 23:10:51 2015 -0400
+
+    Added synonyms for alcoholic drinks
+
+[33mcommit 2d1a22b6c82b46a5b156486a3f1978ce9d642a68[m
+Author: Misha Larionov <mishalarionov2@gmail.com>
+Date:   Wed Oct 28 22:36:02 2015 -0400
+
+    Made the license easier to read and understand
+
+[33mcommit e7f1b83294c32bd0d557533c5bf06b2a25a9aca8[m
+Author: Misha Larionov <mishalarionov2@gmail.com>
+Date:   Wed Oct 28 22:30:07 2015 -0400
+
+    Added "happy" alternate name to "joy" emoji
+
+[33mcommit 0e21845f463d18fd98dbc46287ff0790b5148568[m
+Author: Ray Chung <raychung02@gmail.com>
+Date:   Wed Oct 28 17:58:29 2015 -0700
+
+    Added synonyms
+
+[33mcommit 2bd702404f06abec1b82e0f32a5c33a34725bd5e[m
+Merge: ded113e 20d16ae
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:13:28 2015 +0100
+
+    Merge pull request #274 from dsg2806/master
+    
+    Synonyms
+
+[33mcommit ded113e8aba685fe51fc2c575e0d05c8fba9355f[m
+Merge: 747f4b9 835259c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:10:13 2015 +0100
+
+    Merge pull request #279 from alexchantastic/patch-2
+    
+    Added synonym for :alien:
+
+[33mcommit 747f4b91cddb7ce3298fcbaf324a5df3cb066f4f[m
+Merge: f81a634 80a2d9c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:08:50 2015 +0100
+
+    Merge pull request #275 from Dubyah/README-fix
+    
+    Update README.md, minor grammar fix
+
+[33mcommit f81a634affbd2af84cd841abcd6647360ee55430[m
+Merge: 3edc5e6 fa4b602
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:06:09 2015 +0100
+
+    Merge pull request #271 from randomization/master
+    
+    alternative name television
+
+[33mcommit 3edc5e696e25d976ebc8a8c4cecdf7f4dab37381[m
+Merge: bf0cf3b eb135f4
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:05:43 2015 +0100
+
+    Merge pull request #270 from MCDonders/patch-1
+    
+    Update index.html
+
+[33mcommit bf0cf3bd4ae85ef57a5bc28fb22896b75a1539e7[m
+Merge: 648921e 00a9846
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:05:18 2015 +0100
+
+    Merge pull request #269 from vnmbxx/master
+    
+    Update README.md
+
+[33mcommit 648921e4393274adca5df860337da1931975d8eb[m
+Merge: 2ed74ce c66c1c7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:04:56 2015 +0100
+
+    Merge pull request #268 from Staplerfruit/patch-1
+    
+    Synonym 8ball>magic_ball
+
+[33mcommit 2ed74ce48dec799984c86ff028380c5a8d7c908d[m
+Merge: 6db0b48 b2852e5
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:04:34 2015 +0100
+
+    Merge pull request #267 from lhassan18/my-new-feature
+    
+    New Tags
+
+[33mcommit 6db0b48d8e3243c7eb0573a0fd908e0dfda644a0[m
+Merge: 8e67f01 7221c11
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:01:41 2015 +0100
+
+    Merge pull request #266 from Smoseph/master
+    
+    Added flirt as a synonym for wink
+
+[33mcommit 8e67f0124528a4b609e27c1674a0649cabaf4dfe[m
+Merge: 7eee4ff 2f682ae
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 21:00:56 2015 +0100
+
+    Merge pull request #265 from Chingling/master
+    
+    Update index.html
+
+[33mcommit 7eee4ffb8d9e1ee4e775ef7d97f5cfa96b952cce[m
+Merge: cabe1c2 25f6e33
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 20:59:00 2015 +0100
+
+    Merge pull request #258 from hammo/master
+    
+    Added a few alternative names
+
+[33mcommit cabe1c27b5e9c9d9aa50747dc02c3d131d3d7085[m
+Merge: 2cb1e5f 321158a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 20:58:11 2015 +0100
+
+    Merge pull request #256 from KillerFan/git-push-origin-vehicles-car
+    
+    git commit -am Added vehicle alternative names
+
+[33mcommit 2cb1e5f508df6076bc7c1d1093bfd318b0b0e723[m
+Merge: b7d0f36 1eb0933
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 28 20:57:42 2015 +0100
+
+    Merge pull request #255 from itsaferbie/master
+    
+    Added two alternatives for fearful
+
+[33mcommit 835259c7ca56a0d40b62406db7498f758bf96ebc[m
+Author: Alex Chan <alexchantastic@users.noreply.github.com>
+Date:   Wed Oct 28 11:06:23 2015 -0700
+
+    Added synonym for :alien:
+
+[33mcommit 80a2d9c2f0e3c0cf73de18984cacc15f4c82538e[m
+Author: Dubyah <github@fgcow.com>
+Date:   Wed Oct 28 03:43:27 2015 -0700
+
+    Update README.md, minor grammar fix
+    
+    `you` -> `your`
+
+[33mcommit 20d16ae7218630d4f18da3805cfcca9363629d60[m
+Merge: b7d0f36 ad20954
+Author: dsg2806 <dsg2806@users.noreply.github.com>
+Date:   Wed Oct 28 21:40:51 2015 +1100
+
+    Merge pull request #2 from dsg2806/dsg2806-synonymsA
+    
+    Synonyms Added
+
+[33mcommit ad2095461191dd5cfd2b3a269ba5f20d05a1c1df[m
+Author: dsg2806 <dsg2806@users.noreply.github.com>
+Date:   Wed Oct 28 21:40:01 2015 +1100
+
+    Synonyms Added
+    
+    Many synonyms added in objects, nature and people.
+
+[33mcommit fbe5eb83928888d5f659352f28f0a390f6114bcc[m
+Author: codirt <yuyuan.chen.88@gmail.com>
+Date:   Wed Oct 28 02:07:14 2015 -0500
+
+    cold_sweat
+    
+    added synonyms
+
+[33mcommit fa4b602132fcf148337bc23f6cee73b300b73c53[m
+Author: Vincent Phan <vincentphan503@gmail.com>
+Date:   Tue Oct 27 22:57:28 2015 -0700
+
+    index.html
+    
+    added 'television' as alternative name for 'tv'
+
+[33mcommit eb135f4ae112638ce738780b39d4c1f3ea73daee[m
+Author: MCDonders <michaeldonders24@gmail.com>
+Date:   Wed Oct 28 01:01:26 2015 -0400
+
+    Update index.html
+    
+    additional name to "confused"
+
+[33mcommit 00a984642ffe58f85f1860eb167b6130f90164a8[m
+Author: vnmbxx <congtudaohoa.2911@gmail.com>
+Date:   Wed Oct 28 11:17:02 2015 +0700
+
+    Update README.md
+
+[33mcommit c66c1c71797db511f1419771759c873834b6dd5a[m
+Author: Staplerfruit <vivianwu3@gmail.com>
+Date:   Tue Oct 27 23:16:35 2015 -0500
+
+    Synonym 8ball>magic_ball
+    
+    title. Hacktoberfest1
+
+[33mcommit b2852e5e2b2ea7f2ac0ba44da118d58f0a2c2924[m
+Author: Louai Hassan <theshdw99@gmail.com>
+Date:   Wed Oct 28 00:12:10 2015 -0400
+
+    More tags
+    
+    Created some more tags
+
+[33mcommit 528082a046afba0a6ff9950ba36ce2c7b2e67ae7[m
+Author: Louai Hassan <theshdw99@gmail.com>
+Date:   Tue Oct 27 23:39:37 2015 -0400
+
+    New Tags
+    
+    Added new tags to the emoji for scream
+
+[33mcommit 7221c1115de74e3cfbf7e8e3f802c319e5174741[m
+Author: Smoseph <smosyph@gmail.com>
+Date:   Tue Oct 27 19:28:11 2015 -0700
+
+    Added tired as synonym for sleepy
+
+[33mcommit b20b6a1ab228b31314e1c0971afbff4ac9434168[m
+Author: Smoseph <smosyph@gmail.com>
+Date:   Tue Oct 27 19:26:57 2015 -0700
+
+    Added love as synonym for heart eyes
+
+[33mcommit 163ad8e7c0e40fb54d086bc57aecaf2fcff2558e[m
+Author: Smoseph <smosyph@gmail.com>
+Date:   Tue Oct 27 19:25:59 2015 -0700
+
+    Added flirt as a synonym for wink
+
+[33mcommit 2f682aeeb71d5fb129a928b3eea4a23d20065b75[m
+Author: Chingling <sj.blair@yahoo.com>
+Date:   Tue Oct 27 20:40:48 2015 -0500
+
+    Update index.html
+    
+    Added alternative name "frustrated" to "worried.png"
+
+[33mcommit 25f6e33b7de92170e5010d41a7053098fd2ae010[m
+Author: Steve <atomiccodemonkey@gmail.com>
+Date:   Tue Oct 27 19:42:36 2015 -0400
+
+    More alternative names
+
+[33mcommit 0505c4102f8c15a8ce9f972b96ce2a936a05b5e5[m
+Author: Steve <atomiccodemonkey@gmail.com>
+Date:   Tue Oct 27 19:18:25 2015 -0400
+
+    Added a few alternative names
+
+[33mcommit 1eb09338a663596764a9dd3ce910ecc4b5eee12d[m
+Author: itsaferbie <itsaferbie@gmail.com>
+Date:   Tue Oct 27 19:01:40 2015 -0400
+
+    Added more alternatives, for some weather emojis.
+
+[33mcommit 321158a0fd7f0d116e8e513b3a23c3e4d8fec47a[m
+Author: KillerFan <violetamb94@hotmail.com>
+Date:   Tue Oct 27 23:56:42 2015 +0100
+
+    git commit -am Added vehicle alternative names
+
+[33mcommit 7ae3dfec2596d809dba4aca0866402c8ff0cbe27[m
+Author: itsaferbie <itsaferbie@gmail.com>
+Date:   Tue Oct 27 18:51:08 2015 -0400
+
+    Added two alternatives for fearful
+
+[33mcommit b7d0f36b9a9937a53aec9ef7b4b8fc08a5c0ceb0[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Oct 20 08:10:37 2015 +0200
+
+    Update used gems
+
+[33mcommit 594c11ea806f16eb5b257507396aadb5d8f7200c[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 21 22:44:20 2015 +0200
+
+    House keeping
+    
+    * Basecamp instead of campfire in title
+    * Description SEO optimization
+    * Footer copy is more correct
+
+[33mcommit 33dd1ed52214c78b0988f658e9a56555304e1351[m
+Merge: 692b1df 2bd9ec0
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Oct 20 08:07:33 2015 +0200
+
+    Merge pull request #251 from MadLittleMods/add-gitter-emoji-support-list
+    
+    Add Gitter to list of emoji supporting apps
+
+[33mcommit 2bd9ec0773ecd09ed2f65aee0a1bc83f9b4ce71e[m
+Author: Eric Eastwood <contact@ericeastwood.com>
+Date:   Mon Oct 19 20:22:08 2015 -0500
+
+    Add Gitter to list of emoji supporting apps
+
+[33mcommit 692b1df6bf75c27361a97ee1a103aedb6b89a4e2[m
+Merge: 031943d 2e97b31
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 16 16:12:32 2015 +0200
+
+    Merge pull request #250 from kachick/naruto
+    
+    Add an alias for fish_cake that called "Naruto" in Japan
+
+[33mcommit 2e97b31f928ed4b4393165517c1c129b8c11dd67[m
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Fri Oct 16 20:23:09 2015 +0900
+
+    Add an alias for fish_cake that called "Naruto" in Japan
+
+[33mcommit 031943d96837a62f41f6a30215aa42bd1a053e5b[m
+Merge: e32f5d2 8ec2cff
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Oct 13 09:31:48 2015 +0200
+
+    Merge pull request #248 from mark-adams/add-bitbucket
+    
+    Added Bitbucket to the list of sites supporting emoji
+
+[33mcommit 8ec2cffeca1f8a9f01cb89babd599c3680aba902[m
+Author: Mark Adams <mark@markadams.me>
+Date:   Mon Oct 12 22:53:28 2015 -0500
+
+    Added Bitbucket to the list of sites supporting emoji
+
+[33mcommit e32f5d2a699459c5c46767f2d513e5f2cc3d9e6b[m
+Merge: 9a517af 263a011
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 4 16:03:07 2015 +0200
+
+    Merge pull request #234 from yuyokk/fix-mobile-view
+    
+    Prevent horizontal scrolling on mobile devices
+
+[33mcommit 9a517afbe71a335dc683091f79fdd7d65d76ebfc[m
+Merge: ed03e5a f8cfb31
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 4 15:54:05 2015 +0200
+
+    Merge pull request #242 from kachick/fix-readme
+    
+    Update and freeze the example link to `data-alternative-name`
+
+[33mcommit ed03e5af22082dbc035d8452f56913c4d1e7ffb7[m
+Merge: 9ab735b 3e2ac14
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 4 15:53:22 2015 +0200
+
+    Merge pull request #246 from kachick/aliases-floral
+    
+    Add aliases for floral objects
+
+[33mcommit 9ab735bdaed229e1a1818965c70c70dfa98d3522[m
+Merge: 63648dc 666725a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 4 15:52:52 2015 +0200
+
+    Merge pull request #245 from kachick/aliases-suit
+    
+    Add aliases for card suit
+
+[33mcommit 63648dc190a6b3f0c159eb096d49f7d33630f8a7[m
+Merge: 5dd7152 c4f89fe
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 4 15:51:42 2015 +0200
+
+    Merge pull request #244 from kachick/aliases-sport
+    
+    Add aliases for running is a sport
+
+[33mcommit 5dd715249f1357ed77cbb841916258d0f34c5102[m
+Merge: f8e4a0b e1b4b6f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 4 15:51:16 2015 +0200
+
+    Merge pull request #243 from kachick/japanese-goblins
+    
+    Add aliases for Japanese goblins (`⊇`)
+
+[33mcommit c4f89fe0b5da9087d85153d5a3060c277cb139f2[m
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Sat Oct 3 01:05:44 2015 +0900
+
+    Add aliases for running is a sport
+
+[33mcommit 666725a628577c4fcf0422a677ac771e48406489[m
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Sat Oct 3 01:03:50 2015 +0900
+
+    Add aliases for card suit
+
+[33mcommit 3e2ac1436477fe182c4dcfd6e599245c3ddfe239[m
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Sat Oct 3 00:57:21 2015 +0900
+
+    Add aliases for floral objects
+
+[33mcommit e1b4b6fd90c37591b5416ea16945ae0b67392a33[m
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Sat Oct 3 00:06:43 2015 +0900
+
+    Add aliases for Japanese goblins (`⊇`)
+
+[33mcommit f8cfb31bddce564bd62a8cb6be35fdfdf7ce4945[m
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Sat Oct 3 00:16:40 2015 +0900
+
+    Update and freeze the example link to `data-alternative-name`
+
+[33mcommit f8e4a0bf622f3b3dbbbc6a4bbfe2e7e33be6076d[m
+Merge: 25c7859 e068993
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Sep 14 09:14:05 2015 +0200
+
+    Merge pull request #241 from 8012labs/add-app-status-hero
+    
+    Add Status Hero to the list of Emoji-supported apps
+
+[33mcommit e068993fc67ef91bc2cf9881f7b96bac8062f15c[m
+Author: Henry Poydar <hpoydar@gmail.com>
+Date:   Sun Sep 13 09:37:34 2015 -0400
+
+    Add Status Hero to the list of Emoji-supported apps
+
+[33mcommit 25c7859c95032134ba0f4dd2f1ed3d6e52d04ac9[m
+Merge: fa9f095 951e728
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Aug 28 12:23:58 2015 +0200
+
+    Merge pull request #236 from teamvista/Add_App-discord
+    
+    Adds Discord to the list of Emoji-supported apps.
+
+[33mcommit 951e728e9e55d7c4f1f21cccf9c994c1e19e6637[m
+Author: teamvista <mathexmusic@gmail.com>
+Date:   Sat Aug 22 21:59:40 2015 -0400
+
+    Discord supports emoji
+
+[33mcommit 3f8684e6d91ed28b168e6c4a1961479b6aa4ede1[m
+Author: teamvista <mathexmusic@gmail.com>
+Date:   Sat Aug 22 21:57:36 2015 -0400
+
+    Update readme to add Discord to the list
+
+[33mcommit 263a0111cbc8d59c274aed8af88e71bc9bd20a82[m
+Author: Iurii Kucherov <yuyokk@gmail.com>
+Date:   Tue Aug 4 19:43:57 2015 +0300
+
+    Prevent horizontal scrolling on mobile devices
+
+[33mcommit fa9f0951b6f0314991f945c0cfaff86db237f59f[m
+Merge: e4e4d82 84fe43b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jul 13 19:54:40 2015 +0200
+
+    Merge pull request #231 from tuxlife/patch-1
+    
+    other Line with data-alternative-name
+
+[33mcommit 84fe43b38824b0d3d4407276335586523d7b88b1[m
+Author: Matthias Kerk <tuxlife@users.noreply.github.com>
+Date:   Mon Jul 13 13:32:37 2015 +0200
+
+    other Line with data-alternative-name
+
+[33mcommit e4e4d82210a81b992fe78ddad2129c2ee16e8e5d[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jun 21 21:20:51 2015 +0200
+
+    Usersnap support emojis
+
+[33mcommit d50f9f4b8b9a8a8a2ade06296e7c2bd006c8b6fb[m
+Merge: 73f50e7 4c1e03c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue May 19 10:06:31 2015 +0200
+
+    Merge branch 'florianmonfort-master'
+    
+    Conflicts:
+            README.md
+
+[33mcommit 4c1e03ce757d0f6aa7f0254d772fd4226cfeac84[m
+Author: squarefractal <squarefractal@gmail.com>
+Date:   Fri May 15 15:38:03 2015 +0530
+
+    Dokuwiki support
+
+[33mcommit 0d9578ffe66f29d8bbae0a27807466c5dfee3f1e[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon May 11 19:52:55 2015 +0200
+
+    Indent correctly
+
+[33mcommit 73f50e786dc3af131170ca4536444902882a3b40[m
+Merge: a8b5161 6605c03
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue May 19 10:01:59 2015 +0200
+
+    Merge pull request #226 from squarefractal/patch-1
+    
+    Add Dokuwiki to the list
+
+[33mcommit 6605c0321be449ecf65ba86291668ee4b84ad6da[m
+Author: squarefractal <squarefractal@gmail.com>
+Date:   Fri May 15 15:38:03 2015 +0530
+
+    Dokuwiki support
+
+[33mcommit 307e69e65069278583ad541e931d0b046d263edc[m
+Author: Florian Monfort <florian.monfort@gmail.com>
+Date:   Tue May 12 16:19:18 2015 +0200
+
+    Added changes to Readme
+
+[33mcommit a8b516146307294aeb2e44c9b3644afcd7edb630[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon May 11 19:52:55 2015 +0200
+
+    Indent correctly
+
+[33mcommit 4ac4bf7dd33cb0a8d9c492a9cfbf9d12c83ef65e[m
+Merge: 7ebaca3 e78bd51
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon May 11 19:52:08 2015 +0200
+
+    Merge pull request #223 from florianmonfort/master
+    
+    Added ChatGrape to the list of websites that supports emojis
+
+[33mcommit e78bd513b15555d3f02d7e295a6b1be8f599a705[m
+Author: Florian Monfort <florian.monfort@gmail.com>
+Date:   Mon May 11 14:28:03 2015 +0200
+
+    Changed the indent
+    
+    Changed the indent line 87
+
+[33mcommit 713ac8e9e9ee547602892e1f1dc52b8564552a52[m
+Author: Florian Monfort <florian.monfort@gmail.com>
+Date:   Sun May 10 17:37:30 2015 +0200
+
+    added ChatGrape
+    
+    Added ChatGrape at the right place
+
+[33mcommit 99306d23eb51f15e35c2fefab40ed408b084cef2[m
+Author: Florian Monfort <florian.monfort@gmail.com>
+Date:   Mon May 4 17:30:01 2015 +0200
+
+    Corrected indent
+    
+    Added ChatGrape to the list
+
+[33mcommit c8fc9f970faf026b77f69533d0159f92de8cf23a[m
+Author: Florian Monfort <florian.monfort@gmail.com>
+Date:   Mon May 4 17:00:57 2015 +0200
+
+    Added ChatGrape to the list
+    
+    Added ChatGrape to the list, sent you an email but learned how to use
+    GitHub in the mean time lol
+
+[33mcommit 7ebaca3d14adba19a3248459a4fbb98193e19c4d[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 28 22:05:43 2015 +0200
+
+    Fix typo
+
+[33mcommit c1f964ce5b6f185490ea8a1e7cfc2b9c0083f370[m
+Merge: 7c268b2 b797b9e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 27 22:43:53 2015 +0200
+
+    Merge pull request #219 from fotos/crescent_moon
+    
+    Rename moon to crescent_moon
+
+[33mcommit 7c268b24be75a5c490075e91529eeaf67369e8a6[m
+Merge: 7169504 91635c7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 27 22:25:10 2015 +0200
+
+    Merge pull request #222 from Artenes/smileIsHappy
+    
+    Added data-alternative-name "Happy" and "Relief" to some smile emojis
+
+[33mcommit 91635c780eb6c323252a9ebb37d3ef4f54370a65[m
+Author: Artenes Nogueira <artenesama@gmail.com>
+Date:   Sat Apr 18 15:50:22 2015 -0300
+
+    Added data-alternative-name "Happy" to some smile emojis
+
+[33mcommit 71695040f6f1ae9194ee2ba84dbff9d56f0aa3d2[m
+Merge: f1b276e eceb884
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Apr 17 10:17:01 2015 +0200
+
+    Merge pull request #221 from krazyjakee/master
+    
+    add igdb to emoji users
+
+[33mcommit eceb884556ed3fe21f7b04c3967c32c13758a172[m
+Author: Jake Cattrall <krazyjakee@gmail.com>
+Date:   Thu Apr 16 09:49:11 2015 +0100
+
+    add igdb to emoji users
+
+[33mcommit f1b276ed0eabf93260e70f592ffba24ad2a46adc[m
+Merge: 15a6321 9d2fce7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Apr 9 09:30:59 2015 +0200
+
+    Merge pull request #220 from tomer/patch-1
+    
+    Fix link to index.html demonstrating the usage of data-alternative-name ...
+
+[33mcommit 9d2fce7b008af45f54043dad379ab11f5fe0902a[m
+Author: Tomer Cohen <tomer@users.noreply.github.com>
+Date:   Thu Apr 9 00:44:11 2015 +0300
+
+    Fix link to index.html demonstrating the usage of data-alternative-name in file README.md
+
+[33mcommit b797b9e550256d351205fa7e5ac3e6bb40e43396[m
+Author: Fotos Georgiadis <gfotos@gmail.com>
+Date:   Fri Apr 3 01:32:31 2015 +0300
+
+    Rename moon to crescent_moon
+
+[33mcommit 15a6321e109e623b558af5bcd1e3eb70bab00525[m
+Merge: 6eae55d b352452
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Mar 23 09:57:44 2015 +0100
+
+    Merge pull request #217 from buildkite/add-buildkite-to-list
+    
+    Add Buildkite to list of supported services
+
+[33mcommit b352452df2a9c5d62d896ab065f978dcedf69b83[m
+Author: Tim Lucas <t@toolmantim.com>
+Date:   Tue Mar 17 10:26:16 2015 +1100
+
+    Add Buildkite to list of supported services
+
+[33mcommit 6eae55dff85e1553d47d9b01c4770359dcf595f6[m
+Merge: a01bd80 cd0a85b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Mar 9 09:48:02 2015 +0100
+
+    Merge pull request #213 from sibartlett/master
+    
+    Added Let's Chat
+
+[33mcommit a01bd806ecd51c3c13b7b655378ba60d5c68caf6[m
+Merge: 4034a99 57a2e9c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 3 21:56:05 2015 +0100
+
+    Merge pull request #214 from stevemao/patch-1
+    
+    Tweak JavaScript section
+
+[33mcommit 57a2e9c814d7ed968ca9a1edf2ead496657c19fd[m
+Author: Steve Mao <stevemao@users.noreply.github.com>
+Date:   Thu Feb 26 16:05:27 2015 +1100
+
+    Tweak JavaScript section
+    
+    All of them are available on npm
+
+[33mcommit cd0a85b86fc4b55d7d0e68afe1af8384d7dbfc1c[m
+Author: Simon Bartlett <simon@securitycompass.com>
+Date:   Thu Feb 19 23:21:10 2015 -0500
+
+    Added Let's Chat
+
+[33mcommit 4034a99b994738795fbe28d95024d229a5915017[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Feb 20 10:19:10 2015 +0100
+
+    No reflow of text when ad is displayed
+
+[33mcommit 096ed015c7c1ca881ca5f402dd9086d526daa921[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 22:57:01 2015 +0100
+
+    Ad taks up a tiny bit less space
+
+[33mcommit 09a284cb8b7e3097ccbbc2e43ea6fae864aa4f5e[m
+Merge: 1a8c48e 1ef3d6b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 22:52:36 2015 +0100
+
+    Merge branch 'ads'
+
+[33mcommit 1ef3d6b8ac025a24bcca5bbeae0b1e1a56c3c859[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 22:48:54 2015 +0100
+
+    Test with ads from Carbon
+    
+    Will run this for a month and see how if feels / works.
+    
+    More info http://carbonads.net
+
+[33mcommit 1a8c48e3e9ab9cd5a439d9b8dd26b7872d04f479[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 22:06:22 2015 +0100
+
+    Track service link clicks
+
+[33mcommit db0a270a1804e07e6ba717db0e99bb7fc0576790[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 21:56:56 2015 +0100
+
+    Correct line number
+
+[33mcommit 78bb40944bf05a2987a765ba415f5465a7123845[m
+Merge: ca4ceff 5f964bf
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 21:43:29 2015 +0100
+
+    Merge branch 'simplify-design'
+
+[33mcommit 5f964bf65f1d85d9efbf56af1691e67f870d67bc[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 21:38:46 2015 +0100
+
+    Simplify design
+    
+    Basically this make page into a one column layout. This allows
+    everything to use the full width of the browser widow.
+    
+    Share buttons on a single line, probably more visible now.
+    
+    Remove background as it doesn't add much.
+
+[33mcommit ca4ceff6b4b06cdf1d7d67a3d749163a39249c20[m
+Merge: c1cbf29 ae8806a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 19 10:10:51 2015 +0100
+
+    Merge pull request #211 from jerone/synonyms
+    
+    Some synonyms
+
+[33mcommit ae8806ac3d76a9cf2dc2dadd65e8eedf5cfed669[m
+Merge: 24d5498 217337d
+Author: unknown <jwm@ID-1316.motivaction.local>
+Date:   Wed Feb 18 14:26:22 2015 +0100
+
+    Merge branch 'synonyms' of https://github.com/jerone/emoji-cheat-sheet.com into synonyms
+    
+    Conflicts:
+            public/index.html
+
+[33mcommit 24d5498e6c0a8e7f7a5b1063b6802dd6a48c3af9[m
+Author: Jeroen van Warmerdam <jeronevw@hotmail.com>
+Date:   Tue Feb 17 17:58:14 2015 +0100
+
+    Some more synonyms
+
+[33mcommit aa693493ec2f91f83e6b988277fde24ec15ce30a[m
+Author: Jeroen van Warmerdam <jeronevw@hotmail.com>
+Date:   Tue Feb 17 17:43:59 2015 +0100
+
+    Some synonyms
+
+[33mcommit c1cbf292591307a20cfa2bcd4592072da7afab11[m
+Merge: aa9a776 20e46de
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Feb 18 10:08:33 2015 +0100
+
+    Merge pull request #210 from delas/master
+    
+    Added few aliases
+
+[33mcommit 217337d08ad5c7c44942b6ef46b6435de43e5de7[m
+Author: Jeroen van Warmerdam <jeronevw@hotmail.com>
+Date:   Tue Feb 17 17:58:14 2015 +0100
+
+    Some more synonyms
+
+[33mcommit 08edf4982a5a0d2bfa2d20c76d54717ffef3a3d2[m
+Author: Jeroen van Warmerdam <jeronevw@hotmail.com>
+Date:   Tue Feb 17 17:43:59 2015 +0100
+
+    Some synonyms
+
+[33mcommit 20e46dee7dd674b6218d365fba4e7edf3b019127[m
+Author: delas <andrea.burattin@gmail.com>
+Date:   Tue Feb 17 13:58:11 2015 +0100
+
+    Added few aliases
+
+[33mcommit aa9a776579cab62f33c6e6cdea4612c484b464d8[m
+Merge: 2c89365 9cec5c1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Feb 16 21:37:21 2015 +0100
+
+    Merge branch 'cyakimov-patch-2'
+    
+    Conflicts:
+            README.md
+
+[33mcommit 9cec5c101735ad2ccb1503ffcd992b9cad3b47ee[m
+Author: Carlos Yakimov <logicode.ve@gmail.com>
+Date:   Sun Feb 15 14:45:53 2015 -0300
+
+    Update index.html
+    
+    Add Damn Bugs bug tracker
+
+[33mcommit 5047f88d84e25fee5cc71b81c0094313356f2c20[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Feb 14 12:12:18 2015 +0100
+
+    Note on contributing synonyms
+    
+    Related #192
+
+[33mcommit 0068a50e6fb60b78012944f70ea00838cf2e1848[m
+Author: Ann Goliak <ann@basecamp.com>
+Date:   Tue Feb 10 11:49:06 2015 -0600
+
+    Three new sounds in Campfire
+
+[33mcommit 29ee1c9651bf121c517cc2a07a517ae7cc5aa3ae[m
+Author: Adam Lynch <contact@adamlynch.ie>
+Date:   Mon Feb 9 21:28:41 2015 +0000
+
+    Added TeamworkChat to "supported by" list
+
+[33mcommit 2c893657e9d8973e50d4c0b0bec93f5217fac25b[m
+Merge: d1007c9 281af44
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Feb 16 21:35:06 2015 +0100
+
+    Merge pull request #209 from cyakimov/patch-3
+    
+    Update index.html
+
+[33mcommit 281af44ca7be7ad94e2f417449268345a99cbfcb[m
+Author: Carlos Yakimov <logicode.ve@gmail.com>
+Date:   Sun Feb 15 14:45:53 2015 -0300
+
+    Update index.html
+    
+    Add Damn Bugs bug tracker
+
+[33mcommit d1007c959090f06d6b921ab7f31f0bc2bdc719b3[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Feb 14 12:12:18 2015 +0100
+
+    Note on contributing synonyms
+    
+    Related #192
+
+[33mcommit 328cac5cc0c709e43fe92948d2484172d1a56abe[m
+Merge: 2089bb9 cf155fa
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Feb 13 22:10:37 2015 +0100
+
+    Merge pull request #206 from adam-lynch/teamwork
+    
+    Added TeamworkChat to "supported by" list
+
+[33mcommit 2089bb9b2cd22fa430062c4c51f173ddb0f31266[m
+Merge: a7c96b1 42b57d4
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Feb 13 22:10:12 2015 +0100
+
+    Merge pull request #207 from rocketslide/threenewsounds
+    
+    Three new sounds in Campfire
+
+[33mcommit 42b57d49dc39666c9eb0f64454163bf61ad25e4e[m
+Author: Ann Goliak <ann@basecamp.com>
+Date:   Tue Feb 10 11:49:06 2015 -0600
+
+    Three new sounds in Campfire
+
+[33mcommit cf155fa01afbcadbade25f3c1e0ed1c37dde824e[m
+Author: Adam Lynch <contact@adamlynch.ie>
+Date:   Mon Feb 9 21:28:41 2015 +0000
+
+    Added TeamworkChat to "supported by" list
+
+[33mcommit f0f970d726e14a03d7fd7e91917262fca5d3f70a[m
+Author: Carlos Yakimov <logicode.ve@gmail.com>
+Date:   Sat Feb 7 13:52:31 2015 -0300
+
+    Update README.md
+    
+    Add Damn Bugs bug tracker
+
+[33mcommit a7c96b1c7e4630e43ee06a46df6d82abb235fc47[m
+Merge: 3cefb1b fcd7302
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 5 10:21:15 2015 +0100
+
+    Merge pull request #204 from groupsio/groups.io
+    
+    Added groups.io
+
+[33mcommit fcd7302eec74a3352d20200b99960e35a6671873[m
+Author: Mark Fletcher <markf@wingedpig.com>
+Date:   Wed Feb 4 22:02:28 2015 -0800
+
+    Added groups.io
+
+[33mcommit 3cefb1bfe49e02f605c2b8e553dacae2d4820f2c[m
+Merge: 7faf5f4 42bc6ab
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jan 12 20:09:40 2015 +0100
+
+    Merge pull request #203 from ribalba/master
+    
+    Added DBook.org
+
+[33mcommit 42bc6ab067c94667f3fce97bd48e77edbc30c61b[m
+Author: Didi Hoffmann <didi@rebelproject.org>
+Date:   Mon Jan 12 15:28:54 2015 +0100
+
+    Added DBook.org
+
+[33mcommit 7faf5f494554e7597c611e1e7b63b7c57f6ee1e0[m
+Merge: 1ae1e61 417ce46
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jan 9 10:14:20 2015 +0100
+
+    Merge pull request #197 from fukayatsu/add-esa
+    
+    Add esa to supported services
+
+[33mcommit 417ce46f8f49cbfc4d6969ed138a7a046a2bdf76[m
+Author: fukayatsu <fukayatsu@gmail.com>
+Date:   Sat Dec 27 16:26:18 2014 +0900
+
+    Add esa to supported services
+
+[33mcommit 1ae1e617707deeb514f32c38715ca123d62c3c6f[m
+Merge: fda914c f5fd536
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Jan 7 10:15:28 2015 +0100
+
+    Merge pull request #202 from KamranMackey/patch-1
+    
+    Fixed a very small capitalization error.
+
+[33mcommit f5fd5363068cdc512753ed467b68dd51fdc350e5[m
+Author: Kamran Mackey <kamranm1200@gmail.com>
+Date:   Tue Jan 6 16:16:04 2015 -0700
+
+    Fixed a very small capitalization error.
+
+[33mcommit fda914c3d71bc1269c57c46f421f3604192369ba[m
+Merge: 879847c bae700c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jan 6 10:49:43 2015 +0100
+
+    Merge pull request #200 from gkoberger/master
+    
+    Add ReadMe.io
+
+[33mcommit bae700c2c3056314377907931f6fe7f5287d7972[m
+Author: Gregory Koberger <gkoberger@gmail.com>
+Date:   Mon Jan 5 17:06:55 2015 -0500
+
+    Add ReadMe.io
+
+[33mcommit 879847cab9745b408f90fda659ac2ef05e63ab6a[m
+Merge: 9335deb ec38030
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jan 5 19:26:56 2015 +0100
+
+    Merge pull request #199 from powderblock/master
+    
+    Fix HTTPS vs. HTTP for textbox.io
+
+[33mcommit 9335debe85157eeaf7335aaed68490c3ada86eb1[m
+Merge: 3b3780e cd320a7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jan 5 19:14:58 2015 +0100
+
+    Merge pull request #196 from metalabdesign/add_flow
+    
+    Add Flow to list of supporting apps
+
+[33mcommit ec3803046a97fb5c6f13e97ff5123b3316f80870[m
+Author: Blade Nelson <powderblock@gmail.com>
+Date:   Fri Jan 2 20:27:15 2015 -0500
+
+    Remove s from HTTPS on textbox.io
+    
+    textbox.io lacks HTTPS support but the URL given is HTTPS. Remove s from https:// on the textbox.io entry in supported sites.
+
+[33mcommit c7c756c274198aae3fd8ce0443b267f45d6ddf1f[m
+Author: Blade Nelson <powderblock@gmail.com>
+Date:   Fri Jan 2 20:19:32 2015 -0500
+
+    Remove HTTPS from textbox.io in Supported Pages
+    
+    Textbox.io does not support HTTPS; Remove s from https.
+
+[33mcommit cd320a74de200a7dcf85c47c7897f4cc2b0f3526[m
+Author: Ali Bosworth <ali@metalabdesign.com>
+Date:   Wed Dec 17 15:01:18 2014 -0500
+
+    Add Flow to list of supporting apps
+
+[33mcommit 3b3780eaeb0942e3a66224fab4564a4806429465[m
+Merge: 7ee5f75 9d18696
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 27 17:45:45 2014 +0100
+
+    Merge pull request #193 from jtwhissel/master
+    
+    Update index.html
+
+[33mcommit 9d18696f60440b13857e0da29e39d409811aeac7[m
+Author: jtwhissel <jtw@gotchosen.com>
+Date:   Mon Nov 24 16:27:20 2014 -0500
+
+    Update index.html
+    
+    Added gotchosen.com to the list. We support this in our chat :shipit:
+
+[33mcommit 7ee5f75586011adebd0e3146cb5d3289cff17a9b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Nov 11 22:14:09 2014 +0100
+
+    No unnecessary breaks
+
+[33mcommit ba8c39449b4c5bde4e7e5fdd6f478d113ef0380d[m
+Merge: de9525a ce9e6de
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Nov 11 21:48:30 2014 +0100
+
+    Merge pull request #191 from ellekasai/master
+    
+    Add Twemoji Awesome
+
+[33mcommit ce9e6de10a13cb94a9bfcc44aeb667e73973e11e[m
+Author: Elle Kasai <elle.kasai@gmail.com>
+Date:   Mon Nov 10 21:39:49 2014 -0800
+
+    add ,
+
+[33mcommit 3d936823a30cf9de19b0a04b85a8743d866e829a[m
+Author: Elle Kasai <elle.kasai@gmail.com>
+Date:   Mon Nov 10 21:38:17 2014 -0800
+
+    remove .
+
+[33mcommit e2995a54957b2e645f33b48332b9702abbd788c9[m
+Author: Elle Kasai <elle.kasai@gmail.com>
+Date:   Mon Nov 10 21:32:58 2014 -0800
+
+    add twemoji awesome
+
+[33mcommit de9525a28b168f369ec671b004c1ea55d1d9cac2[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 29 21:34:39 2014 +0100
+
+    Ello support emojis
+
+[33mcommit 0533bc7fd1c2047ade9c23812319894d2d8a4921[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Oct 4 21:38:06 2014 +0200
+
+    More credit to the contributors
+
+[33mcommit c3e009efe58378631bace0bbaeb569a7d44c29a3[m
+Merge: a77f7a6 148ee36
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Oct 4 21:27:23 2014 +0200
+
+    Merge pull request #186 from randsonjs/patch-2
+    
+    Add link to all contributors
+
+[33mcommit a77f7a6ebaa99518e74a90565f8280963c883974[m
+Merge: 7fa11b9 4c72148
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Oct 4 21:26:51 2014 +0200
+
+    Merge pull request #185 from randsonjs/patch-1
+    
+    Add link to contributors
+
+[33mcommit 148ee36fafa9109cd8ec60ce5184a476936a2465[m
+Author: Randson Oliveira <randsonjs@gmail.com>
+Date:   Wed Oct 1 16:22:29 2014 -0400
+
+    Add link to all contributors
+
+[33mcommit 4c721487c29f0ac55b8ee49cf70ca195aef71fac[m
+Author: Randson Oliveira <randsonjs@gmail.com>
+Date:   Wed Oct 1 02:21:27 2014 -0400
+
+    Add link to contributors
+
+[33mcommit 7fa11b94a4546523c66e999aa9568cd52ca7b537[m
+Merge: ba5f211 dbb5631
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 1 08:05:22 2014 +0200
+
+    Merge pull request #183 from randsonjs/patch-1
+    
+    Update contributing guide
+
+[33mcommit dbb56315a346fad717871ebdbc6b0dc941920d79[m
+Author: Randson Oliveira <randsonjs@gmail.com>
+Date:   Tue Sep 30 18:56:35 2014 -0400
+
+    Update contributing guide
+
+[33mcommit ba5f211d0456c38eb76ee9563caf58fc652cb2b2[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Sep 29 21:03:56 2014 +0200
+
+    Remove breaking chars
+    
+    These where making the preprocessor ignore these lines and messing up
+    the sprite.
+
+[33mcommit dd2c188074389af77c2a2e5c43e82318ed24dfdf[m
+Merge: 630759a d1a6de7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Sep 17 23:10:05 2014 +0200
+
+    Merge pull request #180 from dlambl/master
+    
+    Changes for issue #170
+
+[33mcommit d1a6de715e4017f90a5f4201a5eb25cf056d0a1f[m
+Author: David Lambl <david.lambl@gmail.com>
+Date:   Tue Sep 16 20:45:02 2014 -0400
+
+    Removes duplicate "white_black_square" image from images folder
+    
+    Removes duplicate "white_black_square" image from images folder
+
+[33mcommit fd9d195b705c5cf686bdb69cc42a0f432aa115c8[m
+Author: David Lambl <david.lambl@gmail.com>
+Date:   Tue Sep 16 08:55:06 2014 -0400
+
+    Adds :black_medium_square: and :white_medium_square:
+    
+    Adds :black_medium_square: and :white_medium_square:
+
+[33mcommit 26bafd6e8e24c7e426f6db50ed1445a00d661fa4[m
+Author: David Lambl <david.lambl@gmail.com>
+Date:   Mon Sep 15 20:08:54 2014 -0400
+
+    Adds :back: , :black_medium_small_square: , :black_small_square: , :package: , :sparkle: , :white_black_square: , :white_medium_small_square
+    
+    Adds :back: , :black_medium_small_square: , :black_small_square: ,
+    :package: , :sparkle: , :white_black_square: ,
+    :white_medium_small_square: , :white_medium_square: ,
+    :white_small_square:
+
+[33mcommit 630759a2b1c1a031b1e86a91f86bf39c6995692c[m
+Merge: d4e80fb bdf0a8d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Aug 29 22:33:57 2014 +0200
+
+    Merge pull request #176 from awesomerobot/master
+    
+    Added Discourse to the list and small fixes
+
+[33mcommit bdf0a8de7e9158cce51f8a300263c04fdc7c307c[m
+Author: Kris Aubuchon <shout@k-ris.com>
+Date:   Thu Aug 28 10:18:21 2014 -0400
+
+    Added Discourse to the list and small fixes
+
+[33mcommit d4e80fb89371b0f41371077ea00eeea559f5b021[m
+Merge: ca9097d e47349b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Aug 25 15:34:47 2014 +0200
+
+    Merge pull request #175 from bonusly/master
+    
+    Update README.md
+
+[33mcommit e47349b902dd8bd453e2e9f57c6428f8063ade77[m
+Author: John Quinn <doofdoofsf@gmail.com>
+Date:   Mon Aug 25 09:17:04 2014 -0400
+
+    Update index.html
+    
+    Add Bonusly to the list
+
+[33mcommit 72fb101f84ad540e1aa6850e824dfedd820ac277[m
+Author: John Quinn <doofdoofsf@gmail.com>
+Date:   Sat Aug 23 11:14:37 2014 -0400
+
+    Update README.md
+    
+    Add Bonusly to the list of services supporting emoji-cheat-sheet
+
+[33mcommit ca9097d8d43633f9f53581cce2743199279912b8[m
+Merge: f21d695 fff75e4
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Aug 19 16:21:23 2014 +0200
+
+    Merge pull request #173 from carpedm20/addpython
+    
+    add Python emoji library to list
+
+[33mcommit fff75e4f9b5139188ec3d7d349ec0719d282c7f7[m
+Author: carpedm20@gmail.com <carpedm20@gmail.com>
+Date:   Mon Aug 18 17:41:37 2014 +0900
+
+    add python emoji
+
+[33mcommit f21d695e664a5fed268e2c270a32ae687b3f110f[m
+Merge: b7aaab7 ce3650e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Aug 12 16:18:30 2014 +0200
+
+    Merge pull request #172 from justindujardin/patch-1
+    
+    Add Sococo to the supported list.
+
+[33mcommit ce3650e62ca6ed34502c340930c6fb3900df8004[m
+Author: Justin DuJardin <justin@dujardinconsulting.com>
+Date:   Mon Aug 11 15:01:50 2014 -0700
+
+    Add Sococo to the supported list.
+    
+    The latest version of Sococo chat supports these emoji.
+
+[33mcommit b7aaab7a8a1788b5f7b0635225db0ad6cb277bbb[m
+Merge: 948f6e9 e3457c0
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 6 21:34:50 2014 +0200
+
+    Merge pull request #169 from guodongxiaren/patch-1
+    
+    bug:black square should be ':black_large_square'
+
+[33mcommit 948f6e97cc32d10004187d895d9b518e44188c4c[m
+Merge: 64219cd 74cae40
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 6 21:33:06 2014 +0200
+
+    Merge branch 'ixro-master'
+    
+    Conflicts:
+            README.md
+            public/index.html
+
+[33mcommit 74cae40312cc1befb3cab930d8434c9bace68a22[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jul 13 21:20:05 2014 +0200
+
+    GitLab doesn't support all emojis
+    
+    Related #161
+
+[33mcommit 8e941cab2548af8ef8a8b5bc4c3359292e524e6e[m
+Author: Jimmy B <jimmy.brancaccio@gmail.com>
+Date:   Wed Jul 23 13:57:02 2014 -0500
+
+    Adding MyVideoGameList to README
+    
+    Added MyVideoGameList to the README as well as fixed a couple missing commas in the site listing.
+
+[33mcommit 920ee923a5ea62721b9b3d160ebe5f5ba606908f[m
+Author: Jimmy B <jimmy.brancaccio@gmail.com>
+Date:   Wed Jul 23 13:55:15 2014 -0500
+
+    Add MyVideoGameList.com to the website.
+    
+    Added MyVideoGameList.com to the HTML web page.
+
+[33mcommit 64219cd985f7ea5e4931e08a10487f79ca0aa0ed[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jul 13 21:20:05 2014 +0200
+
+    GitLab doesn't support all emojis
+    
+    Related #161
+
+[33mcommit 1da049ffa0b8f4e62f255c7cabad0d2cddbc9f86[m
+Merge: 2ad9723 bfddd40
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 6 21:29:19 2014 +0200
+
+    Merge pull request #167 from jimmybrancaccio/myvideogamelist.com
+    
+    Added MyVideoGameList to List of Emoji Supported Sites
+
+[33mcommit e3457c015d868f754f5134610992fdbff4fae5c5[m
+Author: Jelly <879231132@qq.com>
+Date:   Sun Jul 27 09:56:59 2014 +0800
+
+    bug:black square should be ‘:black_large_square’
+
+[33mcommit dccbc017cc633db5106a18946a5f965634b81380[m
+Author: ixro <contact@subrosa.io>
+Date:   Thu Jul 24 19:36:18 2014 +1000
+
+    Add Subrosa.io to supported sites
+
+[33mcommit 0175b58b11cab40f26347f553851926fd10b1f7c[m
+Author: ixro <contact@subrosa.io>
+Date:   Thu Jul 24 19:35:35 2014 +1000
+
+    Add Subrosa to supported sites
+
+[33mcommit bfddd40ef574346ed1b93ee6b51e46d7736fd04e[m
+Author: Jimmy B. <jimmy.brancaccio@gmail.com>
+Date:   Wed Jul 23 13:57:02 2014 -0500
+
+    Adding MyVideoGameList to README
+    
+    Added MyVideoGameList to the README as well as fixed a couple missing commas in the site listing.
+
+[33mcommit 8c9b244a71fa320ca4e2e85aee4e8070b95a6cb5[m
+Author: Jimmy B. <jimmy.brancaccio@gmail.com>
+Date:   Wed Jul 23 13:55:15 2014 -0500
+
+    Add MyVideoGameList.com to the website.
+    
+    Added MyVideoGameList.com to the HTML web page.
+
+[33mcommit 2ad97231cb333ba623df0f4888477e818ce5573f[m
+Merge: 01cf8d4 cc60daa
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jul 22 19:07:16 2014 +0200
+
+    Merge pull request #163 from jdodson/jbd_fix_cg_link
+    
+    Adding Cheerful Ghost to the website.
+
+[33mcommit cc60daaf997627a7e0100c5f102dd8eb93e8fce1[m
+Author: Jon Dodson <jon.dodson@livingsocial.com>
+Date:   Mon Jul 14 21:52:39 2014 -0700
+
+    Adding Cheerful Ghost to the website.
+
+[33mcommit 01cf8d467ca5524fbbae14a9bd15b6bbe4b8e01d[m
+Merge: c866c20 c22c8c8
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Jul 13 21:02:34 2014 +0200
+
+    Merge pull request #162 from caius/master
+    
+    Add /play letitgo to sounds list
+
+[33mcommit c22c8c82cfe11b6a35c339966015db15d98f7591[m
+Author: Caius Durling <dev@caius.name>
+Date:   Fri Jul 11 15:42:42 2014 +0100
+
+    Add /play letitgo to sounds list
+
+[33mcommit c866c2081b14f9e8d9325b8ed7d0aa3c45232063[m
+Merge: 50a1492 0455bfa
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jul 7 20:45:27 2014 +0200
+
+    Merge pull request #160 from frissdiegurke/patch-1
+    
+    added JS-library (emoji-parser) to list
+
+[33mcommit 0455bfa470629cb372eb600183b80f6b8afb2f8f[m
+Author: frissdiegurke <frissdiegurke@hotmail.com>
+Date:   Thu Jul 3 14:59:09 2014 +0200
+
+    added JS-library (emoji-parser) to list
+
+[33mcommit 50a1492be4a7209dedd4791796cae69081fd6204[m
+Merge: fdb252b 32e261b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jun 17 09:14:54 2014 +0200
+
+    Merge pull request #154 from danhealy/master
+    
+    Sounds can be paused and won't play over each other
+
+[33mcommit 32e261b5bff3552eaa8410f7cc69292624fa4826[m
+Author: Dan Healy <dan@beyondludus.com>
+Date:   Mon Jun 16 14:49:40 2014 -0700
+
+    Sounds can be paused and won't play over each other
+
+[33mcommit fdb252b9c129dde9af8a63a569c5a07d46ffb97d[m
+Merge: 0fabbc7 8a4bfe0
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Jun 11 09:18:59 2014 +0200
+
+    Merge pull request #153 from bradens/master
+    
+    Add Dashcube to the list of supported sites.
+
+[33mcommit 8a4bfe08c446c459c04b2a45a8aed8f25fbd2e75[m
+Author: Braden Simpson <braden@uvic.ca>
+Date:   Tue Jun 10 11:46:13 2014 -0700
+
+    Update index.html
+
+[33mcommit 2f9dfc119557caf37829610645f44a08011ee654[m
+Author: Braden Simpson <braden@uvic.ca>
+Date:   Tue Jun 10 11:45:12 2014 -0700
+
+    Update README.md
+
+[33mcommit 0fabbc76f662c010a7bddbd2f9c8648459cf7470[m
+Merge: 588a2cb fc19583
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jun 3 16:14:46 2014 +0200
+
+    Merge pull request #152 from irccloud/master
+    
+    Add irccloud to list of supporting sites
+
+[33mcommit fc1958306efbe0fdefae0f79ede823cdd739377b[m
+Author: Richard Jones <rj@metabrew.com>
+Date:   Tue Jun 3 14:48:45 2014 +0100
+
+    Add irccloud to list of supporting sites
+    
+    IRCCloud supports these :codes:, as per https://blog.irccloud.com/emoji/
+
+[33mcommit 588a2cb5462696e5139bc615c6c3a94a2b1715ce[m
+Merge: 451fae1 a079f12
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri May 30 10:16:42 2014 +0200
+
+    Merge pull request #151 from rkallensee/master
+    
+    Add Redmine to the list of supported applications/services
+
+[33mcommit a079f12bf88f48d176c7dd6e1ba3bd444bbaf3de[m
+Author: Raphael Kallensee <raphael@kallensee.name>
+Date:   Tue May 27 17:58:41 2014 +0200
+
+    Add Redmine to the list of supported applications/services.
+
+[33mcommit 451fae1a2957bbf510febab518963075fd362469[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri May 16 14:08:25 2014 +0200
+
+    Ensure we can play sound before showing play button
+
+[33mcommit 7e66289174d311a9647c335da3e229a405d80f93[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri May 16 10:11:55 2014 +0200
+
+    @hnrc is a contributor
+
+[33mcommit cf1d9a887f7370f2e066f62847667a364ba753e0[m
+Merge: 3e23f18 aacb4a3
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri May 16 10:10:35 2014 +0200
+
+    Merge pull request #150 from hnrc/master
+    
+    Make it possible to listen to Campfire sounds directly from the cheat sheet
+
+[33mcommit aacb4a3f7c929681c15ce4feef67e37e3a01d591[m
+Author: Henric Englund <hnrcnglnd@gmail.com>
+Date:   Tue May 13 20:10:04 2014 +0200
+
+    Make it possible to listen to Campfire sounds directly from the cheat sheet
+
+[33mcommit 3e23f18bd34abc2ce1acc8bf425aac43c9156539[m
+Merge: 2c7fc51 0ea15da
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat May 3 21:22:15 2014 +0200
+
+    Merge pull request #148 from pjaspers/patch-2
+    
+    Adding `/play unix`
+
+[33mcommit 2c7fc51493975dd13dac352155aaa5af22985769[m
+Merge: c95b52c 190b5fe
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat May 3 21:21:31 2014 +0200
+
+    Merge pull request #147 from dunckr/add-white-large-square
+    
+    Rename white_square to white_large_square
+
+[33mcommit c95b52cb0d45c834ae97d925b8c96ee1522fce13[m
+Merge: 3c0eb8b bc964d1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat May 3 21:20:53 2014 +0200
+
+    Merge pull request #146 from jdodson/add_cg
+    
+    Add Cheerful Ghost to the list of websites using Emoji.
+
+[33mcommit 0ea15da20cd5d3633a5b83421a5821bfba435ffc[m
+Author: Piet Jaspers <piet@jaspe.rs>
+Date:   Fri May 2 16:30:12 2014 +0200
+
+    Adding /play unix
+    
+    :neckbeard: :computer:
+
+[33mcommit 190b5fee43915663beb4e410adf35c7706fdfe09[m
+Author: Duncan Beaton <d@duncky.com>
+Date:   Tue Apr 29 20:18:45 2014 +0100
+
+    fix rename white_square to white_large_square
+
+[33mcommit bc964d1ac25adb720869b09bd601a39c232bb8b6[m
+Author: Jon Dodson <jon.dodson@livingsocial.com>
+Date:   Mon Apr 28 19:54:37 2014 -0700
+
+    Add Cheerful Ghost to the list of websites using Emoji.
+
+[33mcommit 3c0eb8bc44b1f5b1dcd0534e95f79075290a4e30[m
+Merge: 35f7c76 30c266e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 21 20:28:27 2014 +0200
+
+    Merge pull request #145 from justinthiele/master
+    
+    Added Reportedly to the list of supported sites. Removed duplicate 'Trello' on README.
+
+[33mcommit 30c266efac75af2f4d4ad337fb1649a4dc3bad4c[m
+Author: Justin Thiele <justin.thiele@gmail.com>
+Date:   Sun Apr 20 08:50:19 2014 -0700
+
+    Added Reportedly to the list of supporting sites. Removed duplicate 'Trello' on ReadMe.
+
+[33mcommit 35f7c76f656b5881bcc178c9475068f24fdd14ac[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Apr 11 09:53:15 2014 +0200
+
+    Teambox is called Redbooth
+
+[33mcommit b8895430aaef0dff77e248f7924b8358ee78dceb[m
+Merge: 1f4c2fb 4fbaa63
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Apr 11 09:51:12 2014 +0200
+
+    Merge pull request #143 from kato-im/master
+    
+    Add Kato
+
+[33mcommit 4fbaa63ff5e7a256aa65d434caf051864e9ee9e2[m
+Author: Andrei Soroker <soroker@gmail.com>
+Date:   Wed Apr 9 16:14:55 2014 -0700
+
+    Update index.html
+
+[33mcommit c1df96a530eb6cc39b2527845e04315c857ab0f4[m
+Author: Andrei Soroker <soroker@gmail.com>
+Date:   Mon Apr 7 09:23:12 2014 -0700
+
+    Add Kato to README.md
+
+[33mcommit 1f4c2fb4bf3926493698f5b66017f2905d0540e7[m
+Merge: 791bf5d 0cc4974
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Mar 30 15:14:47 2014 +0200
+
+    Merge pull request #141 from WDKevin/cryptbin
+    
+    Added Cryptbin.com to list of supported sites
+
+[33mcommit 0cc4974389f58d90dfbcd181e3deeb95725a7acc[m
+Author: Kevin Crider <root@kevinacrider.com>
+Date:   Sat Mar 29 17:28:54 2014 -0500
+
+    Added Cryptbin.com to list of supported sites
+
+[33mcommit 791bf5dacc671220f39ca1ef124e13b4b7b235d8[m
+Merge: 7b36a5b f2d641a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Mar 6 09:18:17 2014 +0100
+
+    Merge pull request #139 from mimecuvalo/master
+    
+    add Hackpad to websites supporting emoji :smile:
+
+[33mcommit f2d641aa0733b42eb9f35110fd4870e0d4c3e916[m
+Author: Mime Čuvalo <mimecuvalo@gmail.com>
+Date:   Wed Mar 5 17:50:38 2014 +0000
+
+    add Hackpad to websites supporting emoji :smile:
+
+[33mcommit 7b36a5ba9e4c8205f1bc55ab56ce165b6397baf8[m
+Merge: 1fed813 7f1f51f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Mar 3 10:38:31 2014 +0100
+
+    Merge pull request #137 from toy/image_optim
+    
+    Optimized 70 images using image_optim
+
+[33mcommit 1fed813062a405ede190d347cfabceb31b26486e[m
+Merge: 39e780a cf7143a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Mar 3 10:37:28 2014 +0100
+
+    Merge pull request #136 from psychobunny/master
+    
+    NodeBB uses emoji too :)
+
+[33mcommit 7f1f51f5dc97765619b5679dd2373077d5193cf3[m
+Author: Ivan Kuchin <tadump+git@gmail.com>
+Date:   Sun Mar 2 22:11:59 2014 +0100
+
+    optimized images using image_optim
+
+[33mcommit cf7143ad467e97bda6da90fc49e5959da6f41768[m
+Author: psychobunny <psycho.bunny@hotmail.com>
+Date:   Fri Feb 28 13:03:13 2014 -0500
+
+    NodeBB uses emoji too :)
+
+[33mcommit 39e780aedd33cb453fc2178b850a4e5fa28db02b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Feb 25 10:07:58 2014 +0100
+
+    Remove test sprite
+
+[33mcommit 8eb81833f08302ac0a75483f762244bb9686cdb6[m
+Merge: e36c48c 2c4a348
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Feb 26 09:45:59 2014 +0100
+
+    Merge pull request #135 from pjaspers/patch-1
+    
+    MOAR SOUNDS
+
+[33mcommit 2c4a348dad3ecfa0dd134a6898f9dfcca1f2aeb6[m
+Author: Piet Jaspers <piet@jaspe.rs>
+Date:   Tue Feb 25 14:08:12 2014 +0100
+
+    MOAR SOUNDS
+
+[33mcommit e36c48cb954fdd7f099ef4c4f13e7272c96242e8[m
+Merge: c06063b c497329
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Feb 20 10:21:27 2014 +0100
+
+    Merge pull request #134 from OrganisedMinds/master
+    
+    Added OrganisedMinds as a supporter
+
+[33mcommit c4973294f87faa62f6eaf424cabda564cb3f7730[m
+Author: Hartog C. de Mik <hartog@organisedminds.com>
+Date:   Thu Feb 20 10:17:01 2014 +0100
+
+    Added OrganisedMinds as a supporter
+
+[33mcommit c06063b94945e0662cec21ed87ed8b75cae4ebf4[m
+Merge: 37906b2 c54c1fd
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Feb 12 08:50:14 2014 +0100
+
+    Merge pull request #133 from caseymrm/master
+    
+    Add Quip to supporters
+
+[33mcommit c54c1fde90d933902ee74c7a3f31dc82d82df746[m
+Author: Casey Muller <github@nullterminated.com>
+Date:   Mon Feb 10 11:40:04 2014 -0800
+
+    Add Quip to supporters
+    
+    Quip supports these codes when sending messages
+
+[33mcommit 37906b2998453290bd4331b4ed19b39e16c954d6[m
+Merge: 77e2923 b82683c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Jan 15 00:58:52 2014 -0800
+
+    Merge pull request #132 from kof/master
+    
+    One more js implementation
+
+[33mcommit b82683c4c24a60abed1d327f5a01c81663cd07dc[m
+Author: Oleg Slobodskoi <oleg008@gmail.com>
+Date:   Tue Jan 14 12:49:27 2014 +0100
+
+    one more js implementation
+
+[33mcommit 77e29234d7d83ac169e21ff743b544dbc46f68aa[m
+Merge: cbedc85 a8761ad
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 19 11:36:03 2013 -0800
+
+    Merge pull request #131 from manishval/add-streamup-as-supporter
+    
+    Add Streamup as supporter
+
+[33mcommit a8761adb1631af9e7d2c62ce9d7958c16166e1d5[m
+Author: Manish Valechha <manish@lavabits.com>
+Date:   Thu Dec 19 11:27:28 2013 -0400
+
+    Add Streamup as supporter
+
+[33mcommit cbedc85437fc149dea9484c6ed817c388b8af8eb[m
+Merge: 85c5588 86567b4
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 15 11:20:02 2013 -0800
+
+    Merge pull request #130 from alirayl/master
+    
+    Slack supports the full set.
+
+[33mcommit 86567b46f05420a8695862c49b96a4ad59dc320c[m
+Author: Ali Rayl <alirayl@gmail.com>
+Date:   Fri Dec 13 17:33:53 2013 -0800
+
+    Slack supports the full set.
+
+[33mcommit 85c5588483f91f1fe81059f10b08d6c053bbb9dd[m
+Merge: cef9c0a 07cc59b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 12 04:28:44 2013 -0800
+
+    Merge pull request #129 from NuckChorris/master
+    
+    Remove turntable.fm from lists
+
+[33mcommit 07cc59b0a5598ccc0549f60b1ff57673c3e96339[m
+Author: Peter Lejeck <peter.lejeck@gmail.com>
+Date:   Thu Dec 12 03:33:39 2013 -0800
+
+    RIP Turntable.fm
+
+[33mcommit cef9c0aee44106f627af2b78e8e7cea25c6dd7fc[m
+Merge: 8d07d84 0940a00
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 5 04:17:33 2013 -0800
+
+    Merge pull request #128 from MichaelBanks/patch-2
+    
+    Added contributors
+
+[33mcommit 0940a00e7b5f9c3c509ddafb4966e19e86b076fe[m
+Author: Michael Banks <chip@mineuk.com>
+Date:   Thu Dec 5 12:11:12 2013 +0000
+
+    Added contributors
+
+[33mcommit 8d07d840e0d0428c144907f708cbe181260f4434[m
+Merge: 27ac0c8 a59747a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Dec 4 00:41:23 2013 -0800
+
+    Merge pull request #127 from GrahamCampbell/master
+    
+    Fix readme
+
+[33mcommit a59747a9ba83f514af24a6e9fe4b19925a29c93c[m
+Author: Graham Campbell <graham@mineuk.com>
+Date:   Tue Dec 3 23:05:06 2013 +0000
+
+    Fix readme
+
+[33mcommit 27ac0c86fef37a6a71beb15766e2cb0fe48d3851[m
+Merge: fd6b332 a07ffe5
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Dec 2 02:51:23 2013 -0800
+
+    Merge pull request #126 from MichaelBanks/patch-1
+    
+    Added another site
+
+[33mcommit a07ffe594b23f774c5a59ef600245d5bfaf610ae[m
+Author: Michael Banks <chip@mineuk.com>
+Date:   Sat Nov 30 18:38:08 2013 +0000
+
+    Added another site
+
+[33mcommit fd6b332ba32cc35e619af939fd6cad9b11100b25[m
+Merge: f3ac8eb beaf45d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Nov 22 01:16:35 2013 -0800
+
+    Merge pull request #125 from johnwilliams/master
+    
+    Add rollout and cottoneyejoe to campfire sounds.
+
+[33mcommit beaf45de645a545802b3c2870db6ef7743abd06b[m
+Author: johnwilliams <john@veloshots.com>
+Date:   Thu Nov 21 11:49:56 2013 -0600
+
+    Add rollout and cottoneyejoe to campfire sounds.
+
+[33mcommit f3ac8ebf9814c85f2942e92fe31745c737a6e238[m
+Merge: dee0041 6816a75
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Nov 15 01:00:29 2013 -0800
+
+    Merge pull request #124 from pepibumur/patch-1
+    
+    Updated README.md with java version
+
+[33mcommit 6816a75c743239acbc3e4f94f2e3791bee60ee98[m
+Author: Pedro Piñera Buendía <pepibumur@gmail.com>
+Date:   Fri Nov 15 02:02:56 2013 +0100
+
+    Updated README.md with java version
+    
+    Updated the README.md with the java contribution
+
+[33mcommit dee004123edd4e81bc2a83ab7b60036509c754ca[m
+Merge: 5d19d89 c9175ad
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Nov 4 01:25:29 2013 -0800
+
+    Merge pull request #123 from florianbuerger/master
+    
+    Fav icon for retina screens
+
+[33mcommit c9175adf0243e5d4d36d51b030101529842213f3[m
+Author: Florian Buerger <flo@superflomo.com>
+Date:   Sun Nov 3 12:09:47 2013 +0100
+
+    Use retina ready favicon
+
+[33mcommit de5c233586fde0ff3590a40c2e6ac72e6b50ca51[m
+Author: Florian Buerger <flo@superflomo.com>
+Date:   Sun Nov 3 12:06:05 2013 +0100
+
+    Fix warning about insecure gem source
+
+[33mcommit 5d19d894a257236fbc358a29c99221fd7d53ddbc[m
+Merge: 0b4d90a a950035
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 30 07:11:34 2013 -0700
+
+    Merge pull request #122 from amatsuda/idobata
+    
+    Idobata also supports emojis
+
+[33mcommit a9500355b7c179140b5dd66ba6617f45f2f838e8[m
+Author: Akira Matsuda <ronnie@dio.jp>
+Date:   Wed Oct 30 22:34:53 2013 +0900
+
+    Idobata also supports emojis :sparkles:
+
+[33mcommit 0b4d90a96eed586c71a528328cf73e0fefee8757[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Oct 28 07:51:31 2013 +0100
+
+    No high res sprite for Firefox
+    
+    Having trouble getting this to work correctly.
+
+[33mcommit a33fd2080b7a021cb6ed130ab55fef02ec1d9f99[m
+Merge: 44b0eee ec60e41
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 27 23:50:25 2013 -0700
+
+    Merge pull request #121 from maximal/master
+    
+    Some images optimized with OptiPNG on maximum compression parameters bruteforce.
+
+[33mcommit ec60e41604183618fd23e4f060b623c4ce480092[m
+Author: MaximAL <maximal@maximals.ru>
+Date:   Sun Oct 27 16:39:42 2013 +0400
+
+    Some images optimized with OptiPNG on maximum compression parameters bruteforce.
+
+[33mcommit 44b0eee5c50e843bc98128365c2b47da55737bd2[m
+Merge: e52817a cc56f63
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Oct 21 00:28:57 2013 -0700
+
+    Merge pull request #119 from nicholasserra/grove
+    
+    Added Grove.io
+
+[33mcommit cc56f639e33fee06dba1d335b864925b7f98aef1[m
+Author: Nicholas Serra <nicks@ydekproductions.com>
+Date:   Fri Oct 18 15:14:12 2013 -0400
+
+    Added Grove.io
+
+[33mcommit e52817a0b3f3045c764cf55132984120a42d2a2b[m
+Merge: 4deb8df ecf613d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 10 04:15:35 2013 -0700
+
+    Merge pull request #116 from juno/piki-is-shutdown
+    
+    Remove Piki due to their is shutdown
+
+[33mcommit 4deb8dfbcaa57a220fe3ffecd79d8812ebf5aa28[m
+Merge: c175367 022aab1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Oct 8 00:26:23 2013 -0700
+
+    Merge pull request #118 from pjaspers/patch-1
+    
+    /play dadgummit
+
+[33mcommit 022aab17b0fd6af61e301d199ad386df74867de8[m
+Author: Piet Jaspers <piet@jaspe.rs>
+Date:   Mon Oct 7 23:01:25 2013 +0200
+
+    /play dadgummit
+    
+    dad gummit!!
+
+[33mcommit c1753678ddfff882cd9f47f253baa253315e42f1[m
+Merge: e3732bb 7dea1c2
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Oct 7 06:35:13 2013 -0700
+
+    Merge pull request #117 from pjaspers/patch-1
+    
+    Adding `/play story`
+
+[33mcommit 7dea1c2a4674379974442e5ba61ee8b8b707bbdc[m
+Author: Piet Jaspers <piet@jaspe.rs>
+Date:   Mon Oct 7 14:18:25 2013 +0200
+
+    Adding `/play story`
+    
+    And now you know...
+
+[33mcommit ecf613d493f5d7e82e03d64d80d90a02e8644042[m
+Author: Junya Ogura <junyaogura@gmail.com>
+Date:   Wed Oct 2 16:44:17 2013 +0900
+
+    Remove Piki due to their shutting down
+
+[33mcommit e3732bbe4486a3cb31fcdc8d6d9f9ee1111ba74d[m
+Merge: 96e0c4b db80461
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Sep 23 00:38:23 2013 -0700
+
+    Merge pull request #114 from JuanitoFatas/master
+    
+    Add one site that supported Emojis: Ruby China.
+
+[33mcommit db80461efbc4eb6ed162fb9b6329bbbe6fb31f04[m
+Author: Juanito Fatas <katehuang0320@gmail.com>
+Date:   Sat Sep 21 15:10:29 2013 +0800
+
+    Add one site that supported Emojis: Ruby China.
+
+[33mcommit 96e0c4bb6eb7c4b243b411cf357927cf771e52c1[m
+Merge: 4344904 703f15b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Sep 18 22:42:01 2013 -0700
+
+    Merge pull request #112 from jamescmartinez/master
+    
+    Trello supports emoji
+
+[33mcommit 703f15b12cc6bca63a6de1a8981ac8f19827b74b[m
+Author: James Martinez <jamescmartinez@gmail.com>
+Date:   Wed Sep 18 22:16:55 2013 -0700
+
+    Trello supports emoji
+    
+    http://blog.trello.com/emoji-and-markdown-everywhere/
+
+[33mcommit 43449041abed159903e016b5d1d64bb270d20c9e[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Sep 16 09:19:18 2013 +0200
+
+    Zendesk supports emojis
+
+[33mcommit bf5473b5cec319dbcaeb30d241dfa50074558412[m
+Merge: 50d1d63 687ac9b
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Sep 11 23:26:34 2013 -0700
+
+    Merge pull request #111 from pjaspers/master
+    
+    Adds /play greyjoy
+
+[33mcommit 687ac9be5e1b657e78036d00fc3a25359eb03651[m
+Author: Piet Jaspers <piet@jaspe.rs>
+Date:   Wed Sep 11 23:42:37 2013 +0200
+
+    Adds /play greyjoy
+    
+    And shamelessly adding myself to list of contributors.
+
+[33mcommit 50d1d63f7439f7a330976b38f56a280cf4af450a[m
+Merge: aab48db f222ebd
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 28 09:31:11 2013 -0700
+
+    Merge pull request #109 from take/add-myself
+    
+    Add my self as contributor
+
+[33mcommit f222ebd2ee11296c7c1979f95dbea5bf362d052b[m
+Author: Takehiro Adachi <takehiro0740@gmail.com>
+Date:   Thu Aug 29 01:24:57 2013 +0900
+
+    Add my self as contributor
+
+[33mcommit aab48db82d603e52b841695436d81b95d360e3dc[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 28 11:48:45 2013 +0200
+
+    Fix typo
+
+[33mcommit 6748577d0c0e808725631ba7f353b60facba3c40[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jul 25 16:02:19 2013 +0200
+
+    No protocol for external resources
+
+[33mcommit 706c3c1611b74e4a8940ae42cb963049d498091e[m
+Merge: 9140227 996a54c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 28 02:38:43 2013 -0700
+
+    Merge pull request #108 from take/add-qiita
+    
+    Add qiita.com to supported services
+
+[33mcommit 996a54c22c133cc953d4ad3964c6e275cdf1c90e[m
+Author: Takehiro Adachi <takehiro0740@gmail.com>
+Date:   Wed Aug 28 17:49:48 2013 +0900
+
+    Add qiita.com to supported services
+    
+    :)
+
+[33mcommit 914022789efc0baa69a4f23ff419da70aecbfadc[m
+Merge: 4901bdb 16c0d5d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Aug 26 00:47:34 2013 -0700
+
+    Merge pull request #107 from TNBUP/patch-1
+    
+    this works on plug.dj too
+
+[33mcommit 16c0d5defdc27a9fc497b7ec1369de748a2b7181[m
+Author: The Notorious Bruce <fodaonacamaui@hotmail.com>
+Date:   Sat Aug 24 21:24:52 2013 -0300
+
+    Update index.html
+
+[33mcommit 4901bdb94116706d4c3ac77e6bb1bb04305abf81[m
+Merge: 5caa826 1c0ab05
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Aug 4 02:34:09 2013 -0700
+
+    Merge pull request #106 from steveklabnik/patch-1
+    
+    :neckbeard: is actually Creative Commons
+
+[33mcommit 1c0ab05615b0b502f542ca535f1ab19f556c971f[m
+Author: Steve Klabnik <steve@steveklabnik.com>
+Date:   Sat Aug 3 11:27:37 2013 -0400
+
+    :neckbeard: is actually Creative Commons
+    
+    http://37signals.com/svn/posts/3395-neckbeard
+
+[33mcommit 5caa826f67a699fb05ccfb903c0c036c0cc61259[m
+Merge: 0110e87 a119b2e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jul 25 15:42:12 2013 +0200
+
+    Merge branch 'bhellman1-master'
+
+[33mcommit a119b2ef46b38b9a7b66596891d881b682dfc33e[m
+Author: Chris Streeter <chris@chrisstreeter.com>
+Date:   Mon Jul 15 12:38:18 2013 -0700
+
+    Add myself as a contributor
+
+[33mcommit efae7ba30e9d938b68d4764bb3bdacf2b45db456[m
+Author: Chris Streeter <chris@chrisstreeter.com>
+Date:   Mon Jul 15 12:38:09 2013 -0700
+
+    Add Trello as a supported emoji provider
+
+[33mcommit 0110e87d76b9c64c31e25f872f5e92f9aed3dcb4[m
+Merge: edb43c2 a66d0d5
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jul 25 06:24:20 2013 -0700
+
+    Merge pull request #104 from streeter/trello-support
+    
+    Add reference to Trello
+
+[33mcommit d4f1d0fe63867d8fcf4439777e15b61f3e6a7219[m
+Author: Brett Hellman <brett@hall-inc.com>
+Date:   Wed Jul 24 22:01:17 2013 -0700
+
+    Add Hall as a supported emoji provider
+
+[33mcommit a66d0d527f4047ea824453f4ce2b4733d556f446[m
+Author: Chris Streeter <chris@chrisstreeter.com>
+Date:   Mon Jul 15 12:38:18 2013 -0700
+
+    Add myself as a contributor
+
+[33mcommit 217f38c7d6227635fa6e02dee0905d560fed154a[m
+Author: Chris Streeter <chris@chrisstreeter.com>
+Date:   Mon Jul 15 12:38:09 2013 -0700
+
+    Add Trello as a supported emoji provider
+
+[33mcommit edb43c26cbef999ec66611dcd607c23ae32cec9b[m
+Merge: af5f202 52c7a3c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jul 4 02:46:16 2013 -0700
+
+    Merge pull request #101 from LabLayers/master
+    
+    Added Piki
+
+[33mcommit 52c7a3cbbf43ae9335112633b8604f41b2676591[m
+Author: Victor Lourng <victor.lourng@gmail.com>
+Date:   Wed Jul 3 21:34:45 2013 -0400
+
+    Added Piki
+
+[33mcommit 56d6d324dbd25946769ee8e865befdf226c5f35b[m
+Author: Victor Lourng <victor.lourng@gmail.com>
+Date:   Wed Jul 3 21:33:04 2013 -0400
+
+    Added Piki
+
+[33mcommit af5f2024e807d392958df5c10dee29c5f3a435a2[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jun 14 09:58:29 2013 +0200
+
+    Revert :donut: commit
+    
+    :donut: doesn't work on GitHub or Campfire.
+    Was introduced in 48e35a440721059a257f132e5faa3b82feabc295
+
+[33mcommit 1fe6261d677249af8a9aaebb4d8b33fbf1881c46[m
+Merge: 48e35a4 e0fe6e0
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jun 10 01:12:56 2013 -0700
+
+    Merge pull request #98 from jsw0528/master
+    
+    add the link of rails_emoji to README.md
+
+[33mcommit 48e35a440721059a257f132e5faa3b82feabc295[m
+Merge: 2dce783 90c10d7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jun 10 01:08:48 2013 -0700
+
+    Merge pull request #97 from jcsalterego/feature-donut
+    
+    :donut: emoji
+
+[33mcommit e0fe6e092b17b3e5b6b4437da93fa1e53b083d1e[m
+Author: wǒ_is神仙 <i@mrzhang.me>
+Date:   Sat Jun 8 13:15:47 2013 +0800
+
+    add link for rails_emoji
+
+[33mcommit 90c10d7a834b9e6da8d6ade62adc0009dee4d84d[m
+Author: Jerry Chen <jerry@apache.org>
+Date:   Fri Jun 7 09:35:42 2013 -0500
+
+    :donut: emoji
+
+[33mcommit 2dce78341c6e99091580159dc633294850735e5f[m
+Merge: 7012a0e 5117e4f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun May 5 06:03:47 2013 -0700
+
+    Merge pull request #96 from PeterTonoli/master
+    
+    Add GitLab to list of supported services
+
+[33mcommit 7012a0e3ba68e900beeeede5c17c62f02505792e[m
+Merge: 09afddc 14c989e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun May 5 06:02:42 2013 -0700
+
+    Merge pull request #95 from rocketslide/master
+    
+    /play danielsan
+
+[33mcommit 5117e4f5526b3c571584a89debc671b0225cb78d[m
+Author: Peter Tonoli <peter+github@metaverse.org>
+Date:   Sun May 5 10:46:03 2013 +1000
+
+    Add GitLab to list of supported services
+
+[33mcommit 14c989e1b60e6a52be97014e5c557d8788ca4abb[m
+Author: Ann <ann@37signals.com>
+Date:   Sat May 4 18:21:36 2013 -0500
+
+    play danielsan
+
+[33mcommit 09afddce1f78965a0d3a8be263bccde7343c505f[m
+Merge: 6b0a8d2 999f467
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 15 22:22:24 2013 -0700
+
+    Merge pull request #94 from Buildstarted/patch-1
+    
+    Update index.html
+
+[33mcommit 999f46725a0a8bb6430bce9177897db9a05686ce[m
+Author: Ben Dornis <ben@buildstarted.com>
+Date:   Mon Apr 15 09:35:46 2013 -0700
+
+    Update index.html
+    
+    Updated to point to about.jabbr.net instead.
+
+[33mcommit 43c266a25e498815e7a6f7c63af984688943f080[m
+Author: Ben Dornis <ben@buildstarted.com>
+Date:   Fri Apr 12 13:39:13 2013 -0700
+
+    Update index.html
+    
+    Added JabbR to list of sites that use emojis
+
+[33mcommit 6b0a8d2380a5fe22f76362d05d59e3d244f33d4b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 11:48:40 2013 +0200
+
+    New contributors
+
+[33mcommit 9cf03be4006b4e6411de03485c230f23eb2cce06[m
+Merge: 87edccd 272e370
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 11:18:46 2013 +0200
+
+    Merge branch 'KamranMackey-master'
+
+[33mcommit 272e370e8f7b9859f63dffd179c8c8ce4dc7e8eb[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 10:49:12 2013 +0200
+
+    Let IE render the emoji sprite
+    
+    Using min-resolution for IE to get same effect as device-pixel-ratio
+
+[33mcommit 1cfa2ac7d9be352246f38d390ad70a2768c1d2fb[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 09:27:38 2013 +0200
+
+    Add missing and
+
+[33mcommit 7b266e0b44930828771b6c0600bf207da753d11b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 09:27:18 2013 +0200
+
+    Remove stray index.html in root
+
+[33mcommit f444d955bbc54693c0f81eaa1b0fc977c7db26bb[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 1 14:19:51 2013 +0200
+
+    Textbox.io supports emojis
+
+[33mcommit 6207dd772ed37837237be7edd08017cee55b0222[m
+Author: Henrik Joreteg <hjoreteg@gmail.com>
+Date:   Sun Mar 31 00:52:36 2013 -0700
+
+    Update README.md
+    
+    The JS library listed requires adding stylesheets to your app that contain all images as data uris. The only problem with that is that you have to serve 5mb of emoji images to all users of your app. I wrote and added an alternate JS library that just parses text for strings that match and replace them with image tags that point to the actual image. This means you send the browser 14kb of js instead. Much slimmer and the code is quite a bit more efficient as well.
+
+[33mcommit 5cb8bc36c7edc95728d563aa91b8b2b9f1a4fd78[m
+Author: Kamran Mackey <kamranm1200@gmail.com>
+Date:   Tue Mar 19 13:48:33 2013 -0600
+
+    Add Kippt to the list of supported services.
+
+[33mcommit f5cde86bc1f7fc85a0f22692c5b346c799e47d31[m
+Author: Tony Guntharp <fusion94@damagestudios.net>
+Date:   Fri Mar 8 08:21:06 2013 -0800
+
+    Add Kandan to the list of supported services.
+
+[33mcommit 5b7e08cb6d10e108c731b8ba04e851e1ef8d01cf[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Mar 6 15:50:27 2013 +0100
+
+    wdaher is a contributor
+
+[33mcommit 87edccd4b6720a7daa37735e5d4b4a1ae94c884e[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 10:49:12 2013 +0200
+
+    Let IE render the emoji sprite
+    
+    Using min-resolution for IE to get same effect as device-pixel-ratio
+
+[33mcommit a71fa25d79e6fb0d9247d4de0ce64f8134511e62[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 09:27:38 2013 +0200
+
+    Add missing and
+
+[33mcommit 57bdaf74f06bd3e2b9e7cca3770099a1dae27230[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Apr 2 09:27:18 2013 +0200
+
+    Remove stray index.html in root
+
+[33mcommit 9a1cbbf13bd9b839b146f251949a1bd8472e97f4[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 1 14:19:51 2013 +0200
+
+    Textbox.io supports emojis
+
+[33mcommit 8550480efacd92459148781389401ae2b1f809c6[m
+Merge: d1d2c75 c58c5e3
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Apr 1 05:10:02 2013 -0700
+
+    Merge pull request #93 from HenrikJoreteg/patch-1
+    
+    Update README.md
+
+[33mcommit c58c5e37a9e122207962cdecd7e947224b24ddc2[m
+Author: Henrik Joreteg <hjoreteg@gmail.com>
+Date:   Sun Mar 31 00:52:36 2013 -0700
+
+    Update README.md
+    
+    The JS library listed requires adding stylesheets to your app that contain all images as data uris. The only problem with that is that you have to serve 5mb of emoji images to all users of your app. I wrote and added an alternate JS library that just parses text for strings that match and replace them with image tags that point to the actual image. This means you send the browser 14kb of js instead. Much slimmer and the code is quite a bit more efficient as well.
+
+[33mcommit d1d2c7558c8c2c77b204a4217c5c8b3e0b009a66[m
+Merge: 4405e0a e5cd3df
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Mar 11 01:09:54 2013 -0700
+
+    Merge pull request #89 from fusion94/master
+    
+    Add Kandan to the list of supported services.
+
+[33mcommit e5cd3df260f7c2873026e6d035645ccfa210b1a1[m
+Author: Tony Guntharp <fusion94@damagestudios.net>
+Date:   Fri Mar 8 08:21:06 2013 -0800
+
+    Add Kandan to the list of supported services.
+
+[33mcommit 4405e0abba1deaf331b785e80ed5ead09724b11f[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Mar 6 15:50:27 2013 +0100
+
+    wdaher is a contributor
+
+[33mcommit 138946075a718f7b0ba7dfabcd375f69d4323996[m
+Merge: 93f842e 2b69e07
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Mar 6 06:17:53 2013 -0800
+
+    Merge pull request #88 from wdaher/master
+    
+    Update documentation for :raising_hand
+
+[33mcommit 2b69e07bf53f203b6f227e90a82e799be15b4e2c[m
+Author: Waseem Daher <wdaher@humbughq.com>
+Date:   Tue Mar 5 23:59:36 2013 -0500
+
+    Properly document :raising_hand:
+    
+    The emoji cheat sheet used to say that you could type in "raised_hand"
+    to get a woman raising her hand. However, actually doing so on GitHub
+    and other sites just gives you a :hand:.
+    
+    To get the desired emoji, you actually need to type "raising_hand"
+    
+    You can see that here:
+    hand: :hand:
+    raised_hand: :raised_hand:
+    raising_hand: :raising_hand:
+    
+    This updates the images and HTML appropriately to reflect that change.
+
+[33mcommit 93f842eb077ad0c953f28b7e141e69ea7b8185a7[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Feb 26 17:24:20 2013 +0100
+
+    Correct media query for ff :sob:
+
+[33mcommit 3bac7fed02ec0f1c106481ad2f859ea6cb8538cd[m
+Merge: a18142e 63e20c8
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Feb 25 06:16:58 2013 -0800
+
+    Merge pull request #86 from mattrobenolt/master
+    
+    Add Sprint.ly to the list of supported services.
+
+[33mcommit 63e20c8c435ab5f54b66d5038967c303277ae0ab[m
+Author: Matt Robenolt <matt@ydekproductions.com>
+Date:   Mon Feb 25 02:26:56 2013 -0800
+
+    Add Sprint.ly to list of supported services.
+
+[33mcommit a18142e5fa4fe0bf04e2bca6953f0e06f478c499[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Feb 24 14:46:46 2013 +0100
+
+    [#84] Retina sprite
+    
+    * Generate a extra retina sprite
+    * Use media queries to select witch sprite to use
+
+[33mcommit cd2650efc27f7c7cf2d12504fa24287d014eefc0[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 31 10:42:40 2013 +0100
+
+    Linking to nsstringemojize
+
+[33mcommit 6a835ddfd54a66ce7a700613ede1ed3fbbe9927e[m
+Merge: ab6b076 85e41d1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 31 01:29:10 2013 -0800
+
+    Merge pull request #82 from leereilly/wink-wink
+    
+    Remove :wink2: emoji
+
+[33mcommit 85e41d1a432b5106ad20457ecb6c3b0b5f6517ee[m
+Author: Lee Reilly <lee@leereilly.net>
+Date:   Wed Jan 30 11:51:17 2013 -0800
+
+    Remove wink2 emoji :wink:
+
+[33mcommit ab6b07613886cc26eeba3f7d3c465861ff437902[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jan 29 11:30:23 2013 +0100
+
+    bitboxer is a contributor
+
+[33mcommit b766d078374ee40db8132868b4f0659b46cc8725[m
+Merge: ea6a907 d286658
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jan 29 02:14:55 2013 -0800
+
+    Merge pull request #81 from bitboxer/master
+    
+    Add alternative text for search for #80
+
+[33mcommit d28665870ef347bb34e6d617be3ceca93cbb6fbf[m
+Author: Bodo Tasche <bodo@wannawork.de>
+Date:   Thu Jan 24 22:04:08 2013 +0100
+
+    Added alternative names for search #80
+
+[33mcommit ea6a907d77ecf98ef396faf8e4d82dd5652bbaff[m
+Merge: e81a58e a9c8f4f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 24 08:13:54 2013 -0800
+
+    Merge pull request #79 from tricknotes/add_disappointed_relieved
+    
+    Add :disappointed_relieved:
+
+[33mcommit e81a58e2fb6e933fe2abb4359e938fd650952416[m
+Merge: d2a1f02 7b4002a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 24 08:13:38 2013 -0800
+
+    Merge pull request #78 from tricknotes/fix-image
+    
+    Fix wrong image
+
+[33mcommit a9c8f4f8ec3910ee8cffcd584e4d7db7db743597[m
+Author: Ryunosuke SATO <tricknotes.rs@gmail.com>
+Date:   Fri Jan 25 00:57:18 2013 +0900
+
+    Add :disappointed_relieved:
+
+[33mcommit 7b4002a8fd2b365a54bf3febc97359e6c36206f4[m
+Author: Ryunosuke SATO <tricknotes.rs@gmail.com>
+Date:   Fri Jan 25 00:37:08 2013 +0900
+
+    Fix wrong image
+
+[33mcommit d2a1f02256707da72a47e72664c2125979db44a7[m
+Merge: fe35d34 2d771d4
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jan 22 23:43:20 2013 -0800
+
+    Merge pull request #77 from wjessop/master
+    
+    Add /play bell
+
+[33mcommit 2d771d48e03c102c25ea6e0a4795cb7d9d5f18e1[m
+Author: Will Jessop <will@willj.net>
+Date:   Tue Jan 22 20:05:48 2013 +0000
+
+    Add /play bell
+
+[33mcommit fe35d34e3ba429857515bdb9e863d464a19e7d56[m
+Merge: 4746a8a d414217
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jan 21 07:28:56 2013 -0800
+
+    Merge pull request #76 from niclasgelin/master
+    
+    Revised selector organisation performance
+
+[33mcommit d414217f3f13e72a1fc1b4b68ed9ec5a30728810[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Mon Jan 21 15:33:08 2013 +0100
+
+    Avoid duplication of selectors and property value pairs
+    
+    Mind scalability and future abstractions, prefer organizing related (and modular) rules separately
+
+[33mcommit 8cfc3e91e68f9068bf8ee19098027ec6b7ec5cd9[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Mon Jan 21 14:46:03 2013 +0100
+
+    Avoid overqualified selector combinations
+
+[33mcommit 4746a8a783e4921c8be7542f43a61a0ce225b4db[m
+Merge: 7d3c48a c3fe49c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Jan 14 23:25:37 2013 -0800
+
+    Merge pull request #74 from drewtempelmeyer/master
+    
+    Adding /play sexyback
+
+[33mcommit c3fe49c923adb542ff4a2c82fd3f623b7920ccdc[m
+Author: Drew Tempelmeyer <drewtemp@gmail.com>
+Date:   Mon Jan 14 16:22:19 2013 -0500
+
+    /play sexyback
+
+[33mcommit 7d3c48a1086ad0ced6de89530e7e5bda6cc86172[m
+Merge: 460819d 53e015c
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jan 11 01:59:59 2013 -0800
+
+    Merge pull request #73 from leereilly/sayonara-109
+    
+    Sayonara 109
+
+[33mcommit 53e015c9771af4cf65c1965c1900be02a5c8eb0d[m
+Author: Lee Reilly <lee@leereilly.net>
+Date:   Thu Jan 10 22:05:11 2013 -0800
+
+    self.mad_props();
+
+[33mcommit b394c2d319b1256da9b2c1557cabf33595459795[m
+Author: Lee Reilly <lee@leereilly.net>
+Date:   Thu Jan 10 21:58:17 2013 -0800
+
+    :punch: emoji :109:
+
+[33mcommit 460819da3f0b050cf6bdeced5b7985cd6540fea5[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 10 17:54:31 2013 +0100
+
+    :fu:
+    
+    From @asianmack's #71
+
+[33mcommit 0240c5847fea3cb9f85ee34dfe0918d85cb7b200[m
+Merge: 5cf0426 7c8a56a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 10 08:49:16 2013 -0800
+
+    Merge pull request #72 from wjessop/master
+    
+    Added /play makeitso
+
+[33mcommit 5cf042621d7384c6a46fd5cee36eee7574ff8b09[m
+Merge: faafd8b be8f1df
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 10 17:06:53 2013 +0100
+
+    Latest changes
+
+[33mcommit faafd8b104db41c9ed681b56a607e68bfb9bf875[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 13 07:56:26 2012 +0100
+
+    Allow 1000 items to be displayed for each list.
+    
+    * List.js defaults to only displaying 200 items so a few emojis where
+    missing :cry:
+
+[33mcommit 7c8a56a34d603b788aa066b0639c6be135d4d195[m
+Author: Will Jessop <will@willj.net>
+Date:   Thu Jan 10 14:33:44 2013 +0000
+
+    /play makeitso
+
+[33mcommit be8f1df83c49e9de12c531ab4fe04bdf87a5f4a7[m
+Author: Hassan Khan <me@hassankhan.me>
+Date:   Wed Jan 2 08:43:14 2013 +0000
+
+    Added emojify.js link and myself as contributor.
+
+[33mcommit b398c739fb0ffe39b30988befdbe7d172fce5573[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 13 07:56:26 2012 +0100
+
+    Allow 1000 items to be displayed for each list.
+    
+    * List.js defaults to only displaying 200 items so a few emojis where
+    missing :cry:
+
+[33mcommit cfab1b281bcb232876187b1b9349fc54f2298c76[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 20:19:14 2012 +0100
+
+    Blur search field if esc is pressed
+
+[33mcommit 34c86b743a1e200e1d9d242107dd4e4195a6ed2c[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 19:31:34 2012 +0100
+
+    Fix for zClip in FF
+
+[33mcommit ac8d04f4290f43b7435e1c1a644bd028f6a9321c[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 16:21:05 2012 +0100
+
+    @martinlissmyr is a contributor
+
+[33mcommit 0ec3c886b5a09ab546154a3f2198af4077d70b72[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 16:16:09 2012 +0100
+
+    [#65] Design for search field
+
+[33mcommit 024ec6da0e74e3f3b8f23691ea4a52cc63b52909[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 15:46:27 2012 +0100
+
+    [#65] Fixed too looong page bug
+
+[33mcommit c73c8b37f178628f4d95cebb0896d1b3e69fd53c[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 15:20:52 2012 +0100
+
+    [#65] Moved list.js into script.js
+
+[33mcommit 4c226349dcd894bb6cc9a7ecbc70ee74b970ba02[m
+Merge: ea6aadc ca8d1a1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Dec 9 06:15:00 2012 -0800
+
+    Merge pull request #65 from himynameisjonas/list-js
+    
+    Search/filter function with list.js
+
+[33mcommit ca8d1a1a1f6ef5ea478f3d96678c020a9fa54bc3[m
+Author: Jonas Forsberg <himynameisjonas@gmail.com>
+Date:   Sat Dec 8 23:13:04 2012 +0100
+
+    Update README.md
+
+[33mcommit c84a33ef9647cb8140c62ecf5615841392abb614[m
+Author: Jonas Forsberg <himynameisjonas@gmail.com>
+Date:   Sat Dec 8 19:02:16 2012 +0100
+
+    Search/filter function with list.js
+
+[33mcommit ea6aadc7b61cabe3202982e2bbc3dc3100d85207[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Dec 3 12:02:24 2012 +0100
+
+    Removed extra comma
+
+[33mcommit b9ec9551e86dc84127fb4baf9f070af32ce862aa[m
+Merge: aae2de1 09912e1
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Dec 3 00:11:56 2012 -0800
+
+    Merge pull request #64 from mutru/master
+    
+    Flowdock supports emojis
+
+[33mcommit 09912e1a44dfb8d880003dc16430dc0ed98a699c[m
+Author: Otto Hilska <otto@flowdock.com>
+Date:   Fri Nov 30 17:55:46 2012 -0800
+
+    Added Flowdock, since it also supports emojis and links to this site.
+
+[33mcommit aae2de1619175d4c0da76e19a336e7d56dbbc312[m
+Merge: da007a0 89e1500
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 29 00:21:15 2012 -0800
+
+    Merge pull request #63 from arunagw/image_optim
+    
+    Optimizes Images using ImageOptim
+
+[33mcommit 89e1500094f614fcea204376161b386bc2db9163[m
+Author: Arun Agrawal <arunagw@gmail.com>
+Date:   Wed Nov 28 20:17:36 2012 +0530
+
+    Optimizes Images using ImageOptim
+
+[33mcommit da007a0b30d605c5bad4ef87f048ca098d1f31fb[m
+Merge: 1935277 29b31c9
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Nov 5 00:37:23 2012 -0800
+
+    Merge pull request #62 from kuinak/master
+    
+    trololo
+
+[33mcommit 29b31c94786b8ed489f1bd27f43dc658a6aa4ede[m
+Author: Evan Petrie <ejp@kuinak.com>
+Date:   Fri Nov 2 15:50:15 2012 -0700
+
+    add trololo
+
+[33mcommit 1935277b7e64bcfcc3ffe718a76b24b8cd204053[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 31 11:47:10 2012 +0100
+
+    Responsive for big screen
+
+[33mcommit 3b083b6a4b6f517894a95434107d301a44071382[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Oct 26 14:43:04 2012 +0300
+
+    Decorating the readme
+
+[33mcommit 1c69a9bc62972c2786d2670db0701c23508e7738[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 25 19:11:44 2012 +0200
+
+    Updated cache buster query string for style
+
+[33mcommit f9d8daa418c34488d87b3d72d051f456d67749c9[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 25 19:57:57 2012 +0300
+
+    Typo
+
+[33mcommit ca0c0c94f90d30abdea85657cc14f3d0898d577d[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 25 19:45:52 2012 +0300
+
+    Gemoji link
+
+[33mcommit 165bb34c89b397cc750b85c802cdcae39e225f03[m
+Merge: 489af53 6140086
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 25 07:45:33 2012 -0700
+
+    Merge pull request #60 from asianmack/master
+    
+    Added missing emoji
+
+[33mcommit 614008661418def2cf182b049213279ae464d6c3[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Thu Oct 25 09:12:07 2012 -0500
+
+    added missing emoji
+
+[33mcommit 48cbca55162ec87378c2729025eee234699f39c2[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Thu Oct 25 08:41:59 2012 -0500
+
+    added new emoji assets
+
+[33mcommit 489af537ad8f5fdb8f7b594a6c2f27d17a96b6d2[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Oct 20 13:15:18 2012 +0200
+
+    arunagw is a contributor
+
+[33mcommit 866f66c77e397fdbef4ff451a49fcf2ea8c747d8[m
+Merge: 7fd7e38 1bcab77
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sat Oct 20 03:59:18 2012 -0700
+
+    Merge pull request #59 from arunagw/master
+    
+    Adding /play bezos
+
+[33mcommit 1bcab77bba32abe1d86953bbca0e84cf9b8c4069[m
+Author: Arun Agrawal <arunagw@gmail.com>
+Date:   Fri Oct 19 18:52:14 2012 +0530
+
+    Adding /play bezos for campfire
+    
+    Checkout http://37signals.com/changes#entry_2093017899
+
+[33mcommit 7fd7e380ce0bc252d04add1c6c1869b7d6a3a12d[m
+Merge: 151bfb4 ab33b03
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Oct 17 00:01:44 2012 -0700
+
+    Merge pull request #58 from kamranm1200/master
+    
+    Commited Changes to the repo
+
+[33mcommit ab33b03a6104bf95cc2c94faaab6bb7775ca936a[m
+Author: Kamran Mackey <kamranm1200@gmail.com>
+Date:   Tue Oct 16 22:36:18 2012 -0600
+
+    Update README.md
+
+[33mcommit 151bfb46b1091c7aef4499b4edee507e6a00ba61[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Oct 4 11:47:01 2012 +0200
+
+    Licence :tophat:
+    
+    Based on https://github.com/github/gemoji/blob/master/LICENSE
+
+[33mcommit d7285b0fabded7863e23da6e1df9729b79114cc0[m
+Merge: 3027cdf bb0d616
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Oct 2 05:20:44 2012 -0700
+
+    Merge pull request #54 from niclasgelin/emoji-alignment
+    
+    .emoji whitespace quick fix
+
+[33mcommit bb0d6169285ffd2df8f5675f30594e6bdf151db7[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Tue Oct 2 14:10:49 2012 +0200
+
+    .emoji whitespace quick fix
+    
+    Issue obviously not present in local environment
+
+[33mcommit 3027cdfbe011434a07665303b3e5657d24b2adf1[m
+Merge: efda6f0 b965908
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Oct 1 22:13:49 2012 -0700
+
+    Merge pull request #53 from trevorturk/master
+    
+    Use new octocat image and add "boom"
+
+[33mcommit b96590856818ba82937450787124124354f87133[m
+Author: Trevor Turk <trevorturk@gmail.com>
+Date:   Mon Oct 1 12:13:38 2012 -0500
+
+    add :boom:
+
+[33mcommit 776697c7f0e88a90aec802be6499534d3ad2db30[m
+Author: Trevor Turk <trevorturk@gmail.com>
+Date:   Mon Oct 1 12:13:03 2012 -0500
+
+    use new octocat image
+
+[33mcommit efda6f0325f6950308683159192eeb3e560c5e89[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Oct 1 14:45:46 2012 +0200
+
+    Added pykler to contributors
+
+[33mcommit d3abe13671d2f70277040a2ff1e3bcbe81cac5b0[m
+Merge: e283c2f 83f1085
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Mon Oct 1 05:40:48 2012 -0700
+
+    Merge pull request #52 from pykler/master
+    
+    Adding link to Trac's emoji plugin
+
+[33mcommit 83f10852ca22849eb83955406dc0b92bf724e243[m
+Author: Hatem Nassrat <hnassrat@gmail.com>
+Date:   Mon Oct 1 07:07:17 2012 -0300
+
+    Adding Trac's Emoji Plugin to the list.
+
+[33mcommit e283c2f49bf0eb47d939a2b4cdb205e8c464e0d5[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Sep 30 14:34:41 2012 +0200
+
+    Niclasgelin is a contributor
+
+[33mcommit 9ab32c5bc8ec7046ac067079461523f26de21495[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Aug 2 09:24:03 2012 +0200
+
+    Path of sprite
+
+[33mcommit 1b2341f1a5bb7eebcffcdb18e2243aca18a22732[m
+Merge: 68699f6 292cfeb
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Sep 30 05:29:48 2012 -0700
+
+    Merge pull request #50 from niclasgelin/cleanup-general
+    
+    Cleanup general
+
+[33mcommit 292cfeb1b443f27cd91a7ae5acb3048ca87431a7[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Sun Sep 30 11:42:49 2012 +0200
+
+    Update stylesheet path
+
+[33mcommit fda464b6ba817f24f50b7882419ba10f95ead24a[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Sat Sep 29 21:07:52 2012 +0200
+
+    Cleanup styles
+
+[33mcommit cb121ed8a45185ed95bd06b7ce2eff99edefae78[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Sat Sep 29 21:07:43 2012 +0200
+
+    Cleanup structure
+
+[33mcommit cfef900a189de4b7970cb987837ebe46ba2de683[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Sat Sep 29 21:07:17 2012 +0200
+
+    Separate layers for structure and styles etc
+
+[33mcommit 78b74ccb07b7875cffb1a498572f8538e876f9b2[m
+Author: niclasgelin <info@niclasgelin.se>
+Date:   Sat Sep 29 11:53:09 2012 +0200
+
+    Convert tabs to spaces
+
+[33mcommit 68699f600e0c77cc5e27e9ed38c41dda93417205[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Sep 26 11:39:30 2012 +0300
+
+    Duplication of /play ohyeah
+
+[33mcommit fe5322e5e176f7d5f32b10366d98c87d18e4f01c[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Sep 26 11:14:36 2012 +0300
+
+    Missing ,
+
+[33mcommit df7f79e67c4416e13ddf1f00112310f732a007fa[m
+Merge: 479944b 31bb3d6
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Sep 26 01:12:59 2012 -0700
+
+    Merge pull request #49 from madasi/master
+    
+    Added four sound emotes
+
+[33mcommit 31bb3d6b932a4bacbfbbf58310051979aaf41717[m
+Author: Mark Silence <madasi@gmail.com>
+Date:   Tue Sep 25 15:13:35 2012 -0500
+
+    Corrected typo
+
+[33mcommit eb0b7235c01b595de4123b93f4276645cfaa6f0f[m
+Author: Mark Silence <madasi@gmail.com>
+Date:   Tue Sep 25 15:10:53 2012 -0500
+
+    Added 4 additional sound emotes.
+
+[33mcommit 479944ba8d0140b5946bec8b7fde8548e1d8e4ac[m
+Author: Joel Junström <joel.junstrom@oktavilla.se>
+Date:   Wed Aug 22 20:29:02 2012 +0200
+
+    Added vinbarnes to contributors
+
+[33mcommit bc8570f9a8076ac413eb7c7bbcb729bb4ef9b262[m
+Author: Joel Junström <joel.junstrom@oktavilla.se>
+Date:   Wed Aug 22 20:24:45 2012 +0200
+
+    Fixed clock930 image source
+
+[33mcommit 815ac3459d8f3e98a2a01f4798023d75fe4f6c6e[m
+Merge: 4def34c 31f0723
+Author: Joel Junström <joel.junstrom@oktavilla.se>
+Date:   Wed Aug 22 11:21:27 2012 -0700
+
+    Merge pull request #47 from vinbarnes/patch-1
+    
+    Fix 5:30 emoji
+
+[33mcommit 31f07237e728656d23a133904739f3596bb75689[m
+Author: Kevin R. Barnes <vinbarnes@gmail.com>
+Date:   Wed Aug 22 11:02:36 2012 -0700
+
+    Fix 5:30 emoji
+
+[33mcommit 4def34c7be52794be4c4ef1852c417339ecfc68b[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Aug 2 00:37:58 2012 +0200
+
+    CSS stylesheet cache buster
+
+[33mcommit 0c7b9ed7d4fda6447dcbb3658b2d729aa2e1773a[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Aug 2 00:18:07 2012 +0200
+
+    Path for test sprite
+
+[33mcommit 5a177130c484806098522c77b9a02177463bab8a[m
+Merge: 3c8c8ed eac704f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 1 14:17:30 2012 -0700
+
+    Merge pull request #44 from asianmack/master
+    
+    New emoji images optimized
+
+[33mcommit eac704f560c778b09a6e9675f17af9dbf0afd476[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Wed Aug 1 11:07:34 2012 -0500
+
+    optimized images with ImageOptim
+
+[33mcommit 3c8c8ed1322124479964c87aa66bcc02404c2de5[m
+Merge: 1fdbd5a c510522
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Aug 1 06:22:06 2012 -0700
+
+    Merge pull request #43 from asianmack/master
+    
+    New Emoji
+
+[33mcommit c5105222938d87b924e499bf5827c27f9ef1a266[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Wed Aug 1 07:26:27 2012 -0500
+
+    credited juliamae
+
+[33mcommit 3ea42342d14f5f57e1fd2715dbfb4ff29e45fbd0[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Wed Aug 1 07:24:02 2012 -0500
+
+    added new emoji and credit juliamae
+
+[33mcommit 1fdbd5a0c0f1ef92002e27c6194554a39800bc76[m
+Merge: 3ad567c 6d25737
+Author: Joel Junström <joel.junstrom@oktavilla.se>
+Date:   Sat Jul 28 11:02:04 2012 -0700
+
+    Merge pull request #41 from wjessop/master
+    
+    /play deeper
+
+[33mcommit 6d25737cc9ca8ad5f9f3f3459d48907b4e0a52be[m
+Author: Will Jessop <will@willj.net>
+Date:   Tue Jul 24 16:15:22 2012 +0100
+
+    /play deeper
+
+[33mcommit 3ad567c350b3e5c0558e0022d87175b84481ad6c[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jul 17 23:40:46 2012 +0200
+
+    Added talltroym as contributor
+
+[33mcommit 64a7c83ef702a1fde479ea06c06109b5c29d0b39[m
+Merge: 7558e49 4cef119
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jul 17 10:49:08 2012 -0700
+
+    Merge pull request #39 from talltroym/fix-index-image-path
+    
+    The path to the images had a leading slash which prevented the images...
+
+[33mcommit 4cef11963295e58c0e908bac162eeb19ef6a9800[m
+Author: Troy Murray <troy.murray@gmail.com>
+Date:   Tue Jul 17 10:18:31 2012 -0400
+
+    Remove leading slashes from local stylesheets and javascript files
+
+[33mcommit 7558e4988cfa8cdeec267f110c76b2d72032c03e[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Jul 17 12:04:36 2012 +0200
+
+    [#25] Make google+ button render
+
+[33mcommit ac2de82736a99ee4603dbfeec183ffb94e881aa6[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jul 13 10:36:34 2012 +0200
+
+    Added ejensen to contributors
+
+[33mcommit 7b7621cf79cc1da3f75d9168a18d0412b160a619[m
+Merge: f099a70 5269d6e
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jul 13 01:34:10 2012 -0700
+
+    Merge pull request #40 from ejensen/patch-1
+    
+    Added heygirl & inconceivable campfire sounds.
+
+[33mcommit 5269d6e8b67183a777ffcc804ef55fa45f524be5[m
+Author: Eric Jensen <jensen39@gmail.com>
+Date:   Thu Jul 12 20:10:32 2012 -0700
+
+    Added heygirl & inconceivable campfire sounds.
+
+[33mcommit 383a6fefeabee1fdd0f720f7dcf5e41b8730d995[m
+Author: Troy Murray <troy.murray@gmail.com>
+Date:   Wed Jul 11 10:09:33 2012 -0400
+
+    The path to the images had a leading slash which prevented the images from display, this commit removes that leading slash and the images load correctly
+
+[33mcommit f099a703a917da67878adf0e4d30bf42fe59ab62[m
+Merge: 0c8c91a 0d7f8d0
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jul 6 02:56:32 2012 -0700
+
+    Merge pull request #38 from micho/patch-1
+    
+    Adding Teambox to supported providers
+
+[33mcommit 0d7f8d0f5d7b4957efbff392748a344561e9de7c[m
+Author: Pablo Villalba <pablo@teambox.com>
+Date:   Thu Jul 5 18:15:37 2012 +0300
+
+    Adding Teambox to supported providers
+    
+    Mentioned in https://github.com/arvida/emoji-cheat-sheet.com/pull/37
+
+[33mcommit 0c8c91a25821ddbb18e403412aad252aaf0ee624[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jul 5 16:39:14 2012 +0200
+
+    Missing contributors
+
+[33mcommit 3a6b27e18a14201c72cd6dc2acd4d02f813b94c6[m
+Merge: 70b5169 9eead33
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jul 5 03:04:33 2012 -0700
+
+    Merge pull request #37 from trevorturk/master
+    
+    Number changes: 0->zero, 1->one, etc
+
+[33mcommit 9eead33a166e53f52563c2a22a36cf09cd513527[m
+Author: Trevor Turk <trevorturk@gmail.com>
+Date:   Mon Jul 2 18:10:35 2012 -0500
+
+    update index
+
+[33mcommit e3ded99e193af935bbffed4e02b7ac9745da8b60[m
+Author: Trevor Turk <trevorturk@gmail.com>
+Date:   Mon Jul 2 18:05:49 2012 -0500
+
+    Number changes: 0->zero, 1->one, etc
+
+[33mcommit 70b5169bc578a477265fb556ad07a99bdc63f27f[m
+Merge: 92570a3 fc55b0d
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Jun 27 00:49:15 2012 -0700
+
+    Merge pull request #36 from fixlr/master
+    
+    Delete misspelled "egplant" image file
+
+[33mcommit fc55b0dfdac14320ec22f422c5c89148cba7dbff[m
+Author: Nathan Fixler <nathan@fixler.org>
+Date:   Tue Jun 26 18:15:07 2012 -0400
+
+    Delete misspelled eggplant image file
+
+[33mcommit 92570a3fe289772e6edf11053c2306a9175f1438[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Jun 8 11:37:57 2012 +0300
+
+    Missing contributors (igorsantos07, pyricau, JustinCampbell)
+
+[33mcommit 9e4a704da123777a8d56691523d70c2f2efd7163[m
+Merge: ac9eb36 ced928f
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jun 7 07:02:38 2012 -0700
+
+    Merge pull request #35 from igorsantos07/master
+    
+    Adding Teambox to sites that support emoji
+
+[33mcommit ced928f713bb72974c6b504d7c3584abd3b53ea1[m
+Author: Igor Santos <igorsantos07@gmail.com>
+Date:   Wed Jun 6 13:15:39 2012 -0300
+
+    Adding Teambox as another site that supports emoji - they link the page in their "comment help" dialog.
+
+[33mcommit ac9eb36c3a62f3409079866a0b3ab350415fff8b[m
+Merge: 0129111 17ab995
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue May 29 08:29:03 2012 -0700
+
+    Merge pull request #34 from pyricau/patch-1
+    
+    Fix GitHub ribbon image not found
+
+[33mcommit 17ab995ecffbd7d447140a45c7f7352b6a4efcca[m
+Author: Pierre-Yves Ricau <py.ricau@gmail.com>
+Date:   Tue May 29 18:02:07 2012 +0300
+
+    Update public/index.html
+
+[33mcommit 0129111fb8e71589f3790694a1ce9b1c1c5c4fe7[m
+Merge: 5d21d0c 393e2e6
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue May 29 07:41:25 2012 -0700
+
+    Merge pull request #33 from JustinCampbell/master
+    
+    Basecamp Next was renamed to just Basecamp
+
+[33mcommit 393e2e62f7012fc96a0b230491fe6f8b5cc3f61b[m
+Author: Justin Campbell <cmsjustin@gmail.com>
+Date:   Tue May 29 11:38:30 2012 -0300
+
+    37signals.com/basecampnext redirects to basecamp.com
+
+[33mcommit b66109460f3903234681d5b23a1a94c54e415b60[m
+Author: Justin Campbell <cmsjustin@gmail.com>
+Date:   Tue May 29 11:36:39 2012 -0300
+
+    Basecamp Next was renamed to just Basecamp
+
+[33mcommit 5d21d0c903021568bc2098031048921965fc10b6[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue May 15 20:05:54 2012 +0200
+
+    Adding wjessop to contributors
+
+[33mcommit 0cca9089a19625b0376d7f3e63e48873ac98b839[m
+Merge: 22dba57 d5125e5
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue May 15 04:44:53 2012 -0700
+
+    Merge pull request #31 from wjessop/master
+    
+    /play noooo
+
+[33mcommit d5125e58083ad74bcc19ba54baa163ff763b118a[m
+Author: Will Jessop <will@willj.net>
+Date:   Tue May 15 11:11:20 2012 +0100
+
+    /play noooo
+
+[33mcommit 22dba57cc1cb46a0ea48f5122cb8c2ba063d3c42[m
+Merge: 99337eb 8de1279
+Author: Joel Junström <joel@winstondesign.se>
+Date:   Wed Apr 11 02:28:35 2012 -0700
+
+    Merge pull request #29 from kuinak/master
+    
+    Added /play sax for Campfire
+
+[33mcommit 8de12790300daeab6714ec3c4fded5e36bc270eb[m
+Author: Evan Petrie <epetrie@shoedazzle.com>
+Date:   Tue Apr 10 13:53:29 2012 -0700
+
+    add /play sax
+
+[33mcommit 99337ebfcd5589c13478ffe83dbd6093956287ba[m
+Merge: 8d2cd25 dee7a03
+Author: Joel Junström <joel@winstondesign.se>
+Date:   Sat Apr 7 04:31:23 2012 -0700
+
+    Merge pull request #26 from niclasgelin/update-readme
+    
+    Update list of services supporting emojis
+
+[33mcommit 8d2cd257bd37eb74e17326125c95b111efdb578b[m
+Merge: 60be262 32725a3
+Author: Joel Junström <joel@winstondesign.se>
+Date:   Sat Apr 7 04:28:28 2012 -0700
+
+    Merge pull request #28 from wjessop/master
+    
+    /play 56k, dangerzone, horn, horror, loggins, yodel
+
+[33mcommit 32725a3865c0d6ad7c7c56a82d7d955ac16f8a44[m
+Author: Will Jessop <will@willj.net>
+Date:   Thu Apr 5 21:45:09 2012 +0100
+
+    /play yodel
+
+[33mcommit 98b135900714b5cc1fb10f95479e885c7d3a6660[m
+Author: Will Jessop <will@willj.net>
+Date:   Wed Apr 4 14:50:36 2012 +0100
+
+    /play dangerzone, horn, horror, loggins
+
+[33mcommit 8715dcff8889b6c56a7dacebc625c49987ae5418[m
+Author: Will Jessop <will@willj.net>
+Date:   Tue Apr 3 23:22:14 2012 +0100
+
+    /play 56k
+
+[33mcommit dee7a032ecd175dd45c81f36d1ed8cf82caa3ea4[m
+Author: Niclas Gelin <info@niclasgelin.se>
+Date:   Sun Apr 1 14:38:08 2012 +0200
+
+    Added missing service references
+
+[33mcommit 60be262e355c29e1b68150273054b4f503600ae6[m
+Author: Niclas Gelin <info@niclasgelin.se>
+Date:   Mon Mar 26 16:20:08 2012 +0200
+
+    removed non-breaking space chars
+    
+    0xA0 / &nbsp;
+
+[33mcommit 2fd902e70bdbef3f65488e1c67c285784bf562c4[m
+Merge: 1041a64 c8254a4
+Author: Joel Junström <joel@winstondesign.se>
+Date:   Fri Mar 23 08:51:37 2012 -0700
+
+    Merge pull request #21 from mattiasottosson/sprite-sharpening
+    
+    Added some basic sharpening, as mentioned in issue #18
+    
+    Closes #18
+
+[33mcommit c8254a41806a902387c146a9f3437cb04dce8f41[m
+Author: Mattias Ottosson <himself@mattiasottosson.se>
+Date:   Fri Mar 23 16:08:57 2012 +0100
+
+    Added some basic sharpening, according to #18
+
+[33mcommit 1041a64f8c70d2c24c956f661240ce3231731946[m
+Merge: 4d535dd cc20635
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Mar 23 07:20:56 2012 -0700
+
+    Merge pull request #20 from mattiasottosson/master
+    
+    Whitespace cleanup
+
+[33mcommit cc20635094455f8d52e92650fac542e0f3605db4[m
+Author: Mattias Ottosson <himself@mattiasottosson.se>
+Date:   Fri Mar 23 15:01:09 2012 +0100
+
+    Added myself to the contributors list ;)
+
+[33mcommit 8a2fbaf86d9b487e3954150d1f9d02c6f1d19418[m
+Author: Mattias Ottosson <himself@mattiasottosson.se>
+Date:   Fri Mar 23 14:50:11 2012 +0100
+
+    Removed hard tabs
+
+[33mcommit 161e337d04f03bff0ef024df50e2a28e629a2135[m
+Author: Mattias Ottosson <himself@mattiasottosson.se>
+Date:   Fri Mar 23 13:34:35 2012 +0100
+
+    Whitespace cleanup dance
+
+[33mcommit 4d535ddb7d53e376bc9223a51a00d86b1f9859cb[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Mar 23 10:55:27 2012 +0100
+
+    Using jquery 1.7.1 and on for gluing zeroclipboard
+
+[33mcommit bb30de6f7c0e80573a31e17c72a5abc0cba3ec93[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Mar 23 10:22:24 2012 +0100
+
+    Added petermanser to contributors list
+    
+    Rel #19
+
+[33mcommit 98fa3de47a5f369e47c6a24f917654a74d7c7436[m
+Merge: 378bb03 bb36525
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Mar 23 02:13:32 2012 -0700
+
+    Merge pull request #19 from petermanser/master
+    
+    Improving HTML markup & shrink HTML size.
+
+[33mcommit bb3652524df39bcede23ae406d40f26e390e380b[m
+Author: Peter Manser <mail@petermanser.ch>
+Date:   Thu Mar 22 22:57:12 2012 +0100
+
+    Fixing hover effect.
+
+[33mcommit 975a6b7f9f4158df959299f62f45eecd5101d0a6[m
+Author: Peter Manser <mail@petermanser.ch>
+Date:   Thu Mar 22 22:52:06 2012 +0100
+
+    Improving HTML markup. Shrink HTML size.  Define buttons class on parent elements.
+
+[33mcommit 378bb033a7687e7c8acb7c5df90554061c81050e[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Mar 9 18:34:05 2012 +0100
+
+    Updated css version query param
+
+[33mcommit 7feb322a46eb9188a952bea69b484059c16ea20b[m
+Merge: 56d2546 1fb8616
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Mar 9 09:09:00 2012 -0800
+
+    Merge pull request #17 from joeljunstrom/optimize-sprite
+    
+    Decrease sprite file size
+
+[33mcommit 1fb8616990939b6f9685bb6558b2de3cbc0213d1[m
+Author: Joel Junström <joel.junstrom@oktavilla.se>
+Date:   Fri Mar 9 18:07:04 2012 +0100
+
+    Decrease sprite file size
+    
+    We do this by specifying depth when creating the sprite and using optipng if it exists.
+    
+    Added a test sprite task for convenience.
+    
+    :metal:
+
+[33mcommit 56d25463c63b3e84c68524228797f6cb095389e6[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 6 14:22:16 2012 +0100
+
+    Fixed typo
+
+[33mcommit 25ccf7925d22a89838ebd0db4eb860af9c952e02[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Mar 6 08:52:56 2012 +0100
+
+    Added Basecamp Next and Turntable.fm to list of products supporting
+    emojis
+
+[33mcommit fd5846cdfba10ed713377972779e5d92739ac441[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Tue Feb 21 15:25:54 2012 +0100
+
+    Vertical position middle for sprites
+
+[33mcommit 84fbf84fe8ff07f5d9f46edc616818b20e8c1c00[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Tue Feb 21 14:59:43 2012 +0100
+
+    Added joeljunstrom to contributors
+
+[33mcommit d9bbbedd6e21f3dfd8abed9eae4dd9c9489e56f8[m
+Merge: 69e1e95 a39d26a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Tue Feb 21 05:37:39 2012 -0800
+
+    Merge pull request #15 from joeljunstrom/css-sprite
+    
+    Added pre-deploy sprite generator
+
+[33mcommit a39d26af66faeb310f188af79ca954906ec4bcfc[m
+Author: Joel Junström <joel.junstrom@oktavilla.se>
+Date:   Mon Feb 20 17:09:18 2012 +0100
+
+    Added pre-deploy sprite generator
+    
+    Sprite generator now with less suck
+
+[33mcommit 69e1e951ba3effacb157b81d5a504bb1405eb048[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Fri Feb 3 10:52:56 2012 +0100
+
+    Added bryanveloso to contributors
+
+[33mcommit 5aeaa8e3dcc8e24439199d5c48b62038caaa3805[m
+Merge: 5a4b0d6 5238596
+Author: Arvid Andersson <arvid.andersson@gmail.com>
+Date:   Fri Feb 3 01:01:13 2012 -0800
+
+    Merge pull request #11 from bryanveloso/master
+    
+    Trololol.
+
+[33mcommit 52385960aec7d156d456632aee52c296b192cb6a[m
+Author: Bryan Veloso <bryan@github.com>
+Date:   Thu Feb 2 14:21:14 2012 -0800
+
+    Fixed this for you. :trollface:
+
+[33mcommit 5a4b0d696047063ac9c3cbf58ca243c27e6e3752[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Thu Feb 2 09:32:24 2012 +0100
+
+    Updated cache buster for css
+
+[33mcommit e5e28d24982e7aadbe0db4da7e024520af36ec69[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Thu Feb 2 09:30:28 2012 +0100
+
+    Added mattias to contributors
+
+[33mcommit f508e354bed040aea5e6d5b344d9ae66c58137a4[m
+Merge: 8129875 e998c5c
+Author: Arvid Andersson <arvid.andersson@gmail.com>
+Date:   Thu Feb 2 00:22:56 2012 -0800
+
+    Merge pull request #10 from mathiasbynens/optimize-images
+    
+    Optimize all images in public/graphics
+
+[33mcommit 81298756a26978832750598204217749ecfdb133[m
+Merge: 43def00 b519710
+Author: Arvid Andersson <arvid.andersson@gmail.com>
+Date:   Thu Feb 2 00:22:23 2012 -0800
+
+    Merge pull request #9 from mathiasbynens/simplify-markup
+    
+    Simplify markup
+
+[33mcommit b51971009d14192233c552eeafd567fa40e5a9c9[m
+Author: Mathias Bynens <mathias@qiwi.be>
+Date:   Wed Feb 1 13:11:42 2012 +0100
+
+    CSS: whitespace cleanup
+
+[33mcommit 3baa0d9509be2c19127361b45c51643c3a1e7f2e[m
+Author: Mathias Bynens <mathias@qiwi.be>
+Date:   Wed Feb 1 13:09:11 2012 +0100
+
+    Optimize Google Analytics snippet (http://mths.be/aab)
+
+[33mcommit 1cb41e39e82550d830ca5a965a26883aa4f28a07[m
+Author: Mathias Bynens <mathias@qiwi.be>
+Date:   Wed Feb 1 13:04:53 2012 +0100
+
+    Simplify markup as per http://mths.be/bec
+
+[33mcommit e998c5c0f31eb67c64b5642fd5fa431987ff5769[m
+Author: Mathias Bynens <mathias@qiwi.be>
+Date:   Wed Feb 1 13:01:38 2012 +0100
+
+    Optimize all images in public/graphics
+    
+    Before: 2,388,947 bytes
+    After: 2,279,178 bytes
+    Savings: 109,769 bytes
+
+[33mcommit 43def0011b0bfab0f97f91564f38454271e87123[m
+Merge: ed72647 d495e7f
+Author: Arvid Andersson <arvid.andersson@gmail.com>
+Date:   Sat Jan 28 02:02:18 2012 -0800
+
+    Merge pull request #8 from kuinak/master
+    
+    Added bueller and ohyeah sounds
+
+[33mcommit d495e7fe8193045ffe2a7042b5084d0c6a6d8fdc[m
+Author: Evan Petrie <epetrie@shoedazzle.com>
+Date:   Thu Jan 26 15:20:19 2012 -0800
+
+    add bueller and ohyeah sounds
+
+[33mcommit ed72647524daea44a0e833866a17960d288f2a76[m
+Merge: e192cdf f5bc7f7
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Jan 5 00:03:12 2012 -0800
+
+    Merge pull request #7 from kuinak/master
+    
+    /play ohmy
+
+[33mcommit f5bc7f7f1d4d0e52365b40d780b2cbc512a47ee9[m
+Author: Evan Petrie <epetrie@shoedazzle.com>
+Date:   Wed Jan 4 11:47:08 2012 -0800
+
+    added /play ohmy
+
+[33mcommit e192cdfc3a2f6dafa4e345b3095825950fde4732[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Wed Jan 4 20:15:46 2012 +0100
+
+    Added kuinak to contributors
+
+[33mcommit 4a179c726eeb1d99f0a1b443506c91127bb38866[m
+Merge: 8595bf4 6946298
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Wed Jan 4 11:05:57 2012 -0800
+
+    Merge pull request #6 from kuinak/master
+    
+    Added trollface
+
+[33mcommit 694629810d1476b03b7d2d2a3698c348cda27d47[m
+Author: Evan Petrie <epetrie@shoedazzle.com>
+Date:   Wed Dec 28 16:24:30 2011 -0800
+
+    added trollface
+
+[33mcommit 8595bf46b934ec5a3970960c8c2d5fbf2b874baf[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Sat Dec 17 23:32:07 2011 +0100
+
+    List of contributors in footer
+
+[33mcommit dfb060653e14357c075e62ac0e474b427a8506df[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Dec 16 20:41:12 2011 +0100
+
+    Cache buster for css
+
+[33mcommit 56323e0ebd2539abba2f278bdb145b1fdf026cb3[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Dec 16 20:35:43 2011 +0100
+
+    Renabled four emoji columns when in max width
+
+[33mcommit d5bf24e9bf4f48d779f5d31087ee956273d5d09e[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Dec 16 20:32:56 2011 +0100
+
+    Crushing the pngs
+
+[33mcommit c041964e8c97ea58e8db59e89e3051e4e29747b3[m
+Merge: 428a815 fcd28db
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Dec 16 10:52:09 2011 -0800
+
+    Merge pull request #5 from asianmack/master
+    
+    Fixed 2 typos
+
+[33mcommit fcd28db96332aa1611009c8cbef7cac337dd4861[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Fri Dec 16 08:23:50 2011 -0600
+
+    fixed typos
+
+[33mcommit 428a8151bc07c7285e68b2d4ac76b47c53ee53dc[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Dec 16 14:23:37 2011 +0100
+
+    Added fork me on github ribbon
+
+[33mcommit 5014cd11b05ce2a4e18f6833d1c3ae330b24f877[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Dec 16 09:07:54 2011 +0100
+
+    Added asianmack to contributors list
+
+[33mcommit e27b966dd148f9be314cf512f88abcdcfdbce4c8[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Dec 16 09:04:13 2011 +0100
+
+    S3 compatible file name for +1
+
+[33mcommit ba875540acd0148bd8fd1b2d63122be0b03d7d0a[m
+Merge: 4384cf0 1c57aa3
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Dec 15 23:51:06 2011 -0800
+
+    Merge pull request #4 from asianmack/master
+    
+    Updated the cheat sheet to show comprehensive library
+
+[33mcommit 1c57aa33877349ee02d96a77b381ebe0751c211d[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Thu Dec 15 21:29:14 2011 -0600
+
+    better organiziation of emojis
+
+[33mcommit aee54aa4c6697dbb2a7c6b565154c32406665d0f[m
+Author: Jamie Dihiansan <jamie@37signals.com>
+Date:   Thu Dec 15 17:06:30 2011 -0600
+
+    Github and Campfire now support the same emojis. Added the comprehensive library.
+
+[33mcommit 4384cf092ed8e0307517522b4fcbf38920f08ccf[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Mon Dec 5 18:03:40 2011 +0100
+
+    New Campfire emojis :egplant: :bowtie: :cow: :egg:
+
+[33mcommit 5203b1c1e5990792c2dd7b72dd864a98d942fabb[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Mon Dec 5 08:20:12 2011 +0100
+
+    New Campfire sounds :nail_care:
+
+[33mcommit 3488050379b100515f009431820eff93e4a2a8b2[m
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 17 11:37:06 2011 +0100
+
+    Added jstorimer to contributors list
+
+[33mcommit e9094f6658f715236d831e5ddcfeaa845344c63c[m
+Merge: e8942bd fc7552a
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Thu Nov 17 02:08:01 2011 -0800
+
+    Merge pull request #3 from jstorimer/master
+    
+    Adds github :shipit: emoji
+
+[33mcommit fc7552ab8226d894e33521c0533755c290b060b3[m
+Author: Jesse Storimer <jstorimer@gmail.com>
+Date:   Wed Nov 16 12:31:34 2011 -0500
+
+    Adds github :shipit: emoji
+
+[33mcommit e8942bd3e21b542bb593f1ff49f003239db75b9e[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Nov 4 19:26:18 2011 +0100
+
+    Added skiz to Contributors
+
+[33mcommit 090f6acf34a64da50e2be259b571cf2cf8341261[m
+Merge: c58d7bb 28d26ea
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Fri Nov 4 11:21:58 2011 -0700
+
+    Merge pull request #2 from skiz/patch-1
+    
+    Add secret to play list
+
+[33mcommit 28d26ea2d66d528a973004df33aee58f47306dce[m
+Author: Josh Martin <github@webwideconsulting.com>
+Date:   Fri Nov 4 10:14:55 2011 -0700
+
+    Add secret to play list
+
+[33mcommit c58d7bb6eb55591ac1d097b66cb894ad82a6821e[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Nov 4 09:25:33 2011 +0100
+
+    Updated copy about flash clipboard interaction
+
+[33mcommit 57373a68feaaa2d94b05dcded2b53db80bdcb3fb[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Fri Nov 4 09:13:15 2011 +0100
+
+    Combined the github and campfire lists
+
+[33mcommit 6bd89ac5591504a6095840b3bc8ad529655a0e8b[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Thu Nov 3 09:09:17 2011 +0100
+
+    Updated lists of emojis for Campfire
+
+[33mcommit 008d8e7d78e7ac7ca945c5195e29b05e70606402[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Sun Oct 23 11:27:04 2011 +0200
+
+    Added contributors to README
+
+[33mcommit a19c64254a03e73b8cbe12d6400a2d433a6716da[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Sun Oct 23 11:20:07 2011 +0200
+
+    Removed some unused js
+
+[33mcommit a8cf1a772e6e5f3639c0c0fd6283bfbf42ce4a4b[m
+Merge: 173310b a2c1628
+Author: Arvid Andersson <arvid.andersson@oktavilla.se>
+Date:   Sun Oct 23 02:14:10 2011 -0700
+
+    Merge pull request #1 from kennethreitz/master
+    
+    Added :metal: emoji
+
+[33mcommit a2c1628a8952d65014469d8442bb5ffe0d082fbc[m
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Oct 22 20:44:51 2011 -0400
+
+    Brutally squash PNGs.
+    
+    Saves 47.6KB on the page.
+
+[33mcommit 5a8ac9b12c46e282fc60a959c20cf874886f58ab[m
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Oct 22 20:38:53 2011 -0400
+
+    Added :metal: emoji
+
+[33mcommit 173310bd1a95ea529a4379bd1c781b66762edc28[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Thu Oct 20 22:27:08 2011 +0200
+
+    Using dimmed box share buttons to the right instead the the small on top
+
+[33mcommit a57755dd35e679c613bf57ab7c3c2bbd7971cbce[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Thu Oct 20 17:34:15 2011 +0200
+
+    Updated version param for css to 2
+
+[33mcommit 5e370f55f5dad204e8200c36e9c62f38491c7af4[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Thu Oct 20 17:33:41 2011 +0200
+
+    Added google analytics tracking of copied emojis to see which ones are the most popular
+
+[33mcommit 9a7f9f2346470abe8157d5b2f8d63c17a90d1a52[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Wed Oct 19 21:05:21 2011 +0200
+
+    Updated text in footer
+
+[33mcommit 79db4d45a33e15cd1b06032c4134ab4c2180c164[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Wed Oct 19 20:24:29 2011 +0200
+
+    Added list of campfire sounds
+
+[33mcommit 7e47d511db16b83bb4c2efa6b9641b13666c5d68[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Wed Oct 19 09:00:55 2011 +0200
+
+    Moved and hide the div testing flash blockers
+
+[33mcommit fa13c6c32983db3b04f2e69021e88a27cf8561c5[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Wed Oct 19 09:00:23 2011 +0200
+
+    Added fix for image with +1 in filename
+
+[33mcommit b667f8fc41cfd080bc4d0c9623a3f35f238c98e2[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Wed Oct 19 08:50:22 2011 +0200
+
+    Updated sample config
+
+[33mcommit 8cea07735e8c3cdc880e53dcc991b0d365478226[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Tue Oct 18 08:39:20 2011 +0200
+
+    Removed some @'s from tmp file variable
+
+[33mcommit 784c15c65f6edf1c17b8c229f30dc68d8a1c95f5[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Tue Oct 18 08:32:48 2011 +0200
+
+    Using mime-types gem instead of the wrapper gem wand
+
+[33mcommit 292875e513afcde1b2090bacf51f634c73968557[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Tue Oct 18 08:23:46 2011 +0200
+
+    Added rake to gem file
+
+[33mcommit 4caee3ec6bfca73bf744abd18c6836ee2d948aef[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Mon Oct 17 22:10:57 2011 +0200
+
+    Added ?1 to js and css include to make easier to bust caches
+
+[33mcommit a31488bc296a88e6a2bac6883f7168b554329e1d[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Mon Oct 17 22:10:18 2011 +0200
+
+    Trimming copied value (Safari fix)
+
+[33mcommit 89fbe0caefa43dc52fc67cb92afda4b5fa2289f3[m
+Author: arvida <arvid@winstondesign.se>
+Date:   Mon Oct 17 21:43:57 2011 +0200
+
+    Finished deploy helper class
+    Using fog gem instead of s3 for s3 interaction
+
+[33mcommit 6ac3e38f8f6e48cbb15ff6a9e7979e3ef58ee278[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Mon Oct 17 17:19:38 2011 +0200
+
+    Added github link
+
+[33mcommit 0fcdd9e01698a52f22ba82b08470948c5058462c[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Mon Oct 17 17:14:48 2011 +0200
+
+    Added readme
+
+[33mcommit 8b9ef7b3e71bacf99bff1b3b864e7412b07ba952[m
+Author: Arvid Andersson <arvid@winstondesign.se>
+Date:   Mon Oct 17 17:08:51 2011 +0200
+
+    Initial commit
