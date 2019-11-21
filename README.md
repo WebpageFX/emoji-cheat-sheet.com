@@ -61,7 +61,9 @@ A one pager listing the different emoji emoticons supported on
 [Habitica](https://habitica.com),
 [Mattermost](http://www.mattermost.org/),
 [Kanban Tool](http://kanbantool.com/)
+[Telegram](https://telegram.org/).
 and [StackEdit](https://stackedit.io/).
+
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
