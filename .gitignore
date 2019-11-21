@@ -2,3 +2,4 @@
 config.yaml
 passenger*
 *-tmp
+.idea
