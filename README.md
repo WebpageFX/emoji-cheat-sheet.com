@@ -59,8 +59,9 @@ A one pager listing the different emoji emoticons supported on
 [Yellow](http://datenstrom.se/yellow/),
 [YouTube](https://youtube.com),
 [Habitica](https://habitica.com),
-[Mattermost](http://www.mattermost.org/)
-and [Kanban Tool](http://kanbantool.com/).
+[Mattermost](http://www.mattermost.org/),
+[Kanban Tool](http://kanbantool.com/)
+and [StackEdit](https://stackedit.io/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
