@@ -61,7 +61,9 @@ A one pager listing the different emoji emoticons supported on
 [Habitica](https://habitica.com),
 [Mattermost](http://www.mattermost.org/),
 [Kanban Tool](http://kanbantool.com/)
-and [Telegram](https://telegram.org/).
+[Telegram](https://telegram.org/).
+and [StackEdit](https://stackedit.io/).
+
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
 
@@ -82,9 +84,7 @@ Feel inspired? Do a pull request and add a synonym for your favourite emoji or m
 * Javascript (+node.js) – [github.com/kof/emoticons](https://github.com/kof/emoticons)
 * Javascript (+node.js) – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
 * Javascript (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
-* Javascript (+node.js) - [github.com/frissdiegurke/emoji-parser](https://github.com/frissdiegurke/emoji-parser)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
-* Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
 * Python - [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji)
 * Swift - [https://github.com/onmyway133/Smile](https://github.com/onmyway133/Smile)
 
